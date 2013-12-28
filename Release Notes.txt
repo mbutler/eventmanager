@@ -1,0 +1,17 @@
+----------------------------------------
+phxEventManager Release Notes
+----------------------------------------
+
+Currently released as version 2.5 beta 5
+
+This release includes all of the bug fixes reported in the last beta that were
+previously only avaialble from the SVN repository.  Many of the files in this
+package have also been cleaned up in terms of formatting and obsolete code
+removal.
+
+If you have previously installed phxEventManager an upgrade is accomplished by
+replacing all files.  There are no database changes in this release.  See the
+Change Log for a complete list of changes since the last release.
+
+____________________________________
+This is a beta release, use at your own risk, etc.

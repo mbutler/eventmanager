@@ -1,0 +1,10 @@
+input[type=checkbox] { margin-top:0; }
+fieldset { margin-top:20px; }
+legend { position:absolute; top:-0.5em; left:0.5em; }
+.fscontrols { top:0; right:5px; }
+
+.note3    { font:italic normal 90% ' . $alternate_font_family . '; margin-left:3px; }
+.note    { font-style:normal;  }
+
+.positionhead { margin:20px 0 0 0 }
+.ieheight { margin-top:20px; }

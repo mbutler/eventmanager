@@ -1,0 +1,2038 @@
+<html>
+<head>
+<title>Docs for page functions-automation.php</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">default</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                                                  		  [ <a href="../classtrees_default.html" class="menu">class tree: default</a> ]
+		  [ <a href="../elementindex_default.html" class="menu">index: default</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../li_default.html">default</a><br />
+              <a href="../li_xajax.html">xajax</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../default/_pem-admin---access-profiles.php.html">		access-profiles.php
+		</a><br>
+			<a href="../default/_pem-admin---account-settings.php.html">		account-settings.php
+		</a><br>
+			<a href="../default/_add-date.php.html">		add-date.php
+		</a><br>
+			<a href="../default/_add-event.php.html">		add-event.php
+		</a><br>
+			<a href="../default/_pem-admin---approve-event.php.html">		approve-event.php
+		</a><br>
+			<a href="../default/_pem-admin---areas-spaces.php.html">		areas-spaces.php
+		</a><br>
+			<a href="../default/_pem-includes---auth-db.php.html">		auth-db.php
+		</a><br>
+			<a href="../default/_pem-includes---cache-php.php.html">		cache-php.php
+		</a><br>
+			<a href="../default/_pem-admin---categories.php.html">		categories.php
+		</a><br>
+			<a href="../default/_pem-includes---class-gettext.php.html">		class-gettext.php
+		</a><br>
+			<a href="../default/_pem-includes---class-IXR.php.html">		class-IXR.php
+		</a><br>
+			<a href="../default/_pem-includes---class-locale.php.html">		class-locale.php
+		</a><br>
+			<a href="../default/_pem-includes---class-minicals.php.html">		class-minicals.php
+		</a><br>
+			<a href="../default/_pem-includes---class-pop3.php.html">		class-pop3.php
+		</a><br>
+			<a href="../default/_pem-includes---class-snoopy.php.html">		class-snoopy.php
+		</a><br>
+			<a href="../default/_pem-includes---class-streams.php.html">		class-streams.php
+		</a><br>
+			<a href="../default/_pem-includes---class-user.php.html">		class-user.php
+		</a><br>
+			<a href="../default/_pem-themes---sapphire---css.php.html">		css.php
+		</a><br>
+			<a href="../default/_pem-themes---ruby---css.php.html">		css.php
+		</a><br>
+			<a href="../default/_dates.php.html">		dates.php
+		</a><br>
+			<a href="../default/_pem-admin---datetime-formats.php.html">		datetime-formats.php
+		</a><br>
+			<a href="../default/_day.php.html">		day.php
+		</a><br>
+			<a href="../default/_edit-event.php.html">		edit-event.php
+		</a><br>
+			<a href="../default/_event.php.html">		event.php
+		</a><br>
+			<a href="../default/_pem-admin---field-behavior.php.html">		field-behavior.php
+		</a><br>
+			<a href="../default/_pem-admin---field-defaults.php.html">		field-defaults.php
+		</a><br>
+			<a href="../default/_pem-admin---field-order.php.html">		field-order.php
+		</a><br>
+			<a href="../default/_pem-admin---filter-view.php.html">		filter-view.php
+		</a><br>
+			<a href="../default/_pem-includes---footer.php.html">		footer.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-admin.php.html">		functions-admin.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-auth.php.html">		functions-auth.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-automation.php.html">		functions-automation.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-compat.php.html">		functions-compat.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-datetime.php.html">		functions-datetime.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-db.php.html">		functions-db.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-file.php.html">		functions-file.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-formatting.php.html">		functions-formatting.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-install.php.html">		functions-install.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-kses.php.html">		functions-kses.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-L10n.php.html">		functions-L10n.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-query.php.html">		functions-query.php
+		</a><br>
+			<a href="../default/_pem-admin---general-settings.php.html">		general-settings.php
+		</a><br>
+			<a href="../default/_pem-admin---global-test.php.html">		global-test.php
+		</a><br>
+			<a href="../default/_pem-includes---header.php.html">		header.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---helloworld.php.html">		helloworld.php
+		</a><br>
+			<a href="../default/_pem-admin---import.php.html">		import.php
+		</a><br>
+			<a href="../default/_pem-content---index.php.html">		index.php
+		</a><br>
+			<a href="../default/_pem-admin---index.php.html">		index.php
+		</a><br>
+			<a href="../default/_index.php.html">		index.php
+		</a><br>
+			<a href="../default/_pem-admin---install.php.html">		install.php
+		</a><br>
+			<a href="../default/_pem-admin---interface-defaults.php.html">		interface-defaults.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---xajax_core---legacy.inc.php.html">		legacy.inc.php
+		</a><br>
+			<a href="../default/_pem-admin---manage-reg.php.html">		manage-reg.php
+		</a><br>
+			<a href="../default/_pem-admin---meta-boolean.php.html">		meta-boolean.php
+		</a><br>
+			<a href="../default/_pem-admin---meta-checkbox.php.html">		meta-checkbox.php
+		</a><br>
+			<a href="../default/_pem-admin---meta-contact.php.html">		meta-contact.php
+		</a><br>
+			<a href="../default/_pem-admin---meta-select.php.html">		meta-select.php
+		</a><br>
+			<a href="../default/_pem-admin---meta-textinput.php.html">		meta-textinput.php
+		</a><br>
+			<a href="../default/_pem-admin---missing-dates.php.html">		missing-dates.php
+		</a><br>
+			<a href="../default/_month.php.html">		month.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---multiply---multiply.common.php.html">		multiply.common.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---multiply---multiply.php.html">		multiply.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---multiply---multiply.server.php.html">		multiply.server.php
+		</a><br>
+			<a href="../default/_pem-includes---nav-admin.php.html">		nav-admin.php
+		</a><br>
+			<a href="../default/_pem-includes---nav-event.php.html">		nav-event.php
+		</a><br>
+			<a href="../default/_pem-includes---nav-views.php.html">		nav-views.php
+		</a><br>
+			<a href="../default/_pem-config.php.html">		pem-config.php
+		</a><br>
+			<a href="../default/_pem-includes---pem-functions.php.html">		pem-functions.php
+		</a><br>
+			<a href="../default/_pem-includes---pem-globals.php.html">		pem-globals.php
+		</a><br>
+			<a href="../default/_pem-settings.php.html">		pem-settings.php
+		</a><br>
+			<a href="../default/_pem-includes---pem-style.php.html">		pem-style.php
+		</a><br>
+			<a href="../default/_pem-admin---presenter-types.php.html">		presenter-types.php
+		</a><br>
+			<a href="../default/_pem-admin---recycle.php.html">		recycle.php
+		</a><br>
+			<a href="../default/_pem-admin---reg-settings.php.html">		reg-settings.php
+		</a><br>
+			<a href="../default/_registration.php.html">		registration.php
+		</a><br>
+			<a href="../default/_pem-admin---reports.php.html">		reports.php
+		</a><br>
+			<a href="../default/_pem-content---room-a.php.html">		room-a.php
+		</a><br>
+			<a href="../default/_pem-content---room-b.php.html">		room-b.php
+		</a><br>
+			<a href="../default/_pem-content---room-c.php.html">		room-c.php
+		</a><br>
+			<a href="../default/_pem-admin---scheduling-structure.php.html">		scheduling-structure.php
+		</a><br>
+			<a href="../default/_pem-includes---session-php.php.html">		session-php.php
+		</a><br>
+			<a href="../default/_pem-admin---settings.php.html">		settings.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---signup---signup.common.php.html">		signup.common.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---signup---signup.php.html">		signup.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---signup---signup.server.php.html">		signup.server.php
+		</a><br>
+			<a href="../default/_pem-admin---supplies.php.html">		supplies.php
+		</a><br>
+			<a href="../default/_pem-admin---supply-profiles.php.html">		supply-profiles.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---thewall---thewall.common.php.html">		thewall.common.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---thewall---thewall.php.html">		thewall.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---thewall---thewall.server.php.html">		thewall.server.php
+		</a><br>
+			<a href="../default/_pem-admin---users.php.html">		users.php
+		</a><br>
+			<a href="../default/_pem-admin---view-settings.php.html">		view-settings.php
+		</a><br>
+			<a href="../default/_view.php.html">		view.php
+		</a><br>
+			<a href="../default/_week.php.html">		week.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---xajax_core---xajaxCompress.inc.php.html">		xajaxCompress.inc.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---xul---xulApplication.php.html">		xulApplication.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---xul---xulServer.php.html">		xulServer.php
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../default/CachedFileReader.html">CachedFileReader</a><br />
+	    		<a href="../default/FileReader.html">FileReader</a><br />
+	    		<a href="../default/gettext_reader.html">gettext_reader</a><br />
+	    		<a href="../default/graffiti.html">graffiti</a><br />
+	    		<a href="../default/IXR_Base64.html">IXR_Base64</a><br />
+	    		<a href="../default/IXR_Client.html">IXR_Client</a><br />
+	    		<a href="../default/IXR_ClientMulticall.html">IXR_ClientMulticall</a><br />
+	    		<a href="../default/IXR_Date.html">IXR_Date</a><br />
+	    		<a href="../default/IXR_Error.html">IXR_Error</a><br />
+	    		<a href="../default/IXR_IntrospectionServer.html">IXR_IntrospectionServer</a><br />
+	    		<a href="../default/IXR_Message.html">IXR_Message</a><br />
+	    		<a href="../default/IXR_Request.html">IXR_Request</a><br />
+	    		<a href="../default/IXR_Server.html">IXR_Server</a><br />
+	    		<a href="../default/IXR_Value.html">IXR_Value</a><br />
+	    		<a href="../default/PEM_MiniCal.html">PEM_MiniCal</a><br />
+	    		<a href="../default/PEM_User.html">PEM_User</a><br />
+	    		<a href="../default/POP3.html">POP3</a><br />
+	    		<a href="../default/Snoopy.html">Snoopy</a><br />
+	    		<a href="../default/StreamReader.html">StreamReader</a><br />
+	    		<a href="../default/StringReader.html">StringReader</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Procedural File: functions-automation.php</h1>
+Source Location: /pem-includes/functions-automation.php<br /><br />
+
+<br>
+<br>
+
+
+<h2>Page Details:</h2>
+<br /><br />
+<br /><br />
+<br /><br />
+<br />
+  <hr />
+	<a name="functionpem_access_profiles_select"></a>
+	<h3>pem_access_profiles_select <span class="smalllinenumber">[line 1230]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_access_profiles_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_anchor"></a>
+	<h3>pem_anchor <span class="smalllinenumber">[line 511]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_anchor(
+ $name)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$name</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_auth_keys_select"></a>
+	<h3>pem_auth_keys_select <span class="smalllinenumber">[line 1298]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_auth_keys_select(
+ $type, [ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$type</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_auth_resources_select"></a>
+	<h3>pem_auth_resources_select <span class="smalllinenumber">[line 1281]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_auth_resources_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_book_range_type_select"></a>
+	<h3>pem_book_range_type_select <span class="smalllinenumber">[line 1000]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_book_range_type_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_boolean_select"></a>
+	<h3>pem_boolean_select <span class="smalllinenumber">[line 951]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_boolean_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_box_format_select"></a>
+	<h3>pem_box_format_select <span class="smalllinenumber">[line 976]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_box_format_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_button_link"></a>
+	<h3>pem_button_link <span class="smalllinenumber">[line 647]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_button_link(
+ $label,  $link)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$label</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$link</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_category_select"></a>
+	<h3>pem_category_select <span class="smalllinenumber">[line 1061]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_category_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_checkbox"></a>
+	<h3>pem_checkbox <span class="smalllinenumber">[line 896]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_checkbox(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_check_event_conflicts"></a>
+	<h3>pem_check_event_conflicts <span class="smalllinenumber">[line 1415]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_check_event_conflicts(
+ &$pemdb,  &$error,  $real_begin,  $real_end,  $form_spaces, [ $check_day = &amp;quot;&amp;quot;], [ $thisdid = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>&$pemdb</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>&$error</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$real_begin</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$real_end</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$form_spaces</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$check_day</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$thisdid</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_check_schedule_conflicts"></a>
+	<h3>pem_check_schedule_conflicts <span class="smalllinenumber">[line 1347]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_check_schedule_conflicts(
+ &$pemdb,  &$error,  $when_begin,  $date_begin,  $real_time_begin,  $real_time_end,  $form_spaces)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>&$pemdb</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>&$error</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$when_begin</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$date_begin</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$real_time_begin</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$real_time_end</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$form_spaces</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_contact_meta_select"></a>
+	<h3>pem_contact_meta_select <span class="smalllinenumber">[line 1079]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_contact_meta_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_controls"></a>
+	<h3>pem_controls <span class="smalllinenumber">[line 608]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_controls(
+ $data, [ $large = false])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$data</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$large</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_date_format_select"></a>
+	<h3>pem_date_format_select <span class="smalllinenumber">[line 397]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_date_format_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_date_selector"></a>
+	<h3>pem_date_selector <span class="smalllinenumber">[line 101]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_date_selector(
+ $prefix, [ $extras = &amp;quot;&amp;quot;], [ $year_begin = &amp;quot;&amp;quot;], [ $year_end = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$prefix</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$year_begin</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$year_end</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_echo_state_select"></a>
+	<h3>pem_echo_state_select <span class="smalllinenumber">[line 1205]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_echo_state_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_entry_source_type_select"></a>
+	<h3>pem_entry_source_type_select <span class="smalllinenumber">[line 1022]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_entry_source_type_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_entry_type_select"></a>
+	<h3>pem_entry_type_select <span class="smalllinenumber">[line 1013]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_entry_type_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_error_list"></a>
+	<h3>pem_error_list <span class="smalllinenumber">[line 1322]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_error_list(
+ $list)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$list</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_fieldset_begin"></a>
+	<h3>pem_fieldset_begin <span class="smalllinenumber">[line 486]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_fieldset_begin(
+ $legend, [ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$legend</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_fieldset_end"></a>
+	<h3>pem_fieldset_end <span class="smalllinenumber">[line 504]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_fieldset_end(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_field_behavior_select"></a>
+	<h3>pem_field_behavior_select <span class="smalllinenumber">[line 984]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_field_behavior_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_field_extras"></a>
+	<h3>pem_field_extras <span class="smalllinenumber">[line 709]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_field_extras(
+ $extras)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_field_label"></a>
+	<h3>pem_field_label <span class="smalllinenumber">[line 799]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_field_label(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_field_note"></a>
+	<h3>pem_field_note <span class="smalllinenumber">[line 817]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_field_note(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_file_upload"></a>
+	<h3>pem_file_upload <span class="smalllinenumber">[line 934]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_file_upload(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_form_begin"></a>
+	<h3>pem_form_begin <span class="smalllinenumber">[line 783]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_form_begin(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_form_end"></a>
+	<h3>pem_form_end <span class="smalllinenumber">[line 791]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_form_end(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_form_submit"></a>
+	<h3>pem_form_submit <span class="smalllinenumber">[line 547]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_form_submit(
+ $form, [ $label = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$form</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$label</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_form_update"></a>
+	<h3>pem_form_update <span class="smalllinenumber">[line 580]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_form_update(
+ $form, [ $label = &amp;quot;&amp;quot;], [ $class = &amp;quot;formupdate&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$form</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$label</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$class</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_go_back"></a>
+	<h3>pem_go_back <span class="smalllinenumber">[line 636]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_go_back(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_header_submit"></a>
+	<h3>pem_header_submit <span class="smalllinenumber">[line 570]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_header_submit(
+ $form, [ $label = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$form</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$label</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_hidden_input"></a>
+	<h3>pem_hidden_input <span class="smalllinenumber">[line 835]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_hidden_input(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_meta_parent_select"></a>
+	<h3>pem_meta_parent_select <span class="smalllinenumber">[line 992]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_meta_parent_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_meta_select"></a>
+	<h3>pem_meta_select <span class="smalllinenumber">[line 1102]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_meta_select(
+ $options, [ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$options</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_minute_increment_select"></a>
+	<h3>pem_minute_increment_select <span class="smalllinenumber">[line 423]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_minute_increment_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_password_input"></a>
+	<h3>pem_password_input <span class="smalllinenumber">[line 854]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_password_input(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_period_length_select"></a>
+	<h3>pem_period_length_select <span class="smalllinenumber">[line 431]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_period_length_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_popup_select"></a>
+	<h3>pem_popup_select <span class="smalllinenumber">[line 1246]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_popup_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_prestenter_type_select"></a>
+	<h3>pem_prestenter_type_select <span class="smalllinenumber">[line 1120]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_prestenter_type_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_quantity_select"></a>
+	<h3>pem_quantity_select <span class="smalllinenumber">[line 1134]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_quantity_select(
+[ $extras = &amp;quot;&amp;quot;],  $qty_max)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$qty_max</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_radio"></a>
+	<h3>pem_radio <span class="smalllinenumber">[line 906]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_radio(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_radio_options"></a>
+	<h3>pem_radio_options <span class="smalllinenumber">[line 918]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_radio_options(
+ $pairs, [ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$pairs</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_recurring_duration_select"></a>
+	<h3>pem_recurring_duration_select <span class="smalllinenumber">[line 1168]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_recurring_duration_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_recurring_type_select"></a>
+	<h3>pem_recurring_type_select <span class="smalllinenumber">[line 1151]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_recurring_type_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_recur_increment"></a>
+	<h3>pem_recur_increment <span class="smalllinenumber">[line 1492]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_recur_increment(
+ $increment,  &$recur_when_begin,  &$recur_when_end,  &$recur_real_begin,  &$recur_real_end)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$increment</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>&$recur_when_begin</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>&$recur_when_end</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>&$recur_real_begin</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>&$recur_real_end</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_recur_times_select"></a>
+	<h3>pem_recur_times_select <span class="smalllinenumber">[line 1180]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_recur_times_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_select"></a>
+	<h3>pem_select <span class="smalllinenumber">[line 875]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_select(
+ $options, [ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$options</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_side_select"></a>
+	<h3>pem_side_select <span class="smalllinenumber">[line 968]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_side_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_simple_header"></a>
+	<h3>pem_simple_header <span class="smalllinenumber">[line 464]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_simple_header(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_span"></a>
+	<h3>pem_span <span class="smalllinenumber">[line 808]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_span(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_submit_filters"></a>
+	<h3>pem_submit_filters <span class="smalllinenumber">[line 686]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_submit_filters(
+ $form, [ $label = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$form</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$label</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_submit_template"></a>
+	<h3>pem_submit_template <span class="smalllinenumber">[line 660]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_submit_template(
+ $form, [ $label = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$form</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$label</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_textarea_input"></a>
+	<h3>pem_textarea_input <span class="smalllinenumber">[line 864]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_textarea_input(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_text_input"></a>
+	<h3>pem_text_input <span class="smalllinenumber">[line 844]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_text_input(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_theme_select"></a>
+	<h3>pem_theme_select <span class="smalllinenumber">[line 1045]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_theme_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_time_format_select"></a>
+	<h3>pem_time_format_select <span class="smalllinenumber">[line 381]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_time_format_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_time_quantity_selector"></a>
+	<h3>pem_time_quantity_selector <span class="smalllinenumber">[line 341]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_time_quantity_selector(
+ $prefix, [ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$prefix</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_time_selector"></a>
+	<h3>pem_time_selector <span class="smalllinenumber">[line 219]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_time_selector(
+ $prefix, [ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$prefix</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_unscheduled"></a>
+	<h3>pem_unscheduled <span class="smalllinenumber">[line 1562]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_unscheduled(
+ $list)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$list</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_view_select"></a>
+	<h3>pem_view_select <span class="smalllinenumber">[line 1032]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_view_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_visible_toggle"></a>
+	<h3>pem_visible_toggle <span class="smalllinenumber">[line 598]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_visible_toggle(
+ $div,  $label, [ $target = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$div</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$label</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$target</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_weekday_select"></a>
+	<h3>pem_weekday_select <span class="smalllinenumber">[line 412]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_weekday_select(
+[ $extras = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_xajax_onchange"></a>
+	<h3>pem_xajax_onchange <span class="smalllinenumber">[line 524]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_xajax_onchange(
+ $form,  $function)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$form</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$function</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_xajax_submit"></a>
+	<h3>pem_xajax_submit <span class="smalllinenumber">[line 530]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_xajax_submit(
+ $form,  $function, [ $label = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$form</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$function</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$label</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functionpem_year_selector"></a>
+	<h3>pem_year_selector <span class="smalllinenumber">[line 207]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void pem_year_selector(
+[ $extras = &amp;quot;&amp;quot;], [ $year_begin = &amp;quot;&amp;quot;], [ $year_end = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$extras</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$year_begin</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$year_end</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+  <hr />
+	<a name="functiontimestamp_line"></a>
+	<h3>timestamp_line <span class="smalllinenumber">[line 440]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void timestamp_line(
+ $what,  $who,  $when, [ $type = &amp;quot;&amp;quot;])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+
+		    <br /><br />
+	
+    		<h4>Parameters</h4>
+    <table border="0" cellspacing="0" cellpadding="0">
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$what</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$who</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$when</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+		      <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$type</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+				</table>
+    	<div class="top">[ <a href="#top">Top</a> ]</div><br /><br />
+	</div>
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Tue, 21 Aug 2007 14:49:36 -0500 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.0a2</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

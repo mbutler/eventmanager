@@ -1,0 +1,795 @@
+<html>
+<head>
+<title>phpDocumentor Parser Errors and Warnings</title>
+<link rel="stylesheet" type="text/css" href="media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">default</td>
+  </tr>
+  <tr><td class="header_line"><img src="media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                                                  		  [ <a href="classtrees_default.html" class="menu">class tree: default</a> ]
+		  [ <a href="elementindex_default.html" class="menu">index: default</a> ]
+		  	    [ <a href="elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="li_default.html">default</a><br />
+              <a href="li_xajax.html">xajax</a><br />
+            <br /><br />
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<a href="#Post-parsing">Post-parsing</a><br>
+<a href="#account-settings.php">account-settings.php</a><br>
+<a href="#add-date.php">add-date.php</a><br>
+<a href="#add-event.php">add-event.php</a><br>
+<a href="#approve-event.php">approve-event.php</a><br>
+<a href="#areas-spaces.php">areas-spaces.php</a><br>
+<a href="#auth-db.php">auth-db.php</a><br>
+<a href="#cache-php.php">cache-php.php</a><br>
+<a href="#categories.php">categories.php</a><br>
+<a href="#class-gettext.php">class-gettext.php</a><br>
+<a href="#class-IXR.php">class-IXR.php</a><br>
+<a href="#class-locale.php">class-locale.php</a><br>
+<a href="#class-minicals.php">class-minicals.php</a><br>
+<a href="#class-pop3.php">class-pop3.php</a><br>
+<a href="#class-snoopy.php">class-snoopy.php</a><br>
+<a href="#class-streams.php">class-streams.php</a><br>
+<a href="#class-user.php">class-user.php</a><br>
+<a href="#css.php">css.php</a><br>
+<a href="#dates.php">dates.php</a><br>
+<a href="#datetime-formats.php">datetime-formats.php</a><br>
+<a href="#day.php">day.php</a><br>
+<a href="#edit-event.php">edit-event.php</a><br>
+<a href="#event.php">event.php</a><br>
+<a href="#field-behavior.php">field-behavior.php</a><br>
+<a href="#field-defaults.php">field-defaults.php</a><br>
+<a href="#field-order.php">field-order.php</a><br>
+<a href="#filter-view.php">filter-view.php</a><br>
+<a href="#footer.php">footer.php</a><br>
+<a href="#functions-admin.php">functions-admin.php</a><br>
+<a href="#functions-auth.php">functions-auth.php</a><br>
+<a href="#functions-automation.php">functions-automation.php</a><br>
+<a href="#functions-compat.php">functions-compat.php</a><br>
+<a href="#functions-datetime.php">functions-datetime.php</a><br>
+<a href="#functions-db.php">functions-db.php</a><br>
+<a href="#functions-file.php">functions-file.php</a><br>
+<a href="#functions-formatting.php">functions-formatting.php</a><br>
+<a href="#functions-install.php">functions-install.php</a><br>
+<a href="#functions-kses.php">functions-kses.php</a><br>
+<a href="#functions-L10n.php">functions-L10n.php</a><br>
+<a href="#functions-query.php">functions-query.php</a><br>
+<a href="#general-settings.php">general-settings.php</a><br>
+<a href="#global-test.php">global-test.php</a><br>
+<a href="#header.php">header.php</a><br>
+<a href="#helloworld.php">helloworld.php</a><br>
+<a href="#import.php">import.php</a><br>
+<a href="#index.php">index.php</a><br>
+<a href="#install.php">install.php</a><br>
+<a href="#interface-defaults.php">interface-defaults.php</a><br>
+<a href="#legacy.inc.php">legacy.inc.php</a><br>
+<a href="#manage-reg.php">manage-reg.php</a><br>
+<a href="#meta-boolean.php">meta-boolean.php</a><br>
+<a href="#meta-checkbox.php">meta-checkbox.php</a><br>
+<a href="#meta-contact.php">meta-contact.php</a><br>
+<a href="#meta-select.php">meta-select.php</a><br>
+<a href="#meta-textinput.php">meta-textinput.php</a><br>
+<a href="#missing-dates.php">missing-dates.php</a><br>
+<a href="#month.php">month.php</a><br>
+<a href="#multiply.common.php">multiply.common.php</a><br>
+<a href="#multiply.php">multiply.php</a><br>
+<a href="#multiply.server.php">multiply.server.php</a><br>
+<a href="#nav-admin.php">nav-admin.php</a><br>
+<a href="#nav-event.php">nav-event.php</a><br>
+<a href="#nav-views.php">nav-views.php</a><br>
+<a href="#pem-config.php">pem-config.php</a><br>
+<a href="#pem-functions.php">pem-functions.php</a><br>
+<a href="#pem-globals.php">pem-globals.php</a><br>
+<a href="#pem-settings.php">pem-settings.php</a><br>
+<a href="#pem-style.php">pem-style.php</a><br>
+<a href="#presenter-types.php">presenter-types.php</a><br>
+<a href="#recycle.php">recycle.php</a><br>
+<a href="#reg-settings.php">reg-settings.php</a><br>
+<a href="#registration.php">registration.php</a><br>
+<a href="#reports.php">reports.php</a><br>
+<a href="#room-a.php">room-a.php</a><br>
+<a href="#room-b.php">room-b.php</a><br>
+<a href="#room-c.php">room-c.php</a><br>
+<a href="#scheduling-structure.php">scheduling-structure.php</a><br>
+<a href="#session-php.php">session-php.php</a><br>
+<a href="#settings.php">settings.php</a><br>
+<a href="#signup.common.php">signup.common.php</a><br>
+<a href="#signup.php">signup.php</a><br>
+<a href="#signup.server.php">signup.server.php</a><br>
+<a href="#supplies.php">supplies.php</a><br>
+<a href="#supply-profiles.php">supply-profiles.php</a><br>
+<a href="#thewall.common.php">thewall.common.php</a><br>
+<a href="#thewall.php">thewall.php</a><br>
+<a href="#thewall.server.php">thewall.server.php</a><br>
+<a href="#users.php">users.php</a><br>
+<a href="#view-settings.php">view-settings.php</a><br>
+<a href="#view.php">view.php</a><br>
+<a href="#week.php">week.php</a><br>
+<a href="#xajaxCompress.inc.php">xajaxCompress.inc.php</a><br>
+<a href="#xajaxDefaultIncludePlugin.inc.php">xajaxDefaultIncludePlugin.inc.php</a><br>
+<a href="#xajaxDefaultRequestProcessorPlugin.inc.php">xajaxDefaultRequestProcessorPlugin.inc.php</a><br>
+<a href="#xajaxIncludePlugin.inc.php">xajaxIncludePlugin.inc.php</a><br>
+<a href="#xajaxPluginManager.inc.php">xajaxPluginManager.inc.php</a><br>
+<a href="#xajaxRequestProcessorPlugin.inc.php">xajaxRequestProcessorPlugin.inc.php</a><br>
+<a href="#xajaxResponse.inc.php">xajaxResponse.inc.php</a><br>
+<a href="#xajaxResponsePlugin.inc.php">xajaxResponsePlugin.inc.php</a><br>
+<a href="#xulApplication.php">xulApplication.php</a><br>
+<a href="#xulServer.php">xulServer.php</a><br>
+<a name="Post-parsing"></a>
+<h1>Post-parsing</h1>
+<h2>Warnings:</h2><br>
+<b>Warning</b> - 
+duplicate function element "pem_event_line" in file K:\calendar-test\event.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "pem_event_line" in file K:\calendar-test\registration.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "pem_event_data" in file K:\calendar-test\event.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\users.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\supply-profiles.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\scheduling-structure.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\supplies.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\approve-event.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\areas-spaces.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\meta-boolean.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\meta-checkbox.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\manage-reg.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\field-order.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\categories.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\field-behavior.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\reg-settings.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\interface-defaults.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\general-settings.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\field-order.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\manage-reg.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\meta-boolean.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\meta-contact.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\meta-checkbox.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\field-behavior.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\datetime-formats.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\meta-textinput.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\presenter-types.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\meta-select.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\account-settings.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\categories.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\areas-spaces.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\meta-select.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\meta-contact.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\add-event.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "check_conflicts" in file K:\calendar-test\edit-event.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\meta-textinput.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\pem-admin\access-profiles.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate define element "PASS_COOKIE" in file K:\calendar-test\pem-admin\index.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate define element "SITECOOKIEPATH" in file K:\calendar-test\pem-admin\index.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "check_conflicts" in file K:\calendar-test\add-event.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate define element "COOKIE_DOMAIN" in file K:\calendar-test\pem-admin\index.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "save_template" in file K:\calendar-test\edit-event.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "save_template" in file K:\calendar-test\add-event.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "do_save_template" in file K:\calendar-test\add-event.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "do_save_template" in file K:\calendar-test\edit-event.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate define element "PEMINC" in file K:\calendar-test\pem-includes\functions-L10n.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate define element "LOGIN_COOKIE" in file K:\calendar-test\pem-admin\index.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_form" in file K:\calendar-test\edit-event.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\missing-dates.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\recycle.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate define element "COOKIEHASH" in file K:\calendar-test\pem-admin\index.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\scheduling-structure.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\supplies.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\presenter-types.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\view-settings.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "test" in file K:\calendar-test\pem-includes\xajax\examples\xul\xulServer.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\users.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\supply-profiles.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning</b> - 
+duplicate function element "echo_move_form" in file K:\calendar-test\pem-admin\manage-reg.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<a name="access-profiles.php"></a>
+<h1>access-profiles.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 428</b> - File "K:\calendar-test\pem-admin\access-profiles.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="account-settings.php"></a>
+<h1>account-settings.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 67</b> - File "K:\calendar-test\pem-admin\account-settings.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="add-date.php"></a>
+<h1>add-date.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2067</b> - File "K:\calendar-test\add-date.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="add-event.php"></a>
+<h1>add-event.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 1920</b> - File "K:\calendar-test\add-event.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="approve-event.php"></a>
+<h1>approve-event.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 158</b> - File "K:\calendar-test\pem-admin\approve-event.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="areas-spaces.php"></a>
+<h1>areas-spaces.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 782</b> - File "K:\calendar-test\pem-admin\areas-spaces.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="auth-db.php"></a>
+<h1>auth-db.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 414</b> - File "K:\calendar-test\pem-includes\auth-db.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="cache-php.php"></a>
+<h1>cache-php.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 63</b> - File "K:\calendar-test\pem-includes\cache-php.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="categories.php"></a>
+<h1>categories.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 296</b> - File "K:\calendar-test\pem-admin\categories.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="class-gettext.php"></a>
+<h1>class-gettext.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 35</b> - no @package tag was used in a DocBlock for class gettext_reader<br>
+<b>Warning on line 357</b> - File "K:\calendar-test\pem-includes\class-gettext.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="class-IXR.php"></a>
+<h1>class-IXR.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 9</b> - no @package tag was used in a DocBlock for class IXR_Value<br>
+<b>Warning on line 117</b> - no @package tag was used in a DocBlock for class IXR_Message<br>
+<b>Warning on line 260</b> - no @package tag was used in a DocBlock for class IXR_Server<br>
+<b>Warning on line 419</b> - no @package tag was used in a DocBlock for class IXR_Request<br>
+<b>Warning on line 449</b> - no @package tag was used in a DocBlock for class IXR_Client<br>
+<b>Warning on line 560</b> - no @package tag was used in a DocBlock for class IXR_Error<br>
+<b>Warning on line 591</b> - no @package tag was used in a DocBlock for class IXR_Date<br>
+<b>Warning on line 635</b> - no @package tag was used in a DocBlock for class IXR_Base64<br>
+<b>Warning on line 646</b> - no @package tag was used in a DocBlock for class IXR_IntrospectionServer<br>
+<b>Warning on line 790</b> - no @package tag was used in a DocBlock for class IXR_ClientMulticall<br>
+<b>Warning on line 811</b> - File "K:\calendar-test\pem-includes\class-IXR.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="class-locale.php"></a>
+<h1>class-locale.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 120</b> - File "K:\calendar-test\pem-includes\class-locale.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="class-minicals.php"></a>
+<h1>class-minicals.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 19</b> - no @package tag was used in a DocBlock for class PEM_MiniCal<br>
+<b>Warning on line 221</b> - File "K:\calendar-test\pem-includes\class-minicals.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="class-pop3.php"></a>
+<h1>class-pop3.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - no @package tag was used in a DocBlock for class POP3<br>
+<b>Warning on line 679</b> - File "K:\calendar-test\pem-includes\class-pop3.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="class-snoopy.php"></a>
+<h1>class-snoopy.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 38</b> - no @package tag was used in a DocBlock for class Snoopy<br>
+<b>Warning on line 1256</b> - File "K:\calendar-test\pem-includes\class-snoopy.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="class-streams.php"></a>
+<h1>class-streams.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 25</b> - no @package tag was used in a DocBlock for class StreamReader<br>
+<b>Warning on line 47</b> - no @package tag was used in a DocBlock for class StringReader<br>
+<b>Warning on line 83</b> - no @package tag was used in a DocBlock for class FileReader<br>
+<b>Warning on line 143</b> - no @package tag was used in a DocBlock for class CachedFileReader<br>
+<b>Warning on line 165</b> - File "K:\calendar-test\pem-includes\class-streams.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="class-user.php"></a>
+<h1>class-user.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 8</b> - no @package tag was used in a DocBlock for class PEM_User<br>
+<b>Warning on line 144</b> - File "K:\calendar-test\pem-includes\class-user.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="css.php"></a>
+<h1>css.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 640</b> - File "K:\calendar-test\pem-themes\sapphire\css.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 837</b> - File "K:\calendar-test\pem-themes\ruby\css.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="dates.php"></a>
+<h1>dates.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 212</b> - File "K:\calendar-test\dates.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="datetime-formats.php"></a>
+<h1>datetime-formats.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 86</b> - File "K:\calendar-test\pem-admin\datetime-formats.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="day.php"></a>
+<h1>day.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 740</b> - File "K:\calendar-test\day.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="edit-event.php"></a>
+<h1>edit-event.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 2042</b> - File "K:\calendar-test\edit-event.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="event.php"></a>
+<h1>event.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 659</b> - File "K:\calendar-test\event.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="field-behavior.php"></a>
+<h1>field-behavior.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 263</b> - File "K:\calendar-test\pem-admin\field-behavior.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="field-defaults.php"></a>
+<h1>field-defaults.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 72</b> - File "K:\calendar-test\pem-admin\field-defaults.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="field-order.php"></a>
+<h1>field-order.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 304</b> - File "K:\calendar-test\pem-admin\field-order.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="filter-view.php"></a>
+<h1>filter-view.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 169</b> - File "K:\calendar-test\pem-admin\filter-view.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="footer.php"></a>
+<h1>footer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 29</b> - File "K:\calendar-test\pem-includes\footer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functions-admin.php"></a>
+<h1>functions-admin.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 148</b> - File "K:\calendar-test\pem-includes\functions-admin.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functions-auth.php"></a>
+<h1>functions-auth.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 335</b> - File "K:\calendar-test\pem-includes\functions-auth.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functions-automation.php"></a>
+<h1>functions-automation.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 1615</b> - File "K:\calendar-test\pem-includes\functions-automation.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functions-compat.php"></a>
+<h1>functions-compat.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 86</b> - Unknown tag "@require" used<br>
+<b>Warning on line 120</b> - File "K:\calendar-test\pem-includes\functions-compat.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<h2>Errors:</h2><br>
+<b>Error on line 104</b> - array_change_key_case function's DocBlock has @package tag, illegal. ignoring tag "@package PHP_Compat"<br>
+<a name="functions-datetime.php"></a>
+<h1>functions-datetime.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 524</b> - File "K:\calendar-test\pem-includes\functions-datetime.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functions-db.php"></a>
+<h1>functions-db.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 530</b> - File "K:\calendar-test\pem-includes\functions-db.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functions-file.php"></a>
+<h1>functions-file.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 54</b> - File "K:\calendar-test\pem-includes\functions-file.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functions-formatting.php"></a>
+<h1>functions-formatting.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 821</b> - File "K:\calendar-test\pem-includes\functions-formatting.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functions-install.php"></a>
+<h1>functions-install.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 1842</b> - File "K:\calendar-test\pem-includes\functions-install.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functions-kses.php"></a>
+<h1>functions-kses.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 544</b> - File "K:\calendar-test\pem-includes\functions-kses.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functions-L10n.php"></a>
+<h1>functions-L10n.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 76</b> - File "K:\calendar-test\pem-includes\functions-L10n.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="functions-query.php"></a>
+<h1>functions-query.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 290</b> - File "K:\calendar-test\pem-includes\functions-query.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="general-settings.php"></a>
+<h1>general-settings.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 95</b> - File "K:\calendar-test\pem-admin\general-settings.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="global-test.php"></a>
+<h1>global-test.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 104</b> - File "K:\calendar-test\pem-admin\global-test.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="header.php"></a>
+<h1>header.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 290</b> - File "K:\calendar-test\pem-includes\header.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="helloworld.php"></a>
+<h1>helloworld.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 64</b> - File "K:\calendar-test\pem-includes\xajax\examples\helloworld.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="import.php"></a>
+<h1>import.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 536</b> - File "K:\calendar-test\pem-admin\import.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="index.php"></a>
+<h1>index.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 0</b> - File "K:\calendar-test\pem-content\index.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 129</b> - File "K:\calendar-test\index.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<b>Warning on line 193</b> - File "K:\calendar-test\pem-admin\index.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="install.php"></a>
+<h1>install.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 199</b> - File "K:\calendar-test\pem-admin\install.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="interface-defaults.php"></a>
+<h1>interface-defaults.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 60</b> - File "K:\calendar-test\pem-admin\interface-defaults.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="legacy.inc.php"></a>
+<h1>legacy.inc.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 1</b> - no @package tag was used in a DocBlock for class legacyXajaxResponse<br>
+<b>Warning on line 28</b> - no @package tag was used in a DocBlock for class legacyXajax<br>
+<b>Warning on line 71</b> - File "K:\calendar-test\pem-includes\xajax\xajax_core\legacy.inc.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="manage-reg.php"></a>
+<h1>manage-reg.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 515</b> - File "K:\calendar-test\pem-admin\manage-reg.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="meta-boolean.php"></a>
+<h1>meta-boolean.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 240</b> - File "K:\calendar-test\pem-admin\meta-boolean.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="meta-checkbox.php"></a>
+<h1>meta-checkbox.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 240</b> - File "K:\calendar-test\pem-admin\meta-checkbox.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="meta-contact.php"></a>
+<h1>meta-contact.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 479</b> - File "K:\calendar-test\pem-admin\meta-contact.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="meta-select.php"></a>
+<h1>meta-select.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 303</b> - File "K:\calendar-test\pem-admin\meta-select.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="meta-textinput.php"></a>
+<h1>meta-textinput.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 230</b> - File "K:\calendar-test\pem-admin\meta-textinput.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="missing-dates.php"></a>
+<h1>missing-dates.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 156</b> - File "K:\calendar-test\pem-admin\missing-dates.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="month.php"></a>
+<h1>month.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 590</b> - File "K:\calendar-test\month.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="multiply.common.php"></a>
+<h1>multiply.common.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 10</b> - File "K:\calendar-test\pem-includes\xajax\examples\multiply\multiply.common.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="multiply.php"></a>
+<h1>multiply.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 21</b> - File "K:\calendar-test\pem-includes\xajax\examples\multiply\multiply.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="multiply.server.php"></a>
+<h1>multiply.server.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 15</b> - File "K:\calendar-test\pem-includes\xajax\examples\multiply\multiply.server.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="nav-admin.php"></a>
+<h1>nav-admin.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 110</b> - File "K:\calendar-test\pem-includes\nav-admin.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="nav-event.php"></a>
+<h1>nav-event.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 50</b> - File "K:\calendar-test\pem-includes\nav-event.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="nav-views.php"></a>
+<h1>nav-views.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 140</b> - File "K:\calendar-test\pem-includes\nav-views.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="pem-config.php"></a>
+<h1>pem-config.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 161</b> - File "K:\calendar-test\pem-config.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="pem-functions.php"></a>
+<h1>pem-functions.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 324</b> - File "K:\calendar-test\pem-includes\pem-functions.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="pem-globals.php"></a>
+<h1>pem-globals.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 215</b> - File "K:\calendar-test\pem-includes\pem-globals.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="pem-settings.php"></a>
+<h1>pem-settings.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 68</b> - File "K:\calendar-test\pem-settings.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="pem-style.php"></a>
+<h1>pem-style.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 22</b> - File "K:\calendar-test\pem-includes\pem-style.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="presenter-types.php"></a>
+<h1>presenter-types.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 149</b> - File "K:\calendar-test\pem-admin\presenter-types.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="recycle.php"></a>
+<h1>recycle.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 171</b> - File "K:\calendar-test\pem-admin\recycle.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="reg-settings.php"></a>
+<h1>reg-settings.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 75</b> - File "K:\calendar-test\pem-admin\reg-settings.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="registration.php"></a>
+<h1>registration.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 392</b> - File "K:\calendar-test\registration.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="reports.php"></a>
+<h1>reports.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 95</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning on line 135</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning on line 174</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning on line 228</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning on line 282</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning on line 332</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning on line 377</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning on line 450</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning on line 523</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning on line 563</b> - 
+duplicate function element "echo_data" in file K:\calendar-test\pem-admin\reports.php will be ignored.
+Use an @ignore tag on the original if you want this case to be documented.<br>
+<b>Warning on line 849</b> - File "K:\calendar-test\pem-admin\reports.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="room-a.php"></a>
+<h1>room-a.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 43</b> - File "K:\calendar-test\pem-content\room-a.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="room-b.php"></a>
+<h1>room-b.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 42</b> - File "K:\calendar-test\pem-content\room-b.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="room-c.php"></a>
+<h1>room-c.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 42</b> - File "K:\calendar-test\pem-content\room-c.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="scheduling-structure.php"></a>
+<h1>scheduling-structure.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 444</b> - File "K:\calendar-test\pem-admin\scheduling-structure.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="session-php.php"></a>
+<h1>session-php.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 248</b> - File "K:\calendar-test\pem-includes\session-php.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="settings.php"></a>
+<h1>settings.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 380</b> - File "K:\calendar-test\pem-admin\settings.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="signup.common.php"></a>
+<h1>signup.common.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 12</b> - File "K:\calendar-test\pem-includes\xajax\examples\signup\signup.common.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="signup.php"></a>
+<h1>signup.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 59</b> - File "K:\calendar-test\pem-includes\xajax\examples\signup\signup.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="signup.server.php"></a>
+<h1>signup.server.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 110</b> - File "K:\calendar-test\pem-includes\xajax\examples\signup\signup.server.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="supplies.php"></a>
+<h1>supplies.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 178</b> - File "K:\calendar-test\pem-admin\supplies.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="supply-profiles.php"></a>
+<h1>supply-profiles.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 377</b> - File "K:\calendar-test\pem-admin\supply-profiles.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="thewall.common.php"></a>
+<h1>thewall.common.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 11</b> - File "K:\calendar-test\pem-includes\xajax\examples\thewall\thewall.common.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="thewall.php"></a>
+<h1>thewall.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 69</b> - File "K:\calendar-test\pem-includes\xajax\examples\thewall\thewall.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="thewall.server.php"></a>
+<h1>thewall.server.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 17</b> - no @package tag was used in a DocBlock for class graffiti<br>
+<b>Warning on line 143</b> - File "K:\calendar-test\pem-includes\xajax\examples\thewall\thewall.server.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="users.php"></a>
+<h1>users.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 248</b> - File "K:\calendar-test\pem-admin\users.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="view-settings.php"></a>
+<h1>view-settings.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 198</b> - File "K:\calendar-test\pem-admin\view-settings.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="view.php"></a>
+<h1>view.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 32</b> - File "K:\calendar-test\view.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="week.php"></a>
+<h1>week.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 629</b> - File "K:\calendar-test\week.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="xajaxCompress.inc.php"></a>
+<h1>xajaxCompress.inc.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 136</b> - File "K:\calendar-test\pem-includes\xajax\xajax_core\xajaxCompress.inc.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="xajaxDefaultIncludePlugin.inc.php"></a>
+<h1>xajaxDefaultIncludePlugin.inc.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 24</b> - DocBlock would be page-level, but precedes class "xajaxDefaultIncludePlugin", use another DocBlock to document the file<br>
+<a name="xajaxDefaultRequestProcessorPlugin.inc.php"></a>
+<h1>xajaxDefaultRequestProcessorPlugin.inc.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 24</b> - DocBlock would be page-level, but precedes class "xajaxDefaultRequestProcessorPlugin", use another DocBlock to document the file<br>
+<a name="xajaxIncludePlugin.inc.php"></a>
+<h1>xajaxIncludePlugin.inc.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 23</b> - DocBlock would be page-level, but precedes class "xajaxIncludePlugin", use another DocBlock to document the file<br>
+<a name="xajaxPluginManager.inc.php"></a>
+<h1>xajaxPluginManager.inc.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 23</b> - DocBlock would be page-level, but precedes class "xajaxPluginManager", use another DocBlock to document the file<br>
+<a name="xajaxRequestProcessorPlugin.inc.php"></a>
+<h1>xajaxRequestProcessorPlugin.inc.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 24</b> - DocBlock would be page-level, but precedes class "xajaxRequestProcessorPlugin", use another DocBlock to document the file<br>
+<a name="xajaxResponse.inc.php"></a>
+<h1>xajaxResponse.inc.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 1011</b> - docblock template never terminated with /**#@-*/<br>
+<a name="xajaxResponsePlugin.inc.php"></a>
+<h1>xajaxResponsePlugin.inc.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 23</b> - DocBlock would be page-level, but precedes class "xajaxResponsePlugin", use another DocBlock to document the file<br>
+<a name="xulApplication.php"></a>
+<h1>xulApplication.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 37</b> - File "K:\calendar-test\pem-includes\xajax\examples\xul\xulApplication.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+<a name="xulServer.php"></a>
+<h1>xulServer.php</h1>
+<h2>Warnings:</h2><br>
+<b>Warning on line 18</b> - File "K:\calendar-test\pem-includes\xajax\examples\xul\xulServer.php" has no page-level DocBlock, use @package in the first DocBlock to create one<br>
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Tue, 21 Aug 2007 14:50:01 -0500 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.0a2</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

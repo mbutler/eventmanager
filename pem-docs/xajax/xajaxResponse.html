@@ -1,0 +1,1584 @@
+<html>
+<head>
+<title>Docs For Class xajaxResponse</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">xajax</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                                        
+                              		  [ <a href="../classtrees_xajax.html" class="menu">class tree: xajax</a> ]
+		  [ <a href="../elementindex_xajax.html" class="menu">index: xajax</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../li_default.html">default</a><br />
+              <a href="../li_xajax.html">xajax</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../xajax/_pem-includes---xajax---xajax_core---xajax.inc.php.html">		xajax.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxDefaultIncludePlugin.inc.php.html">		xajaxDefaultIncludePlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxDefaultRequestProcessorPlugin.inc.php.html">		xajaxDefaultRequestProcessorPlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxIncludePlugin.inc.php.html">		xajaxIncludePlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxPluginManager.inc.php.html">		xajaxPluginManager.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxRequestProcessorPlugin.inc.php.html">		xajaxRequestProcessorPlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---xajaxResponse.inc.php.html">		xajaxResponse.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxResponsePlugin.inc.php.html">		xajaxResponsePlugin.inc.php
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../xajax/legacyXajax.html">legacyXajax</a><br />
+	    		<a href="../xajax/legacyXajaxResponse.html">legacyXajaxResponse</a><br />
+	    		<a href="../xajax/xajax.html">xajax</a><br />
+	    		<a href="../xajax/xajaxCall.html">xajaxCall</a><br />
+	    		<a href="../xajax/xajaxDefaultIncludePlugin.html">xajaxDefaultIncludePlugin</a><br />
+	    		<a href="../xajax/xajaxDefaultRequestProcessorPlugin.html">xajaxDefaultRequestProcessorPlugin</a><br />
+	    		<a href="../xajax/xajaxIncludePlugin.html">xajaxIncludePlugin</a><br />
+	    		<a href="../xajax/xajaxPluginManager.html">xajaxPluginManager</a><br />
+	    		<a href="../xajax/xajaxRequestProcessorPlugin.html">xajaxRequestProcessorPlugin</a><br />
+	    		<a href="../xajax/xajaxResponse.html">xajaxResponse</a><br />
+	    		<a href="../xajax/xajaxResponsePlugin.html">xajaxResponsePlugin</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: xajaxResponse</h1>
+Source Location: /pem-includes/xajax/xajax_core/xajaxResponse.inc.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre></pre><br />
+<div class="description">The xajaxResponse class is used to create responses to be sent back to your  Web page.  A response contains one or more command messages for updating  your page.</div><br /><br />
+
+
+
+
+
+
+        
+</td>
+
+<td valign="top">
+<h3><a href="#class_vars">Variables</a></h3>
+<ul>
+    <li><a href="../xajax/xajaxResponse.html#var$aCommands">$aCommands</a></li>
+    <li><a href="../xajax/xajaxResponse.html#var$bOutputEntities">$bOutputEntities</a></li>
+    <li><a href="../xajax/xajaxResponse.html#var$returnValue">$returnValue</a></li>
+    <li><a href="../xajax/xajaxResponse.html#var$sEncoding">$sEncoding</a></li>
+  </ul>
+</td>
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../xajax/xajaxResponse.html#methodxajaxResponse">xajaxResponse</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodaddCommand">addCommand</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodaddEvent">addEvent</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodaddHandler">addHandler</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodaddPluginCommand">addPluginCommand</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodalert">alert</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodappend">append</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodassign">assign</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodcall">call</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodclear">clear</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodconfirmCommands">confirmCommands</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodcreate">create</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodcreateInput">createInput</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodgetCommandCount">getCommandCount</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodgetContentType">getContentType</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodgetOutput">getOutput</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodincludeCSS">includeCSS</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodincludeScript">includeScript</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodincludeScriptOnce">includeScriptOnce</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodinsert">insert</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodinsertAfter">insertAfter</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodinsertInput">insertInput</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodinsertInputAfter">insertInputAfter</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodloadCommands">loadCommands</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodplugin">plugin</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodprepend">prepend</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodredirect">redirect</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodremove">remove</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodremoveCSS">removeCSS</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodremoveHandler">removeHandler</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodremoveScript">removeScript</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodreplace">replace</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodscript">script</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodsetCharEncoding">setCharEncoding</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodsetOutputEntities">setOutputEntities</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodsetReturnValue">setReturnValue</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodwaitFor">waitFor</a></li>
+    <li><a href="../xajax/xajaxResponse.html#methodwaitForCSS">waitForCSS</a></li>
+    <li><a href="../xajax/xajaxResponse.html#method_getReturnValue">_getReturnValue</a></li>
+    <li><a href="../xajax/xajaxResponse.html#method__get">__get</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+<td valign="top">
+<h3>Child classes:</h3>
+<div class="tags">
+<dl>
+<dt><a href="../xajax/legacyXajaxResponse.html">legacyXajaxResponse</a></dt>
+	<dd>The xajaxResponse class is used to create responses to be sent back to your  Web page.  A response contains one or more command messages for updating  your page.</dd>
+</dl>
+</div>
+</td>
+
+
+
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 54]<br />
+The xajaxResponse class is used to create responses to be sent back to your  Web page.  A response contains one or more command messages for updating  your page.<br /><br /><p>Currently xajax supports 23 kinds of command messages, including some common  ones such as:  <ul><li>Assign - sets the specified attribute of an element in your page</li><li>Append - appends data to the end of the specified attribute of an
+ element in your page</li><li>Prepend - prepends data to the beginning of the specified attribute of
+ an element in your page</li><li>Replace - searches for and replaces data in the specified attribute of
+ an element in your page</li><li>Script - runs the supplied JavaScript code</li><li>Alert - shows an alert box with the supplied message text</li></ul></p><p><em>Note:</em> elements are identified by their HTML id, so if you don't see  your browser HTML display changing from the request, make sure you're using  the right id names in your response.</p><br /></div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+<hr />
+<a name="class_vars"></a>
+<h3>Class Variables</h3>
+<div class="tags">
+	<a name="var$aCommands"></a>
+	<p></p>
+	<h4>$aCommands = <span class="value"></span></h4>
+	<p>[line 62]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>internal command storage</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>array</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bOutputEntities"></a>
+	<p></p>
+	<h4>$bOutputEntities = <span class="value"></span></h4>
+	<p>[line 71]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>if special characters in the XML should be converted to               entities</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$returnValue"></a>
+	<p></p>
+	<h4>$returnValue = <span class="value"></span></h4>
+	<p>[line 77]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>|| array) the value to be passed back as part of the  response (if used... only valid for synchronous calls)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>(string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$sEncoding"></a>
+	<p></p>
+	<h4>$sEncoding = <span class="value"></span></h4>
+	<p>[line 66]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>the encoding type to use</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+</div><br />
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="methodxajaxResponse"></a>
+	<h3>constructor xajaxResponse <span class="smalllinenumber">[line 94]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>xajaxResponse xajaxResponse(
+[string
+$sEncoding = XAJAX_DEFAULT_CHAR_ENCODING], [boolean
+$bOutputEntities = false])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		The constructor's main job is to set the character encoding for the  response.<br /><br /><p><em>Note:</em> to change the character encoding for all of the  responses, set the XAJAX_DEFAULT_ENCODING constant before you  instantiate xajax.</p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sEncoding</b>&nbsp;&nbsp;</td>
+        <td>contains the character encoding string to use</td>
+      </tr>
+          <tr>
+        <td class="type">boolean&nbsp;&nbsp;</td>
+        <td><b>$bOutputEntities</b>&nbsp;&nbsp;</td>
+        <td>lets you set if you want special characters in the output                 converted to HTML entities</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodaddCommand"></a>
+	<h3>method addCommand <span class="smalllinenumber">[line 800]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void addCommand(
+array
+$aAttributes, mixed
+$mData)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a commmand to the array of all commands<br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$aAttributes</b>&nbsp;&nbsp;</td>
+        <td>associative array of attributes</td>
+      </tr>
+          <tr>
+        <td class="type">mixed&nbsp;&nbsp;</td>
+        <td><b>$mData</b>&nbsp;&nbsp;</td>
+        <td>data</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodaddEvent"></a>
+	<h3>method addEvent <span class="smalllinenumber">[line 486]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void addEvent(
+string
+$sTarget, string
+$sEvent, string
+$sScript)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds an event command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;addEvent(&quot;contentDiv&quot;, &quot;onclick&quot;, &quot;alert(\'Hello World\');&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTarget</b>&nbsp;&nbsp;</td>
+        <td>contains the id of an HTML element</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sEvent</b>&nbsp;&nbsp;</td>
+        <td>the event you wish to set (&quot;onclick&quot;, &quot;onmouseover&quot;, etc.)</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sScript</b>&nbsp;&nbsp;</td>
+        <td>the Javascript string you want the event to invoke</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodaddHandler"></a>
+	<h3>method addHandler <span class="smalllinenumber">[line 502]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void addHandler(
+string
+$sTarget, string
+$sEvent, string
+$sHandler)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a handler command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;addHandler(&quot;contentDiv&quot;, &quot;onclick&quot;, &quot;content_click&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTarget</b>&nbsp;&nbsp;</td>
+        <td>contains the id of an HTML element</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sEvent</b>&nbsp;&nbsp;</td>
+        <td>the event you wish to set (&quot;onclick&quot;, &quot;onmouseover&quot;, etc.)</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sHandler</b>&nbsp;&nbsp;</td>
+        <td>the name of a Javascript function that will handle the                event. Multiple handlers can be added for the same event</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodaddPluginCommand"></a>
+	<h3>method addPluginCommand <span class="smalllinenumber">[line 731]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void addPluginCommand(
+<a href="../xajax/xajaxResponsePlugin.html">xajaxResponsePlugin</a>
+$objPlugin, array
+$aAttributes, mixed
+$mData)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Used internally by the response plugin system<br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type"><a href="../xajax/xajaxResponsePlugin.html">xajaxResponsePlugin</a>&nbsp;&nbsp;</td>
+        <td><b>$objPlugin</b>&nbsp;&nbsp;</td>
+        <td>response plugin (subclass of xajaxResponsePlugin)</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$aAttributes</b>&nbsp;&nbsp;</td>
+        <td>associative array of command attributes</td>
+      </tr>
+          <tr>
+        <td class="type">mixed&nbsp;&nbsp;</td>
+        <td><b>$mData</b>&nbsp;&nbsp;</td>
+        <td>command data</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodalert"></a>
+	<h3>method alert <span class="smalllinenumber">[line 270]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void alert(
+string
+$sMsg)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds an alert command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;alert(&quot;This is important information&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sMsg</b>&nbsp;&nbsp;</td>
+        <td>the text to be displayed in the Javascript alert box</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodappend"></a>
+	<h3>method append <span class="smalllinenumber">[line 205]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void append(
+string
+$sTarget, string
+$sAttribute, string
+$sData)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds an append command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;append(&quot;contentDiv&quot;, &quot;innerHTML&quot;, &quot;Some New Text&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTarget</b>&nbsp;&nbsp;</td>
+        <td>contains the id of an HTML element</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sAttribute</b>&nbsp;&nbsp;</td>
+        <td>the part of the element you wish to modify (&quot;innerHTML&quot;,                &quot;value&quot;, etc.)</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sData</b>&nbsp;&nbsp;</td>
+        <td>the data you want to append to the end of the attribute</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodassign"></a>
+	<h3>method assign <span class="smalllinenumber">[line 189]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void assign(
+string
+$sTarget, string
+$sAttribute, string
+$sData)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds an assign command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;assign(&quot;contentDiv&quot;, &quot;innerHTML&quot;, &quot;Some Text&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTarget</b>&nbsp;&nbsp;</td>
+        <td>contains the id of an HTML element</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sAttribute</b>&nbsp;&nbsp;</td>
+        <td>the part of the element you wish to modify (&quot;innerHTML&quot;,                &quot;value&quot;, etc.)</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sData</b>&nbsp;&nbsp;</td>
+        <td>the data you want to set the attribute to</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodcall"></a>
+	<h3>method call <span class="smalllinenumber">[line 345]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void call(
+string
+$sFunc, mixed
+$args,...)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a Javascript function call command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;call(&quot;myJSFunction&quot;, &quot;arg 1&quot;, &quot;arg 2&quot;, 12345);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sFunc</b>&nbsp;&nbsp;</td>
+        <td>the name of a Javascript function</td>
+      </tr>
+          <tr>
+        <td class="type">mixed&nbsp;&nbsp;</td>
+        <td><b>$args,...</b>&nbsp;&nbsp;</td>
+        <td>optional arguments to pass to the Javascript function</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodclear"></a>
+	<h3>method clear <span class="smalllinenumber">[line 257]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void clear(
+string
+$sTarget, string
+$sAttribute)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a clear command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;clear(&quot;contentDiv&quot;, &quot;innerHTML&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTarget</b>&nbsp;&nbsp;</td>
+        <td>contains the id of an HTML element</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sAttribute</b>&nbsp;&nbsp;</td>
+        <td>the part of the element you wish to clear (&quot;innerHTML&quot;,                &quot;value&quot;, etc.)</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodconfirmCommands"></a>
+	<h3>method confirmCommands <span class="smalllinenumber">[line 173]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void confirmCommands(
+integer
+$iCmdNumber, string
+$sMessage)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a confirm commands command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;confirmCommands(1, &quot;Do you want to preview the new data?&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$iCmdNumber</b>&nbsp;&nbsp;</td>
+        <td>the number of commands to skip if the user presses                 Cancel in the browsers's confirm dialog</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sMessage</b>&nbsp;&nbsp;</td>
+        <td>the message to show in the browser's confirm dialog</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodcreate"></a>
+	<h3>method create <span class="smalllinenumber">[line 377]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void create(
+string
+$sParent, string
+$sTag, string
+$sId, [string
+$sType = ''])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a create element command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;create(&quot;parentDiv&quot;, &quot;h3&quot;, &quot;myid&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sParent</b>&nbsp;&nbsp;</td>
+        <td>contains the id of an HTML element to to which the new                element will be appended.</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTag</b>&nbsp;&nbsp;</td>
+        <td>the tag to be added</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sId</b>&nbsp;&nbsp;</td>
+        <td>the id to be assigned to the new element</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sType</b>&nbsp;&nbsp;</td>
+        <td>deprecated, use the addCreateInput() method instead</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodcreateInput"></a>
+	<h3>method createInput <span class="smalllinenumber">[line 433]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void createInput(
+string
+$sParent, string
+$sType, string
+$sName, string
+$sId)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a create input command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;createInput(&quot;form1&quot;, &quot;text&quot;, &quot;username&quot;, &quot;input1&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sParent</b>&nbsp;&nbsp;</td>
+        <td>contains the id of an HTML element to which the new input                will be appended</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sType</b>&nbsp;&nbsp;</td>
+        <td>the type of input to be created (text, radio, checkbox,                etc.)</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sName</b>&nbsp;&nbsp;</td>
+        <td>the name to be assigned to the new input and the variable                name when it is submitted</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sId</b>&nbsp;&nbsp;</td>
+        <td>the id to be assigned to the new input</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetCommandCount"></a>
+	<h3>method getCommandCount <span class="smalllinenumber">[line 684]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>integer getCommandCount(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the number of commands current in the response<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetContentType"></a>
+	<h3>method getContentType <span class="smalllinenumber">[line 629]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getContentType(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the content type of the response (typically &quot;text/xml&quot;).<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetOutput"></a>
+	<h3>method getOutput <span class="smalllinenumber">[line 640]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getOutput(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the output of the response suitable for sending to a Web browser  (i. e., XML or JSON)<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodincludeCSS"></a>
+	<h3>method includeCSS <span class="smalllinenumber">[line 572]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void includeCSS(
+string
+$sFileName)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds an include CSS command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;includeCSS(&quot;stylesheet.css&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sFileName</b>&nbsp;&nbsp;</td>
+        <td>URL of the CSS file to include</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodincludeScript"></a>
+	<h3>method includeScript <span class="smalllinenumber">[line 532]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void includeScript(
+string
+$sFileName)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds an include script command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;includeScript(&quot;functions.js&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sFileName</b>&nbsp;&nbsp;</td>
+        <td>URL of the Javascript file to include</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodincludeScriptOnce"></a>
+	<h3>method includeScriptOnce <span class="smalllinenumber">[line 545]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void includeScriptOnce(
+string
+$sFileName)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds an include script once command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;includeScriptOnce(&quot;functions2.js&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sFileName</b>&nbsp;&nbsp;</td>
+        <td>URL of the Javascript file to include</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodinsert"></a>
+	<h3>method insert <span class="smalllinenumber">[line 398]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void insert(
+string
+$sBefore, string
+$sTag, string
+$sId)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a insert element command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;insert(&quot;childDiv&quot;, &quot;h3&quot;, &quot;myid&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sBefore</b>&nbsp;&nbsp;</td>
+        <td>contains the id of the child before which the new element                will be inserted</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTag</b>&nbsp;&nbsp;</td>
+        <td>the tag to be added</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sId</b>&nbsp;&nbsp;</td>
+        <td>the id to be assigned to the new element</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodinsertAfter"></a>
+	<h3>method insertAfter <span class="smalllinenumber">[line 414]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void insertAfter(
+string
+$sAfter, string
+$sTag, string
+$sId)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a insert element command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;insertAfter(&quot;childDiv&quot;, &quot;h3&quot;, &quot;myid&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sAfter</b>&nbsp;&nbsp;</td>
+        <td>contains the id of the child after which the new element                will be inserted</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTag</b>&nbsp;&nbsp;</td>
+        <td>the tag to be added</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sId</b>&nbsp;&nbsp;</td>
+        <td>the id to be assigned to the new element</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodinsertInput"></a>
+	<h3>method insertInput <span class="smalllinenumber">[line 452]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void insertInput(
+string
+$sBefore, string
+$sType, string
+$sName, string
+$sId)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds an insert input command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;insertInput(&quot;input5&quot;, &quot;text&quot;, &quot;username&quot;, &quot;input1&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sBefore</b>&nbsp;&nbsp;</td>
+        <td>contains the id of the child before which the new element                will be inserted</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sType</b>&nbsp;&nbsp;</td>
+        <td>the type of input to be created (text, radio, checkbox,                etc.)</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sName</b>&nbsp;&nbsp;</td>
+        <td>the name to be assigned to the new input and the variable                name when it is submitted</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sId</b>&nbsp;&nbsp;</td>
+        <td>the id to be assigned to the new input</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodinsertInputAfter"></a>
+	<h3>method insertInputAfter <span class="smalllinenumber">[line 471]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void insertInputAfter(
+string
+$sAfter, string
+$sType, string
+$sName, string
+$sId)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds an insert input command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;insertInputAfter(&quot;input7&quot;, &quot;text&quot;, &quot;email&quot;, &quot;input2&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sAfter</b>&nbsp;&nbsp;</td>
+        <td>contains the id of the child after which the new element                will be inserted</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sType</b>&nbsp;&nbsp;</td>
+        <td>the type of input to be created (text, radio, checkbox,                etc.)</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sName</b>&nbsp;&nbsp;</td>
+        <td>the name to be assigned to the new input and the variable                name when it is submitted</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sId</b>&nbsp;&nbsp;</td>
+        <td>the id to be assigned to the new input</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodloadCommands"></a>
+	<h3>method loadCommands <span class="smalllinenumber">[line 700]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void loadCommands(
+mixed
+$mCommands, [
+$bBefore = false])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds the commands of the provided response to this response object<br /><br /><p><em>Usage:</em>  <ol><li><div class="src-line"><span class="src-var">$objResponse2</span><span class="src-sym">-&gt;</span><a href="../xajax/xajaxResponse.html#methodloadCommands">loadCommands</a><span class="src-sym">(</span><span class="src-var">$objResponse1</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-key">return&nbsp;</span><span class="src-var">$objResponse2</span><span class="src-sym">;</span></div></li>
+</ol></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">mixed&nbsp;&nbsp;</td>
+        <td><b>$mCommands</b>&nbsp;&nbsp;</td>
+        <td>the response object to add to the end of this response               object, or an array of response commands</td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$bBefore</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodplugin"></a>
+	<h3>method plugin <span class="smalllinenumber">[line 137]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void &amp;plugin(
+string
+$sName)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Provides access to the xajaxResponse plugin system. If you use PHP 4 or  5, pass the plugin name as the first argument, the plugin's method name  as the second argument, and subsequent arguments (if any) after that.<br /><br /><p>Optionally, if you use PHP 5, you can pass just the plugin name as the  first argument and the plugin object will be returned which you can use  to call the appropriate method.</p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sName</b>&nbsp;&nbsp;</td>
+        <td>name of the plugin to call</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodprepend"></a>
+	<h3>method prepend <span class="smalllinenumber">[line 222]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void prepend(
+string
+$sTarget, string
+$sAttribute, string
+$sData)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds an prepend command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;prepend(&quot;contentDiv&quot;, &quot;innerHTML&quot;, &quot;Some Starting Text&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTarget</b>&nbsp;&nbsp;</td>
+        <td>contains the id of an HTML element</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sAttribute</b>&nbsp;&nbsp;</td>
+        <td>the part of the element you wish to modify (&quot;innerHTML&quot;,                &quot;value&quot;, etc.)</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sData</b>&nbsp;&nbsp;</td>
+        <td>the data you want to prepend to the beginning of the                attribute</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodredirect"></a>
+	<h3>method redirect <span class="smalllinenumber">[line 283]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void redirect(
+string
+$sURL, [
+$iDelay = 0])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Uses the addScript() method to add a Javascript redirect to another URL.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;redirect(&quot;http://www.xajaxproject.org&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sURL</b>&nbsp;&nbsp;</td>
+        <td>the URL to redirect the client browser to</td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$iDelay</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodremove"></a>
+	<h3>method remove <span class="smalllinenumber">[line 360]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void remove(
+string
+$sTarget)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a remove element command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;remove(&quot;Div2&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTarget</b>&nbsp;&nbsp;</td>
+        <td>contains the id of an HTML element to be removed</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodremoveCSS"></a>
+	<h3>method removeCSS <span class="smalllinenumber">[line 585]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void removeCSS(
+string
+$sFileName)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a remove CSS command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;removeCSS(&quot;stylesheet.css&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sFileName</b>&nbsp;&nbsp;</td>
+        <td>URL of the CSS file to include</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodremoveHandler"></a>
+	<h3>method removeHandler <span class="smalllinenumber">[line 519]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void removeHandler(
+string
+$sTarget, string
+$sEvent, string
+$sHandler)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a remove handler command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;removeHandler(&quot;contentDiv&quot;, &quot;onclick&quot;, &quot;content_click&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTarget</b>&nbsp;&nbsp;</td>
+        <td>contains the id of an HTML element</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sEvent</b>&nbsp;&nbsp;</td>
+        <td>the event you wish to remove (&quot;onclick&quot;, &quot;onmouseover&quot;,                etc.)</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sHandler</b>&nbsp;&nbsp;</td>
+        <td>the name of a Javascript handler function that you want to                remove</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodremoveScript"></a>
+	<h3>method removeScript <span class="smalllinenumber">[line 560]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void removeScript(
+string
+$sFileName, [string
+$sUnload = ''])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Removes a script reference so the browser can unload the .js file<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;removeScript(&quot;functions2.js&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sFileName</b>&nbsp;&nbsp;</td>
+        <td>URL of the Javascript file to remove</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sUnload</b>&nbsp;&nbsp;</td>
+        <td>(optional) script to run before removing reference if it exists  (can be used to call an unload function)</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodreplace"></a>
+	<h3>method replace <span class="smalllinenumber">[line 240]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void replace(
+string
+$sTarget, string
+$sAttribute, string
+$sSearch, string
+$sData)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a replace command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;replace(&quot;contentDiv&quot;, &quot;innerHTML&quot;, &quot;text&quot;, &quot;&lt;b&gt;text&lt;/b&gt;&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sTarget</b>&nbsp;&nbsp;</td>
+        <td>contains the id of an HTML element</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sAttribute</b>&nbsp;&nbsp;</td>
+        <td>the part of the element you wish to modify (&quot;innerHTML&quot;,                &quot;value&quot;, etc.)</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sSearch</b>&nbsp;&nbsp;</td>
+        <td>the string to search for</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sData</b>&nbsp;&nbsp;</td>
+        <td>the string to replace the search string when found in the                attribute</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodscript"></a>
+	<h3>method script <span class="smalllinenumber">[line 331]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void script(
+string
+$sJS)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a Javascript command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;script(&quot;var x = prompt('get some text');&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sJS</b>&nbsp;&nbsp;</td>
+        <td>contains Javascript code to be executed</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetCharEncoding"></a>
+	<h3>method setCharEncoding <span class="smalllinenumber">[line 110]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setCharEncoding(
+string
+$sEncoding)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Sets the character encoding for the response based on $sEncoding, which<br /><br /><p>is a string containing the character encoding to use. You don't need to  use this method normally, since the character encoding for the response  gets set automatically based on the XAJAX_DEFAULT_CHAR_ENCODING  constant.</p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sEncoding</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetOutputEntities"></a>
+	<h3>method setOutputEntities <span class="smalllinenumber">[line 121]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setOutputEntities(
+
+$bOption)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		If true, tells the response object to convert special characters to HTML  entities automatically (only works if the mb_string extension is  available).<br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$bOption</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetReturnValue"></a>
+	<h3>method setReturnValue <span class="smalllinenumber">[line 620]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setReturnValue(
+
+$value)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Stores a value (or array) that will be passed back as part of  the response.<br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$value</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodwaitFor"></a>
+	<h3>method waitFor <span class="smalllinenumber">[line 611]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void waitFor(
+string
+$script)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a wait for command message to the response<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;waitFor('myVariable == &quot;myValue&quot;');</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$script</b>&nbsp;&nbsp;</td>
+        <td>Javascript segment which returns a boolean value when  evaluated.</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodwaitForCSS"></a>
+	<h3>method waitForCSS <span class="smalllinenumber">[line 597]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void waitForCSS(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Adds a wait For CSS command message to the response.<br /><br /><p><em>Usage:</em> <kbd>$objResponse-&gt;waitForCSS();</kbd></p><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="method_getReturnValue"></a>
+	<h3>method _getReturnValue <span class="smalllinenumber">[line 670]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void _getReturnValue(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		returns an xml encoded string containing the return value to send<br /><br /><p>back as part of the response, if a return value was set, otherwise  and empty string</p><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="method__get"></a>
+	<h3>method __get <span class="smalllinenumber">[line 159]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void __get(
+string
+$sPluginName)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Internal function for PHP5 only.  Used to permit plugins to be called as  if they were native member variables of the xajaxResponse class.<br /><br /><p><em>PHP5 Usage:</em> <kbd>$objResponse-&gt;myPlugin-&gt;myPluginMethod(&quot;param1&quot;, &quot;param2&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sPluginName</b>&nbsp;&nbsp;</td>
+        <td>The name of the callName of a responsePlugin that has been registered with the plugin manager</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Tue, 21 Aug 2007 14:49:59 -0500 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.0a2</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

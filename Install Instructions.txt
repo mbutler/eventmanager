@@ -1,0 +1,74 @@
+----------------------------------------
+[BEFORE INSTALLING PHXEVENTMANAGER] 
+----------------------------------------
+
+You need access to your host site
+
+To install and configure phxEventManager you will need a connection to your host such as FTP access, a shell login, or a local share/mount.  Connections can be accomplished in a variety of ways, and if you are unsure what connections are available to you contact your server administrator for clarification.
+
+Depending on your access method you may need connection software, like an FTP client.  All installs require a text editor to customize your configuration settings. 
+
+----------------------------------------
+Confirm that your host has the minimum requirements to run phxEventManager
+
+Your host server needs to have:
+   * PHP 4.3 or greater (www.php.net)
+   * MDB2 2.4.1 or greater (pear.php.net/package/MDB2)
+   * Any database compatible with MDB2: MySQL, MySQLi (PHP5 only), PostgreSQL, Oracle, Frontbase, Querysim, Interbase/Firebird (PHP5 only), MSSQL, SQLite
+
+If you need to install MDB2 yourself, documentation is available at the reference URL above.  If you plan to use MySQL for your database, you may only need the following commands entered from your server's prompt:
+
+> pear install MDB2
+> pear install MDB2_Driver_mysql
+
+More extensive easy-to-follow instructions with more options can be found here: http://www.installationwiki.org/MDB2#Installing_MDB2.
+
+----------------------------------------
+Download and prepare the latest release of phxEventManager
+
+1. Download the application from SourceForge.
+  
+2. Unzip the file to a folder on your hard drive.
+
+3. Copy the file contents to the directory on your host site where you plan to run phxEventManager.
+ 
+
+----------------------------------------
+[QUICK INSTALL STEPS] 
+----------------------------------------
+
+1. Create a database for phxEventManager on your web host.  If your host provides a single database with your account you can skip this step.
+
+2. Create a database user who has all privileges for accessing and modifying the database.  Depending on your host, you may also have this step done for you.
+
+3. Edit the pem-config-template.php file found in the root using a text editor.  Fill in your server's database connection information:
+   * phptype - Type of database you plan to use; MDB2 options are listed in the config file
+   * username - Username of your database account
+   * password - Password that corresponds to the above account
+   * hostspec - Hostname of the database server; "localhost" will work in most cases
+   * database - Database you plan to use, the account above must have permissions
+
+4. Save the file as pem-config.php.  If you are unable to edit the file on your server, you can edit the local copy on your hard drive and then copy it up to the  other files on your server.
+
+5. Open a web browser to access install file.  It is at this location:  http://<your server's name and path>/pem-admin/install.php
+
+6. Enter in the name of your calendar, the personal or organization's name for the owner, and a contact email.
+
+7. Check the first box if you wish to have the install set up the calendar for you (recommended for beginning users).  Check the second box if you want to use the owner name on the administration account.  
+
+8. Click the button labeled "Install phxEventManager" to complete the install.
+
+
+----------------------------------------
+[AFTER INSTALL TASKS] 
+----------------------------------------
+
+File Cleanup
+
+Remove the file install.php from the pem-admin directory.  It can be replaced later from the install archive if you need to re-install phxEventManager from scratch.
+
+----------------------------------------
+Admin Password
+
+After you have completed your install you can log into your new calendar using the username "admin" and the randomly generated password provided during the install.  You can change the password if desired by visiting the Users section of Administration and click the "Edit" button for the admin account in the users table.  
+

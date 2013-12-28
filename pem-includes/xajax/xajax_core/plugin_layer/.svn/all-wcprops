@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/phxeventmanager/!svn/ver/2/2.5/pem-includes/xajax/xajax_core/plugin_layer
+END
+xajaxDefaultIncludePlugin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svnroot/phxeventmanager/!svn/ver/2/2.5/pem-includes/xajax/xajax_core/plugin_layer/xajaxDefaultIncludePlugin.inc.php
+END
+xajaxRequestProcessorPlugin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svnroot/phxeventmanager/!svn/ver/2/2.5/pem-includes/xajax/xajax_core/plugin_layer/xajaxRequestProcessorPlugin.inc.php
+END
+xajaxPluginManager.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/phxeventmanager/!svn/ver/2/2.5/pem-includes/xajax/xajax_core/plugin_layer/xajaxPluginManager.inc.php
+END
+xajaxDefaultRequestProcessorPlugin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svnroot/phxeventmanager/!svn/ver/2/2.5/pem-includes/xajax/xajax_core/plugin_layer/xajaxDefaultRequestProcessorPlugin.inc.php
+END
+xajaxResponsePlugin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svnroot/phxeventmanager/!svn/ver/2/2.5/pem-includes/xajax/xajax_core/plugin_layer/xajaxResponsePlugin.inc.php
+END
+xajaxIncludePlugin.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/phxeventmanager/!svn/ver/2/2.5/pem-includes/xajax/xajax_core/plugin_layer/xajaxIncludePlugin.inc.php
+END

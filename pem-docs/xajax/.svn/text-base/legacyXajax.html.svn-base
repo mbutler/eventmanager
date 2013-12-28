@@ -1,0 +1,953 @@
+<html>
+<head>
+<title>Docs For Class legacyXajax</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">xajax</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                                        
+                              		  [ <a href="../classtrees_xajax.html" class="menu">class tree: xajax</a> ]
+		  [ <a href="../elementindex_xajax.html" class="menu">index: xajax</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../li_default.html">default</a><br />
+              <a href="../li_xajax.html">xajax</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../xajax/_pem-includes---xajax---xajax_core---xajax.inc.php.html">		xajax.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxDefaultIncludePlugin.inc.php.html">		xajaxDefaultIncludePlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxDefaultRequestProcessorPlugin.inc.php.html">		xajaxDefaultRequestProcessorPlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxIncludePlugin.inc.php.html">		xajaxIncludePlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxPluginManager.inc.php.html">		xajaxPluginManager.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxRequestProcessorPlugin.inc.php.html">		xajaxRequestProcessorPlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---xajaxResponse.inc.php.html">		xajaxResponse.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxResponsePlugin.inc.php.html">		xajaxResponsePlugin.inc.php
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../xajax/legacyXajax.html">legacyXajax</a><br />
+	    		<a href="../xajax/legacyXajaxResponse.html">legacyXajaxResponse</a><br />
+	    		<a href="../xajax/xajax.html">xajax</a><br />
+	    		<a href="../xajax/xajaxCall.html">xajaxCall</a><br />
+	    		<a href="../xajax/xajaxDefaultIncludePlugin.html">xajaxDefaultIncludePlugin</a><br />
+	    		<a href="../xajax/xajaxDefaultRequestProcessorPlugin.html">xajaxDefaultRequestProcessorPlugin</a><br />
+	    		<a href="../xajax/xajaxIncludePlugin.html">xajaxIncludePlugin</a><br />
+	    		<a href="../xajax/xajaxPluginManager.html">xajaxPluginManager</a><br />
+	    		<a href="../xajax/xajaxRequestProcessorPlugin.html">xajaxRequestProcessorPlugin</a><br />
+	    		<a href="../xajax/xajaxResponse.html">xajaxResponse</a><br />
+	    		<a href="../xajax/xajaxResponsePlugin.html">xajaxResponsePlugin</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: legacyXajax</h1>
+Source Location: /pem-includes/xajax/xajax_core/legacy.inc.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre><a href="../xajax/xajax.html">xajax</a>
+   |
+   --legacyXajax</pre><br />
+<div class="description">The xajax class uses a modular plug-in system to facilitate the processing</div><br /><br />
+
+
+
+
+
+
+        
+</td>
+
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../xajax/legacyXajax.html#methodlegacyXajax">legacyXajax</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodallowBlankResponseOff">allowBlankResponseOff</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodallowBlankResponseOn">allowBlankResponseOn</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodcanProcessRequests">canProcessRequests</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodcleanBufferOff">cleanBufferOff</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodcleanBufferOn">cleanBufferOn</a></li>
+    <li><a href="../xajax/legacyXajax.html#methoddebugOff">debugOff</a></li>
+    <li><a href="../xajax/legacyXajax.html#methoddebugOn">debugOn</a></li>
+    <li><a href="../xajax/legacyXajax.html#methoddecodeUTF8InputOff">decodeUTF8InputOff</a></li>
+    <li><a href="../xajax/legacyXajax.html#methoddecodeUTF8InputOn">decodeUTF8InputOn</a></li>
+    <li><a href="../xajax/legacyXajax.html#methoderrorHandlerOff">errorHandlerOff</a></li>
+    <li><a href="../xajax/legacyXajax.html#methoderrorHandlerOn">errorHandlerOn</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodexitAllowedOff">exitAllowedOff</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodexitAllowedOn">exitAllowedOn</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodoutputEntitiesOff">outputEntitiesOff</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodoutputEntitiesOn">outputEntitiesOn</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodprocessRequests">processRequests</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodregisterCatchAllFunction">registerCatchAllFunction</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodregisterExternalFunction">registerExternalFunction</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodregisterPreFunction">registerPreFunction</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodsetCallableObject">setCallableObject</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodstatusMessagesOff">statusMessagesOff</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodstatusMessagesOn">statusMessagesOn</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodwaitCursorOff">waitCursorOff</a></li>
+    <li><a href="../xajax/legacyXajax.html#methodwaitCursorOn">waitCursorOn</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+
+
+<td valign="top">
+<h3>Inherited Variables</h3>
+<div class="tags">
+<h4>Class: <a href="../xajax/xajax.html">xajax</a></h4>
+<dl>
+<dt>
+  <a href="../xajax/xajax.html#var$aCallableObjects">xajax::$aCallableObjects</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$aEventCallbacks">xajax::$aEventCallbacks</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$aFunctions">xajax::$aFunctions</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$bAllowAllResponseTypes">xajax::$bAllowAllResponseTypes</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$bAllowBlankResponse">xajax::$bAllowBlankResponse</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$bCleanBuffer">xajax::$bCleanBuffer</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$bDebug">xajax::$bDebug</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$bDecodeUTF8Input">xajax::$bDecodeUTF8Input</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$bErrorHandler">xajax::$bErrorHandler</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$bExitAllowed">xajax::$bExitAllowed</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$bOutputEntities">xajax::$bOutputEntities</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$bStatusMessages">xajax::$bStatusMessages</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$bUseUncompressedScripts">xajax::$bUseUncompressedScripts</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$bWaitCursor">xajax::$bWaitCursor</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$iTimeout">xajax::$iTimeout</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$sEncoding">xajax::$sEncoding</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$sLogFile">xajax::$sLogFile</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$sRequestURI">xajax::$sRequestURI</a>
+  </dt>
+<dd>
+   
+</dd>
+<dt>
+  <a href="../xajax/xajax.html#var$sWrapperPrefix">xajax::$sWrapperPrefix</a>
+  </dt>
+<dd>
+   
+</dd>
+</dl>
+</div>
+</td>
+
+<td valign="top">
+<h3>Inherited Methods</h3>
+<div class="tags">
+<h4>Class: <a href="../xajax/xajax.html">xajax</a></h4>
+<dl>
+    <dt>
+    <a href="../xajax/xajax.html#methodxajax">xajax::xajax()</a>
+  </dt>
+  <dd>
+    Sets up the xajax object and the plugin system
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodautoCompressJavascript">xajax::autoCompressJavascript()</a>
+  </dt>
+  <dd>
+    This method can be used to create a new xajax.js file out of the  xajax_uncompressed.js file (which will only happen if xajax.js doesn't  already exist on the filesystem).
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodcanProcessRequest">xajax::canProcessRequest()</a>
+  </dt>
+  <dd>
+    Returns true if xajax can process the request, false if otherwise.
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetCharEncoding">xajax::getCharEncoding()</a>
+  </dt>
+  <dd>
+    Returns the character encoding for the HTTP output
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetFlag">xajax::getFlag()</a>
+  </dt>
+  <dd>
+    Returns the value of the flag
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetGlobalResponse">xajax::getGlobalResponse()</a>
+  </dt>
+  <dd>
+    Returns an <a href="../xajax/xajaxResponse.html">xajaxResponse</a> object set up with this xajax object's  encoding and entity settings. Use this for singleton-pattern response  development.
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetJavascript">xajax::getJavascript()</a>
+  </dt>
+  <dd>
+    Returns the xajax Javascript code that should be added to your HTML page  between the <kbd>&lt;head&gt; &lt;/head&gt;</kbd> tags. (executes Javascript include  plugin)
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetJavascriptConfig">xajax::getJavascriptConfig()</a>
+  </dt>
+  <dd>
+    Returns a string containing inline Javascript that sets up the xajax  runtime (typically called internally by xajax from get/printJavascript).
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetJavascriptInclude">xajax::getJavascriptInclude()</a>
+  </dt>
+  <dd>
+    Returns a string containing a Javascript include of the xajax.js file  along with a check to see if the file loaded after six seconds  (typically called internally by xajax from get/printJavascript).
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetLogFile">xajax::getLogFile()</a>
+  </dt>
+  <dd>
+    Returns the log file to use for error output (or &quot;&quot; if no log file is  to be used)
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetRegisteredCallableObjects">xajax::getRegisteredCallableObjects()</a>
+  </dt>
+  <dd>
+    Returns an associative array of callable objects
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetRegisteredEvents">xajax::getRegisteredEvents()</a>
+  </dt>
+  <dd>
+    Returns an associative array of event definitions
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetRegisteredFunctions">xajax::getRegisteredFunctions()</a>
+  </dt>
+  <dd>
+    Returns an associative array of registered function definitions
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetRequestMode">xajax::getRequestMode()</a>
+  </dt>
+  <dd>
+    Returns the current request mode (XAJAX_GET or XAJAX_POST), or -1 if  there is none. (executes request processor plugin)
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetRequestURI">xajax::getRequestURI()</a>
+  </dt>
+  <dd>
+    Returns the current request URI
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetTimeout">xajax::getTimeout()</a>
+  </dt>
+  <dd>
+    Returns the xajax Javascript timeout
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetVersion">xajax::getVersion()</a>
+  </dt>
+  <dd>
+    Returns the current xajax version.
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodgetWrapperPrefix">xajax::getWrapperPrefix()</a>
+  </dt>
+  <dd>
+    Returns the Javascript wrapper prefix
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodprintJavascript">xajax::printJavascript()</a>
+  </dt>
+  <dd>
+    Prints the xajax Javascript header and wrapper code into your page by  printing the output of the getJavascript() method. It should only be  called between the <pre><head> </head></pre> tags in your HTML page.
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodprocessRequest">xajax::processRequest()</a>
+  </dt>
+  <dd>
+    This is the main communications engine of xajax. The engine handles all
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodregisterCallableObject">xajax::registerCallableObject()</a>
+  </dt>
+  <dd>
+    Registers an object whose methods will be searched for a match to the  incoming request function name. If more than one callable object is  registered, the first object that contains a method having the same name  as the incoming function will be called.
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodregisterEvent">xajax::registerEvent()</a>
+  </dt>
+  <dd>
+    Registers a callback with an xajax event. Available events are:
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodregisterFunction">xajax::registerFunction()</a>
+  </dt>
+  <dd>
+    Registers a PHP function or method to be callable through xajax in your
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodsetCharEncoding">xajax::setCharEncoding()</a>
+  </dt>
+  <dd>
+    Sets the character encoding for the HTTP output based on
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodsetFlag">xajax::setFlag()</a>
+  </dt>
+  <dd>
+    Sets a flag (boolean true or false). Available flags with their defaults  are as follows:
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodsetFlags">xajax::setFlags()</a>
+  </dt>
+  <dd>
+    Sets multiple flags based on the supplied associative array (see  <a href="../xajax/xajax.html#methodsetFlag">xajax::setFlag()</a> for flag names)
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodsetLogFile">xajax::setLogFile()</a>
+  </dt>
+  <dd>
+    Specifies a log file that will be written to by xajax during a request  (used only by the error handling system at present). If you don't invoke  this method, or you pass in &quot;&quot;, then no log file will be written to.
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodsetRequestURI">xajax::setRequestURI()</a>
+  </dt>
+  <dd>
+    Sets the URI to which requests will be made.
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodsetTimeout">xajax::setTimeout()</a>
+  </dt>
+  <dd>
+    Sets the timeout before xajax notifies the client that xajax has not been loaded  <em>Usage:</em> <kbd>$xajax-&gt;setTimeout(6000);</kbd>
+  </dd>
+    <dt>
+    <a href="../xajax/xajax.html#methodsetWrapperPrefix">xajax::setWrapperPrefix()</a>
+  </dt>
+  <dd>
+    Sets the prefix that will be appended to the Javascript wrapper  functions (default is &quot;xajax_&quot;).
+  </dd>
+  </dl>
+</div>
+</td>
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 29]<br />
+The xajax class uses a modular plug-in system to facilitate the processing<br /><br /><p>of special Ajax requests made by a PHP page. It generates Javascript that  the page must include in order to make requests, and it handles the output  of response objects (see <a href="../xajax/xajaxResponse.html">xajaxResponse</a>). Many different flags and settings  can be adjusted to alter the behavior of the xajax class as well as the  client-side Javascript.</p><br /></div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="methodlegacyXajax"></a>
+	<h3>constructor legacyXajax <span class="smalllinenumber">[line 30]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>legacyXajax legacyXajax(
+[
+$sRequestURI = &quot;&quot;], [
+$sWrapperPrefix = &quot;xajax_&quot;], [
+$sEncoding = XAJAX_DEFAULT_CHAR_ENCODING], [
+$bDebug = false])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$sRequestURI</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$sWrapperPrefix</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$sEncoding</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$bDebug</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodallowBlankResponseOff"></a>
+	<h3>method allowBlankResponseOff <span class="smalllinenumber">[line 71]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void allowBlankResponseOff(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodallowBlankResponseOn"></a>
+	<h3>method allowBlankResponseOn <span class="smalllinenumber">[line 70]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void allowBlankResponseOn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodcanProcessRequests"></a>
+	<h3>method canProcessRequests <span class="smalllinenumber">[line 51]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void canProcessRequests(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodcleanBufferOff"></a>
+	<h3>method cleanBufferOff <span class="smalllinenumber">[line 65]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void cleanBufferOff(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodcleanBufferOn"></a>
+	<h3>method cleanBufferOn <span class="smalllinenumber">[line 64]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void cleanBufferOn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methoddebugOff"></a>
+	<h3>method debugOff <span class="smalllinenumber">[line 55]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void debugOff(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methoddebugOn"></a>
+	<h3>method debugOn <span class="smalllinenumber">[line 54]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void debugOn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methoddecodeUTF8InputOff"></a>
+	<h3>method decodeUTF8InputOff <span class="smalllinenumber">[line 67]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void decodeUTF8InputOff(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methoddecodeUTF8InputOn"></a>
+	<h3>method decodeUTF8InputOn <span class="smalllinenumber">[line 66]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void decodeUTF8InputOn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methoderrorHandlerOff"></a>
+	<h3>method errorHandlerOff <span class="smalllinenumber">[line 63]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void errorHandlerOff(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methoderrorHandlerOn"></a>
+	<h3>method errorHandlerOn <span class="smalllinenumber">[line 62]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void errorHandlerOn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodexitAllowedOff"></a>
+	<h3>method exitAllowedOff <span class="smalllinenumber">[line 61]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void exitAllowedOff(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodexitAllowedOn"></a>
+	<h3>method exitAllowedOn <span class="smalllinenumber">[line 60]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void exitAllowedOn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodoutputEntitiesOff"></a>
+	<h3>method outputEntitiesOff <span class="smalllinenumber">[line 69]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void outputEntitiesOff(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodoutputEntitiesOn"></a>
+	<h3>method outputEntitiesOn <span class="smalllinenumber">[line 68]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void outputEntitiesOn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodprocessRequests"></a>
+	<h3>method processRequests <span class="smalllinenumber">[line 52]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void processRequests(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodregisterCatchAllFunction"></a>
+	<h3>method registerCatchAllFunction <span class="smalllinenumber">[line 41]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void registerCatchAllFunction(
+
+$mFunction)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$mFunction</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodregisterExternalFunction"></a>
+	<h3>method registerExternalFunction <span class="smalllinenumber">[line 37]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void registerExternalFunction(
+
+$mFunction, 
+$sFunctionName)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$mFunction</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$sFunctionName</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodregisterPreFunction"></a>
+	<h3>method registerPreFunction <span class="smalllinenumber">[line 46]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void registerPreFunction(
+
+$mFunction)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$mFunction</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetCallableObject"></a>
+	<h3>method setCallableObject <span class="smalllinenumber">[line 53]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setCallableObject(
+
+&$oObject)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>&$oObject</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodstatusMessagesOff"></a>
+	<h3>method statusMessagesOff <span class="smalllinenumber">[line 57]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void statusMessagesOff(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodstatusMessagesOn"></a>
+	<h3>method statusMessagesOn <span class="smalllinenumber">[line 56]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void statusMessagesOn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodwaitCursorOff"></a>
+	<h3>method waitCursorOff <span class="smalllinenumber">[line 59]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void waitCursorOff(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodwaitCursorOn"></a>
+	<h3>method waitCursorOn <span class="smalllinenumber">[line 58]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void waitCursorOn(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Tue, 21 Aug 2007 14:49:44 -0500 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.0a2</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

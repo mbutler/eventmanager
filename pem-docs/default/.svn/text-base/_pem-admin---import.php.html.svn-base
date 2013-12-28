@@ -1,0 +1,286 @@
+<html>
+<head>
+<title>Docs for page import.php</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">default</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                                                  		  [ <a href="../classtrees_default.html" class="menu">class tree: default</a> ]
+		  [ <a href="../elementindex_default.html" class="menu">index: default</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../li_default.html">default</a><br />
+              <a href="../li_xajax.html">xajax</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../default/_pem-admin---access-profiles.php.html">		access-profiles.php
+		</a><br>
+			<a href="../default/_pem-admin---account-settings.php.html">		account-settings.php
+		</a><br>
+			<a href="../default/_add-date.php.html">		add-date.php
+		</a><br>
+			<a href="../default/_add-event.php.html">		add-event.php
+		</a><br>
+			<a href="../default/_pem-admin---approve-event.php.html">		approve-event.php
+		</a><br>
+			<a href="../default/_pem-admin---areas-spaces.php.html">		areas-spaces.php
+		</a><br>
+			<a href="../default/_pem-includes---auth-db.php.html">		auth-db.php
+		</a><br>
+			<a href="../default/_pem-includes---cache-php.php.html">		cache-php.php
+		</a><br>
+			<a href="../default/_pem-admin---categories.php.html">		categories.php
+		</a><br>
+			<a href="../default/_pem-includes---class-gettext.php.html">		class-gettext.php
+		</a><br>
+			<a href="../default/_pem-includes---class-IXR.php.html">		class-IXR.php
+		</a><br>
+			<a href="../default/_pem-includes---class-locale.php.html">		class-locale.php
+		</a><br>
+			<a href="../default/_pem-includes---class-minicals.php.html">		class-minicals.php
+		</a><br>
+			<a href="../default/_pem-includes---class-pop3.php.html">		class-pop3.php
+		</a><br>
+			<a href="../default/_pem-includes---class-snoopy.php.html">		class-snoopy.php
+		</a><br>
+			<a href="../default/_pem-includes---class-streams.php.html">		class-streams.php
+		</a><br>
+			<a href="../default/_pem-includes---class-user.php.html">		class-user.php
+		</a><br>
+			<a href="../default/_pem-themes---sapphire---css.php.html">		css.php
+		</a><br>
+			<a href="../default/_pem-themes---ruby---css.php.html">		css.php
+		</a><br>
+			<a href="../default/_dates.php.html">		dates.php
+		</a><br>
+			<a href="../default/_pem-admin---datetime-formats.php.html">		datetime-formats.php
+		</a><br>
+			<a href="../default/_day.php.html">		day.php
+		</a><br>
+			<a href="../default/_edit-event.php.html">		edit-event.php
+		</a><br>
+			<a href="../default/_event.php.html">		event.php
+		</a><br>
+			<a href="../default/_pem-admin---field-behavior.php.html">		field-behavior.php
+		</a><br>
+			<a href="../default/_pem-admin---field-defaults.php.html">		field-defaults.php
+		</a><br>
+			<a href="../default/_pem-admin---field-order.php.html">		field-order.php
+		</a><br>
+			<a href="../default/_pem-admin---filter-view.php.html">		filter-view.php
+		</a><br>
+			<a href="../default/_pem-includes---footer.php.html">		footer.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-admin.php.html">		functions-admin.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-auth.php.html">		functions-auth.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-automation.php.html">		functions-automation.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-compat.php.html">		functions-compat.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-datetime.php.html">		functions-datetime.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-db.php.html">		functions-db.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-file.php.html">		functions-file.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-formatting.php.html">		functions-formatting.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-install.php.html">		functions-install.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-kses.php.html">		functions-kses.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-L10n.php.html">		functions-L10n.php
+		</a><br>
+			<a href="../default/_pem-includes---functions-query.php.html">		functions-query.php
+		</a><br>
+			<a href="../default/_pem-admin---general-settings.php.html">		general-settings.php
+		</a><br>
+			<a href="../default/_pem-admin---global-test.php.html">		global-test.php
+		</a><br>
+			<a href="../default/_pem-includes---header.php.html">		header.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---helloworld.php.html">		helloworld.php
+		</a><br>
+			<a href="../default/_pem-admin---import.php.html">		import.php
+		</a><br>
+			<a href="../default/_pem-content---index.php.html">		index.php
+		</a><br>
+			<a href="../default/_pem-admin---index.php.html">		index.php
+		</a><br>
+			<a href="../default/_index.php.html">		index.php
+		</a><br>
+			<a href="../default/_pem-admin---install.php.html">		install.php
+		</a><br>
+			<a href="../default/_pem-admin---interface-defaults.php.html">		interface-defaults.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---xajax_core---legacy.inc.php.html">		legacy.inc.php
+		</a><br>
+			<a href="../default/_pem-admin---manage-reg.php.html">		manage-reg.php
+		</a><br>
+			<a href="../default/_pem-admin---meta-boolean.php.html">		meta-boolean.php
+		</a><br>
+			<a href="../default/_pem-admin---meta-checkbox.php.html">		meta-checkbox.php
+		</a><br>
+			<a href="../default/_pem-admin---meta-contact.php.html">		meta-contact.php
+		</a><br>
+			<a href="../default/_pem-admin---meta-select.php.html">		meta-select.php
+		</a><br>
+			<a href="../default/_pem-admin---meta-textinput.php.html">		meta-textinput.php
+		</a><br>
+			<a href="../default/_pem-admin---missing-dates.php.html">		missing-dates.php
+		</a><br>
+			<a href="../default/_month.php.html">		month.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---multiply---multiply.common.php.html">		multiply.common.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---multiply---multiply.php.html">		multiply.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---multiply---multiply.server.php.html">		multiply.server.php
+		</a><br>
+			<a href="../default/_pem-includes---nav-admin.php.html">		nav-admin.php
+		</a><br>
+			<a href="../default/_pem-includes---nav-event.php.html">		nav-event.php
+		</a><br>
+			<a href="../default/_pem-includes---nav-views.php.html">		nav-views.php
+		</a><br>
+			<a href="../default/_pem-config.php.html">		pem-config.php
+		</a><br>
+			<a href="../default/_pem-includes---pem-functions.php.html">		pem-functions.php
+		</a><br>
+			<a href="../default/_pem-includes---pem-globals.php.html">		pem-globals.php
+		</a><br>
+			<a href="../default/_pem-settings.php.html">		pem-settings.php
+		</a><br>
+			<a href="../default/_pem-includes---pem-style.php.html">		pem-style.php
+		</a><br>
+			<a href="../default/_pem-admin---presenter-types.php.html">		presenter-types.php
+		</a><br>
+			<a href="../default/_pem-admin---recycle.php.html">		recycle.php
+		</a><br>
+			<a href="../default/_pem-admin---reg-settings.php.html">		reg-settings.php
+		</a><br>
+			<a href="../default/_registration.php.html">		registration.php
+		</a><br>
+			<a href="../default/_pem-admin---reports.php.html">		reports.php
+		</a><br>
+			<a href="../default/_pem-content---room-a.php.html">		room-a.php
+		</a><br>
+			<a href="../default/_pem-content---room-b.php.html">		room-b.php
+		</a><br>
+			<a href="../default/_pem-content---room-c.php.html">		room-c.php
+		</a><br>
+			<a href="../default/_pem-admin---scheduling-structure.php.html">		scheduling-structure.php
+		</a><br>
+			<a href="../default/_pem-includes---session-php.php.html">		session-php.php
+		</a><br>
+			<a href="../default/_pem-admin---settings.php.html">		settings.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---signup---signup.common.php.html">		signup.common.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---signup---signup.php.html">		signup.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---signup---signup.server.php.html">		signup.server.php
+		</a><br>
+			<a href="../default/_pem-admin---supplies.php.html">		supplies.php
+		</a><br>
+			<a href="../default/_pem-admin---supply-profiles.php.html">		supply-profiles.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---thewall---thewall.common.php.html">		thewall.common.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---thewall---thewall.php.html">		thewall.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---thewall---thewall.server.php.html">		thewall.server.php
+		</a><br>
+			<a href="../default/_pem-admin---users.php.html">		users.php
+		</a><br>
+			<a href="../default/_pem-admin---view-settings.php.html">		view-settings.php
+		</a><br>
+			<a href="../default/_view.php.html">		view.php
+		</a><br>
+			<a href="../default/_week.php.html">		week.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---xajax_core---xajaxCompress.inc.php.html">		xajaxCompress.inc.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---xul---xulApplication.php.html">		xulApplication.php
+		</a><br>
+			<a href="../default/_pem-includes---xajax---examples---xul---xulServer.php.html">		xulServer.php
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../default/CachedFileReader.html">CachedFileReader</a><br />
+	    		<a href="../default/FileReader.html">FileReader</a><br />
+	    		<a href="../default/gettext_reader.html">gettext_reader</a><br />
+	    		<a href="../default/graffiti.html">graffiti</a><br />
+	    		<a href="../default/IXR_Base64.html">IXR_Base64</a><br />
+	    		<a href="../default/IXR_Client.html">IXR_Client</a><br />
+	    		<a href="../default/IXR_ClientMulticall.html">IXR_ClientMulticall</a><br />
+	    		<a href="../default/IXR_Date.html">IXR_Date</a><br />
+	    		<a href="../default/IXR_Error.html">IXR_Error</a><br />
+	    		<a href="../default/IXR_IntrospectionServer.html">IXR_IntrospectionServer</a><br />
+	    		<a href="../default/IXR_Message.html">IXR_Message</a><br />
+	    		<a href="../default/IXR_Request.html">IXR_Request</a><br />
+	    		<a href="../default/IXR_Server.html">IXR_Server</a><br />
+	    		<a href="../default/IXR_Value.html">IXR_Value</a><br />
+	    		<a href="../default/PEM_MiniCal.html">PEM_MiniCal</a><br />
+	    		<a href="../default/PEM_User.html">PEM_User</a><br />
+	    		<a href="../default/POP3.html">POP3</a><br />
+	    		<a href="../default/Snoopy.html">Snoopy</a><br />
+	    		<a href="../default/StreamReader.html">StreamReader</a><br />
+	    		<a href="../default/StringReader.html">StringReader</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Procedural File: import.php</h1>
+Source Location: /pem-admin/import.php<br /><br />
+
+<br>
+<br>
+
+
+<h2>Page Details:</h2>
+<br /><br />
+<h4>Includes:</h4>
+<div class="tags">
+include(ABSPATH.PEMINC."/footer.php") [line 536]<br />
+include_once(<a href="../default/_pem-includes---header.php.html">"../pem-includes/header.php"</a>) [line 5]<br />
+</div>
+<br /><br />
+<br /><br />
+<br />
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Tue, 21 Aug 2007 14:49:42 -0500 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.0a2</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

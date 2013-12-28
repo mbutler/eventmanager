@@ -1,0 +1,1433 @@
+<html>
+<head>
+<title>Docs For Class xajax</title>
+<link rel="stylesheet" type="text/css" href="../media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">xajax</td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                                        
+                              		  [ <a href="../classtrees_xajax.html" class="menu">class tree: xajax</a> ]
+		  [ <a href="../elementindex_xajax.html" class="menu">index: xajax</a> ]
+		  	    [ <a href="../elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="../media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="../li_default.html">default</a><br />
+              <a href="../li_xajax.html">xajax</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="../xajax/_pem-includes---xajax---xajax_core---xajax.inc.php.html">		xajax.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxDefaultIncludePlugin.inc.php.html">		xajaxDefaultIncludePlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxDefaultRequestProcessorPlugin.inc.php.html">		xajaxDefaultRequestProcessorPlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxIncludePlugin.inc.php.html">		xajaxIncludePlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxPluginManager.inc.php.html">		xajaxPluginManager.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxRequestProcessorPlugin.inc.php.html">		xajaxRequestProcessorPlugin.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---xajaxResponse.inc.php.html">		xajaxResponse.inc.php
+		</a><br>
+			<a href="../xajax/_pem-includes---xajax---xajax_core---plugin_layer---xajaxResponsePlugin.inc.php.html">		xajaxResponsePlugin.inc.php
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="../xajax/legacyXajax.html">legacyXajax</a><br />
+	    		<a href="../xajax/legacyXajaxResponse.html">legacyXajaxResponse</a><br />
+	    		<a href="../xajax/xajax.html">xajax</a><br />
+	    		<a href="../xajax/xajaxCall.html">xajaxCall</a><br />
+	    		<a href="../xajax/xajaxDefaultIncludePlugin.html">xajaxDefaultIncludePlugin</a><br />
+	    		<a href="../xajax/xajaxDefaultRequestProcessorPlugin.html">xajaxDefaultRequestProcessorPlugin</a><br />
+	    		<a href="../xajax/xajaxIncludePlugin.html">xajaxIncludePlugin</a><br />
+	    		<a href="../xajax/xajaxPluginManager.html">xajaxPluginManager</a><br />
+	    		<a href="../xajax/xajaxRequestProcessorPlugin.html">xajaxRequestProcessorPlugin</a><br />
+	    		<a href="../xajax/xajaxResponse.html">xajaxResponse</a><br />
+	    		<a href="../xajax/xajaxResponsePlugin.html">xajaxResponsePlugin</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<h1>Class: xajax</h1>
+Source Location: /pem-includes/xajax/xajax_core/xajax.inc.php<br /><br />
+
+
+<table width="100%" border="0">
+<tr><td valign="top">
+
+<h3><a href="#class_details">Class Overview</a></h3>
+<pre></pre><br />
+<div class="description">The xajax class uses a modular plug-in system to facilitate the processing</div><br /><br />
+
+
+
+
+
+
+        
+</td>
+
+<td valign="top">
+<h3><a href="#class_vars">Variables</a></h3>
+<ul>
+    <li><a href="../xajax/xajax.html#var$aCallableObjects">$aCallableObjects</a></li>
+    <li><a href="../xajax/xajax.html#var$aEventCallbacks">$aEventCallbacks</a></li>
+    <li><a href="../xajax/xajax.html#var$aFunctions">$aFunctions</a></li>
+    <li><a href="../xajax/xajax.html#var$bAllowAllResponseTypes">$bAllowAllResponseTypes</a></li>
+    <li><a href="../xajax/xajax.html#var$bAllowBlankResponse">$bAllowBlankResponse</a></li>
+    <li><a href="../xajax/xajax.html#var$bCleanBuffer">$bCleanBuffer</a></li>
+    <li><a href="../xajax/xajax.html#var$bDebug">$bDebug</a></li>
+    <li><a href="../xajax/xajax.html#var$bDecodeUTF8Input">$bDecodeUTF8Input</a></li>
+    <li><a href="../xajax/xajax.html#var$bErrorHandler">$bErrorHandler</a></li>
+    <li><a href="../xajax/xajax.html#var$bExitAllowed">$bExitAllowed</a></li>
+    <li><a href="../xajax/xajax.html#var$bOutputEntities">$bOutputEntities</a></li>
+    <li><a href="../xajax/xajax.html#var$bStatusMessages">$bStatusMessages</a></li>
+    <li><a href="../xajax/xajax.html#var$bUseUncompressedScripts">$bUseUncompressedScripts</a></li>
+    <li><a href="../xajax/xajax.html#var$bWaitCursor">$bWaitCursor</a></li>
+    <li><a href="../xajax/xajax.html#var$iTimeout">$iTimeout</a></li>
+    <li><a href="../xajax/xajax.html#var$sEncoding">$sEncoding</a></li>
+    <li><a href="../xajax/xajax.html#var$sLogFile">$sLogFile</a></li>
+    <li><a href="../xajax/xajax.html#var$sRequestURI">$sRequestURI</a></li>
+    <li><a href="../xajax/xajax.html#var$sWrapperPrefix">$sWrapperPrefix</a></li>
+  </ul>
+</td>
+
+
+<td valign="top">
+<h3><a href="#class_methods">Methods</a></h3>
+<ul>
+    <li><a href="../xajax/xajax.html#methodxajax">xajax</a></li>
+    <li><a href="../xajax/xajax.html#methodautoCompressJavascript">autoCompressJavascript</a></li>
+    <li><a href="../xajax/xajax.html#methodcanProcessRequest">canProcessRequest</a></li>
+    <li><a href="../xajax/xajax.html#methodgetCharEncoding">getCharEncoding</a></li>
+    <li><a href="../xajax/xajax.html#methodgetFlag">getFlag</a></li>
+    <li><a href="../xajax/xajax.html#methodgetGlobalResponse">getGlobalResponse</a></li>
+    <li><a href="../xajax/xajax.html#methodgetJavascript">getJavascript</a></li>
+    <li><a href="../xajax/xajax.html#methodgetJavascriptConfig">getJavascriptConfig</a></li>
+    <li><a href="../xajax/xajax.html#methodgetJavascriptInclude">getJavascriptInclude</a></li>
+    <li><a href="../xajax/xajax.html#methodgetLogFile">getLogFile</a></li>
+    <li><a href="../xajax/xajax.html#methodgetRegisteredCallableObjects">getRegisteredCallableObjects</a></li>
+    <li><a href="../xajax/xajax.html#methodgetRegisteredEvents">getRegisteredEvents</a></li>
+    <li><a href="../xajax/xajax.html#methodgetRegisteredFunctions">getRegisteredFunctions</a></li>
+    <li><a href="../xajax/xajax.html#methodgetRequestMode">getRequestMode</a></li>
+    <li><a href="../xajax/xajax.html#methodgetRequestURI">getRequestURI</a></li>
+    <li><a href="../xajax/xajax.html#methodgetTimeout">getTimeout</a></li>
+    <li><a href="../xajax/xajax.html#methodgetVersion">getVersion</a></li>
+    <li><a href="../xajax/xajax.html#methodgetWrapperPrefix">getWrapperPrefix</a></li>
+    <li><a href="../xajax/xajax.html#methodprintJavascript">printJavascript</a></li>
+    <li><a href="../xajax/xajax.html#methodprocessRequest">processRequest</a></li>
+    <li><a href="../xajax/xajax.html#methodregisterCallableObject">registerCallableObject</a></li>
+    <li><a href="../xajax/xajax.html#methodregisterEvent">registerEvent</a></li>
+    <li><a href="../xajax/xajax.html#methodregisterFunction">registerFunction</a></li>
+    <li><a href="../xajax/xajax.html#methodsetCharEncoding">setCharEncoding</a></li>
+    <li><a href="../xajax/xajax.html#methodsetFlag">setFlag</a></li>
+    <li><a href="../xajax/xajax.html#methodsetFlags">setFlags</a></li>
+    <li><a href="../xajax/xajax.html#methodsetLogFile">setLogFile</a></li>
+    <li><a href="../xajax/xajax.html#methodsetRequestURI">setRequestURI</a></li>
+    <li><a href="../xajax/xajax.html#methodsetTimeout">setTimeout</a></li>
+    <li><a href="../xajax/xajax.html#methodsetWrapperPrefix">setWrapperPrefix</a></li>
+  </ul>
+</td>
+
+</tr></table>
+<hr />
+
+<table width="100%" border="0"><tr>
+
+
+<td valign="top">
+<h3>Child classes:</h3>
+<div class="tags">
+<dl>
+<dt><a href="../xajax/legacyXajax.html">legacyXajax</a></dt>
+	<dd>The xajax class uses a modular plug-in system to facilitate the processing</dd>
+</dl>
+</div>
+</td>
+
+
+
+
+</tr></table>
+<hr />
+
+<a name="class_details"></a>
+<h3>Class Details</h3>
+<div class="tags">
+[line 68]<br />
+The xajax class uses a modular plug-in system to facilitate the processing<br /><br /><p>of special Ajax requests made by a PHP page. It generates Javascript that  the page must include in order to make requests, and it handles the output  of response objects (see <a href="../xajax/xajaxResponse.html">xajaxResponse</a>). Many different flags and settings  can be adjusted to alter the behavior of the xajax class as well as the  client-side Javascript.</p><br /></div><br /><br />
+<div class="top">[ <a href="#top">Top</a> ]</div><br />
+
+<hr />
+<a name="class_vars"></a>
+<h3>Class Variables</h3>
+<div class="tags">
+	<a name="var$aCallableObjects"></a>
+	<p></p>
+	<h4>$aCallableObjects = <span class="value"></span></h4>
+	<p>[line 85]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Objects with methods that can be called via xajax.call()</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>array</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$aEventCallbacks"></a>
+	<p></p>
+	<h4>$aEventCallbacks = <span class="value"></span></h4>
+	<p>[line 89]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Array of callbacks for xajax events</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>array</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$aFunctions"></a>
+	<p></p>
+	<h4>$aFunctions = <span class="value"></span></h4>
+	<p>[line 81]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Array of PHP functions that will be callable through             Javascript wrappers. Format is key=function name, value is             assoc. array: &quot;callback&quot;=function or object/class method             callback, &quot;include&quot;=PHP file to include (optional)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>array</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bAllowAllResponseTypes"></a>
+	<p></p>
+	<h4>$bAllowAllResponseTypes = <span class="value"></span></h4>
+	<p>[line 154]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Allow xajax to send a response back to the client whether or not it is an xajaxResponse (default false)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bAllowBlankResponse"></a>
+	<p></p>
+	<h4>$bAllowBlankResponse = <span class="value"></span></h4>
+	<p>[line 149]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Allow xajax to send a blank response back to the client (default false)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bCleanBuffer"></a>
+	<p></p>
+	<h4>$bCleanBuffer = <span class="value"></span></h4>
+	<p>[line 129]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Clean all output buffers before outputting response (default false)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bDebug"></a>
+	<p></p>
+	<h4>$bDebug = <span class="value"></span></h4>
+	<p>[line 101]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Show debug messages (default false)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bDecodeUTF8Input"></a>
+	<p></p>
+	<h4>$bDecodeUTF8Input = <span class="value"></span></h4>
+	<p>[line 137]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Decode input request args from UTF-8 (default false)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bErrorHandler"></a>
+	<p></p>
+	<h4>$bErrorHandler = <span class="value"></span></h4>
+	<p>[line 121]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Use an special xajax error handler so the errors are sent to the browser properly (default false)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bExitAllowed"></a>
+	<p></p>
+	<h4>$bExitAllowed = <span class="value"></span></h4>
+	<p>[line 113]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Allow xajax to exit after processing a request (default true)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bOutputEntities"></a>
+	<p></p>
+	<h4>$bOutputEntities = <span class="value"></span></h4>
+	<p>[line 141]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Convert special characters to HTML entities (default false)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bStatusMessages"></a>
+	<p></p>
+	<h4>$bStatusMessages = <span class="value"></span></h4>
+	<p>[line 109]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Show messages in the client browser's status bar (default false)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bUseUncompressedScripts"></a>
+	<p></p>
+	<h4>$bUseUncompressedScripts = <span class="value"></span></h4>
+	<p>[line 105]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Use the uncompressed versions of the Javascript</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$bWaitCursor"></a>
+	<p></p>
+	<h4>$bWaitCursor = <span class="value"></span></h4>
+	<p>[line 117]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Use wait cursor in browser (default true)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>boolean</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$iTimeout"></a>
+	<p></p>
+	<h4>$iTimeout = <span class="value"></span></h4>
+	<p>[line 145]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>The number of milliseconds to wait before checking if xajax is loaded in the client, or 0 to disable (default 6000)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>integer</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$sEncoding"></a>
+	<p></p>
+	<h4>$sEncoding = <span class="value"></span></h4>
+	<p>[line 133]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>String containing the character encoding used</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$sLogFile"></a>
+	<p></p>
+	<h4>$sLogFile = <span class="value"></span></h4>
+	<p>[line 125]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>Specify what, if any, file xajax should log errors to (and more information in a future release)</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$sRequestURI"></a>
+	<p></p>
+	<h4>$sRequestURI = <span class="value"></span></h4>
+	<p>[line 93]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>The URI for making requests to the xajax object</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+	<a name="var$sWrapperPrefix"></a>
+	<p></p>
+	<h4>$sWrapperPrefix = <span class="value"></span></h4>
+	<p>[line 97]</p>
+  <br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>var:</b>&nbsp;&nbsp;</td><td>The prefix to prepend to the javascript wraper function name</td>
+  </tr>
+  <tr>
+    <td><b>access:</b>&nbsp;&nbsp;</td><td>protected</td>
+  </tr>
+</table>
+</div>
+
+  <br />
+	<div class="tags">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td><b>Type:</b>&nbsp;&nbsp;</td>
+      <td>string</td>
+    </tr>
+      </table>
+	</div><br /><br />
+	<div class="top">[ <a href="#top">Top</a> ]</div><br />
+</div><br />
+
+<hr />
+<a name="class_methods"></a>
+<h3>Class Methods</h3>
+<div class="tags">
+
+  <hr />
+	<a name="methodxajax"></a>
+	<h3>constructor xajax <span class="smalllinenumber">[line 163]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>xajax xajax(
+[string
+$sRequestURI = ''])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Sets up the xajax object and the plugin system<br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sRequestURI</b>&nbsp;&nbsp;</td>
+        <td>optional request URI; defaults to the current browser URI</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodautoCompressJavascript"></a>
+	<h3>method autoCompressJavascript <span class="smalllinenumber">[line 683]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void autoCompressJavascript(
+[string
+$sJsFullFilename = NULL], [
+$bAlways = false])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This method can be used to create a new xajax.js file out of the  xajax_uncompressed.js file (which will only happen if xajax.js doesn't  already exist on the filesystem).<br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sJsFullFilename</b>&nbsp;&nbsp;</td>
+        <td>an optional argument containing the full server file path                of xajax.js.</td>
+      </tr>
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$bAlways</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodcanProcessRequest"></a>
+	<h3>method canProcessRequest <span class="smalllinenumber">[line 522]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean canProcessRequest(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns true if xajax can process the request, false if otherwise.<br /><br /><p>You can use this to determine if xajax needs to process the request or  not. (executes request processor plugin)</p><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetCharEncoding"></a>
+	<h3>method getCharEncoding <span class="smalllinenumber">[line 401]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getCharEncoding(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the character encoding for the HTTP output<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetFlag"></a>
+	<h3>method getFlag <span class="smalllinenumber">[line 284]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>boolean getFlag(
+
+$name)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the value of the flag<br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$name</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetGlobalResponse"></a>
+	<h3>method getGlobalResponse <span class="smalllinenumber">[line 216]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code><a href="../xajax/xajaxResponse.html">xajaxResponse</a> &amp;getGlobalResponse(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns an <a href="../xajax/xajaxResponse.html">xajaxResponse</a> object set up with this xajax object's  encoding and entity settings. Use this for singleton-pattern response  development.<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetJavascript"></a>
+	<h3>method getJavascript <span class="smalllinenumber">[line 622]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getJavascript(
+[string
+$sJsURI = ''], [array
+$aJsFiles = array()])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the xajax Javascript code that should be added to your HTML page  between the <kbd>&lt;head&gt; &lt;/head&gt;</kbd> tags. (executes Javascript include  plugin)<br /><br /><p><em>Usage:</em>  <ol><li><div class="src-line">&nbsp;&nbsp;&lt;&nbsp;?<span class="src-id">php&nbsp;</span><span class="src-var">$xajaxJSHead&nbsp;</span>=&nbsp;<span class="src-var">$xajax</span><span class="src-sym">-&gt;</span><a href="../xajax/xajax.html#methodgetJavascript">getJavascript</a><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;&nbsp;</span>?&nbsp;&gt;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&lt;<span class="src-id">head</span>&gt;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;&nbsp;?<span class="src-id">php&nbsp;</span>echo&nbsp;<span class="src-var">$xajaxJSHead</span><span class="src-sym">;&nbsp;</span>?&nbsp;&gt;</div></li>
+</ol></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sJsURI</b>&nbsp;&nbsp;</td>
+        <td>the relative address of the folder where xajax has been                installed. For instance, if your PHP file is                &quot;http://www.myserver.com/myfolder/mypage.php&quot;                and xajax was installed in                &quot;http://www.myserver.com/anotherfolder&quot;, then $sJsURI                should be set to &quot;../anotherfolder&quot;. Defaults to assuming                xajax is in the same folder as your PHP file.</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$aJsFiles</b>&nbsp;&nbsp;</td>
+        <td>an array of arrays. Each sub-array should contain two                script elements: the relative folder/file pair of the                Javascript engine component (e.g. &quot;xajax_js/xajax_debug.js&quot;),                and the name of the component (e.g. &quot;xajax.debug&quot;). Optional</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetJavascriptConfig"></a>
+	<h3>method getJavascriptConfig <span class="smalllinenumber">[line 638]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getJavascriptConfig(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns a string containing inline Javascript that sets up the xajax  runtime (typically called internally by xajax from get/printJavascript).<br /><br /><p>(executes Javascript include plugin)</p><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetJavascriptInclude"></a>
+	<h3>method getJavascriptInclude <span class="smalllinenumber">[line 666]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getJavascriptInclude(
+[string
+$sJsURI = ''], [array
+$aJsFiles = array()])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns a string containing a Javascript include of the xajax.js file  along with a check to see if the file loaded after six seconds  (typically called internally by xajax from get/printJavascript).<br /><br /><p>(executes Javascript include plugin)</p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sJsURI</b>&nbsp;&nbsp;</td>
+        <td>the relative address of the folder where xajax has been                installed. For instance, if your PHP file is                &quot;http://www.myserver.com/myfolder/mypage.php&quot;                and xajax was installed in                &quot;http://www.myserver.com/anotherfolder&quot;, then $sJsURI                should be set to &quot;../anotherfolder&quot;. Defaults to assuming                xajax is in the same folder as your PHP file.</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$aJsFiles</b>&nbsp;&nbsp;</td>
+        <td>an array of arrays. Each sub-array should contain two                script elements: the relative folder/file pair of the                Javascript engine component (e.g. &quot;xajax_js/xajax_debug.js&quot;),                and the name of the component (e.g. &quot;xajax.debug&quot;). Optional</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetLogFile"></a>
+	<h3>method getLogFile <span class="smalllinenumber">[line 376]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getLogFile(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the log file to use for error output (or &quot;&quot; if no log file is  to be used)<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetRegisteredCallableObjects"></a>
+	<h3>method getRegisteredCallableObjects <span class="smalllinenumber">[line 500]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>array getRegisteredCallableObjects(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns an associative array of callable objects<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetRegisteredEvents"></a>
+	<h3>method getRegisteredEvents <span class="smalllinenumber">[line 510]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>array getRegisteredEvents(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns an associative array of event definitions<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetRegisteredFunctions"></a>
+	<h3>method getRegisteredFunctions <span class="smalllinenumber">[line 490]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>array getRegisteredFunctions(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns an associative array of registered function definitions<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetRequestMode"></a>
+	<h3>method getRequestMode <span class="smalllinenumber">[line 535]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>mixed getRequestMode(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the current request mode (XAJAX_GET or XAJAX_POST), or -1 if  there is none. (executes request processor plugin)<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetRequestURI"></a>
+	<h3>method getRequestURI <span class="smalllinenumber">[line 333]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getRequestURI(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the current request URI<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetTimeout"></a>
+	<h3>method getTimeout <span class="smalllinenumber">[line 311]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>integer getTimeout(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the xajax Javascript timeout<br /><br /><br /><br />
+<h4>Tags:</h4>
+<div class="tags">
+<table border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><b>return:</b>&nbsp;&nbsp;</td><td>the number of milliseconds (or 0 if disabled)</td>
+  </tr>
+</table>
+</div>
+<br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetVersion"></a>
+	<h3>method getVersion <span class="smalllinenumber">[line 230]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getVersion(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the current xajax version.<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodgetWrapperPrefix"></a>
+	<h3>method getWrapperPrefix <span class="smalllinenumber">[line 354]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>string getWrapperPrefix(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Returns the Javascript wrapper prefix<br /><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodprintJavascript"></a>
+	<h3>method printJavascript <span class="smalllinenumber">[line 587]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void printJavascript(
+[string
+$sJsURI = &quot;&quot;], [array
+$aJsFiles = array()])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Prints the xajax Javascript header and wrapper code into your page by  printing the output of the getJavascript() method. It should only be  called between the <pre><head> </head></pre> tags in your HTML page.<br /><br /><p>Remember, if you only want to obtain the result of this function, use  <a href="../xajax/xajax.html#methodgetJavascript">xajax::getJavascript()</a> instead. (executes Javascript include  plugin)</p><p><em>Usage:</em>  <ol><li><div class="src-line">&nbsp;&nbsp;&lt;<span class="src-id">head</span>&gt;</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;&nbsp;?<span class="src-id">php&nbsp;</span><span class="src-var">$xajax</span><span class="src-sym">-&gt;</span><a href="../xajax/xajax.html#methodprintJavascript">printJavascript</a><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;&nbsp;</span>?&nbsp;&gt;</div></li>
+</ol></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sJsURI</b>&nbsp;&nbsp;</td>
+        <td>the relative address of the folder where xajax has been                installed. For instance, if your PHP file is                &quot;http://www.myserver.com/myfolder/mypage.php&quot;                and xajax was installed in                &quot;http://www.myserver.com/anotherfolder&quot;, then $sJsURI                should be set to &quot;../anotherfolder&quot;. Defaults to assuming                xajax is in the same folder as your PHP file.</td>
+      </tr>
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$aJsFiles</b>&nbsp;&nbsp;</td>
+        <td>an array of arrays. Each sub-array should contain two                script elements: the relative folder/file pair of the                Javascript engine component (e.g. &quot;xajax_js/xajax_debug.js&quot;),                and the name of the component (e.g. &quot;xajax.debug&quot;). Optional</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodprocessRequest"></a>
+	<h3>method processRequest <span class="smalllinenumber">[line 550]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void processRequest(
+)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		This is the main communications engine of xajax. The engine handles all<br /><br /><p>incoming xajax requests, calls the apporiate PHP functions (or  class/object methods) and passes the response back to the  Javascript response handler. If your RequestURI is the same as your Web  page then this function should be called before any headers or HTML has  been sent. (executes request processor plugin)</p><br /><br /><br />
+
+	
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodregisterCallableObject"></a>
+	<h3>method registerCallableObject <span class="smalllinenumber">[line 451]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void registerCallableObject(
+
+&$oObject)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Registers an object whose methods will be searched for a match to the  incoming request function name. If more than one callable object is  registered, the first object that contains a method having the same name  as the incoming function will be called.<br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>&$oObject</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodregisterEvent"></a>
+	<h3>method registerEvent <span class="smalllinenumber">[line 475]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void registerEvent(
+mixed
+$mCallback, string
+$sEventName)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Registers a callback with an xajax event. Available events are:<br /><br /><p><ul><li>beforeProcessing -- triggered before the request is processed</li><li>afterProcessing -- triggered after the request is processed</li><li>onMissingFunction -- triggered if no function/method could be found</li><li></li><li>onProcessingError -- triggered if there were an error during the
+                          request processing</li></ul></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">mixed&nbsp;&nbsp;</td>
+        <td><b>$mCallback</b>&nbsp;&nbsp;</td>
+        <td>standard PHP function or object callback</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sEventName</b>&nbsp;&nbsp;</td>
+        <td>name of the event</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodregisterFunction"></a>
+	<h3>method registerFunction <span class="smalllinenumber">[line 425]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void registerFunction(
+mixed
+$mFunction, [string
+$sIncludeFile = null])</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Registers a PHP function or method to be callable through xajax in your<br /><br /><p>Javascript. If you want to register a function, pass in the name of that  function. If you want to register a static class method, pass in an  array like so:  <kbd>array(&quot;myFunctionName&quot;, &quot;myClass&quot;, &quot;myMethod&quot;)</kbd>  For an object instance method, use an object variable for the second  array element (and in PHP 4 make sure you put an &amp; before the variable  to pass the object by reference). Note: the function name is what you  call via Javascript, so it can be anything as long as it doesn't  conflict with any other registered function name.</p><p><em>Usage:</em> <kbd>$xajax-&gt;registerFunction(&quot;myFunction&quot;);</kbd>  or: <kbd>$xajax-&gt;registerFunction(array(&quot;myFunctionName&quot;, &amp;$myObject, &quot;myMethod&quot;));</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">mixed&nbsp;&nbsp;</td>
+        <td><b>$mFunction</b>&nbsp;&nbsp;</td>
+        <td>contains the function name or an object callback array</td>
+      </tr>
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sIncludeFile</b>&nbsp;&nbsp;</td>
+        <td>a PHP file to include before the function is called                (optional)</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetCharEncoding"></a>
+	<h3>method setCharEncoding <span class="smalllinenumber">[line 391]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setCharEncoding(
+string
+$sEncoding)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Sets the character encoding for the HTTP output based on<br /><br /><p><kbd>$sEncoding</kbd>, which is a string containing the character  encoding to use. You don't need to use this method normally, since the  character encoding for the response gets set automatically based on the  <kbd>XAJAX_DEFAULT_CHAR_ENCODING</kbd> constant.  <em>Usage:</em> <kbd>$xajax-&gt;setCharEncoding(&quot;utf-8&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sEncoding</b>&nbsp;&nbsp;</td>
+        <td>the encoding type to use (utf-8, iso-8859-1, etc.)</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetFlag"></a>
+	<h3>method setFlag <span class="smalllinenumber">[line 268]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setFlag(
+string
+$name, boolean
+$value)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Sets a flag (boolean true or false). Available flags with their defaults  are as follows:<br /><br /><p><ul><li>debug: false</li><li>statusMessages: false</li><li>waitCursor: true</li><li>exitAllowed: true</li><li>errorHandler: false</li><li>cleanBuffer: false</li><li>decodeUTF8Input: false</li><li>outputEntities: false</li><li>allowBlankResponse: false</li><li>allowAllResponseTypes: false</li></ul></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$name</b>&nbsp;&nbsp;</td>
+        <td>name of flag</td>
+      </tr>
+          <tr>
+        <td class="type">boolean&nbsp;&nbsp;</td>
+        <td><b>$value</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetFlags"></a>
+	<h3>method setFlags <span class="smalllinenumber">[line 241]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setFlags(
+array
+$flags)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Sets multiple flags based on the supplied associative array (see  <a href="../xajax/xajax.html#methodsetFlag">xajax::setFlag()</a> for flag names)<br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">array&nbsp;&nbsp;</td>
+        <td><b>$flags</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetLogFile"></a>
+	<h3>method setLogFile <span class="smalllinenumber">[line 365]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setLogFile(
+
+$sFilename)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Specifies a log file that will be written to by xajax during a request  (used only by the error handling system at present). If you don't invoke  this method, or you pass in &quot;&quot;, then no log file will be written to.<br /><br /><p><em>Usage:</em> <kbd>$xajax-&gt;setLogFile(&quot;/xajax_logs/errors.log&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">&nbsp;&nbsp;</td>
+        <td><b>$sFilename</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetRequestURI"></a>
+	<h3>method setRequestURI <span class="smalllinenumber">[line 323]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setRequestURI(
+string
+$sRequestURI)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Sets the URI to which requests will be made.<br /><br /><p><em>Usage:</em> <kbd>$xajax-&gt;setRequestURI(&quot;http://www.xajaxproject.org&quot;);</kbd></p><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sRequestURI</b>&nbsp;&nbsp;</td>
+        <td>the URI (can be absolute or relative) of the PHP script                that will be accessed when an xajax request occurs</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetTimeout"></a>
+	<h3>method setTimeout <span class="smalllinenumber">[line 301]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setTimeout(
+integer
+$iTimeout)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Sets the timeout before xajax notifies the client that xajax has not been loaded  <em>Usage:</em> <kbd>$xajax-&gt;setTimeout(6000);</kbd><br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">integer&nbsp;&nbsp;</td>
+        <td><b>$iTimeout</b>&nbsp;&nbsp;</td>
+        <td>the number of milliseconds, or 0 to disable</td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+  <hr />
+	<a name="methodsetWrapperPrefix"></a>
+	<h3>method setWrapperPrefix <span class="smalllinenumber">[line 344]</span></h3>
+	<div class="function">
+    <table width="90%" border="0" cellspacing="0" cellpadding="1"><tr><td class="code_border">
+    <table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td class="code">
+		<code>void setWrapperPrefix(
+string
+$sPrefix)</code>
+    </td></tr></table>
+    </td></tr></table><br />
+	
+		Sets the prefix that will be appended to the Javascript wrapper  functions (default is &quot;xajax_&quot;).<br /><br /><br /><br />
+
+	
+        <h4>Parameters:</h4>
+    <div class="tags">
+    <table border="0" cellspacing="0" cellpadding="0">
+          <tr>
+        <td class="type">string&nbsp;&nbsp;</td>
+        <td><b>$sPrefix</b>&nbsp;&nbsp;</td>
+        <td></td>
+      </tr>
+        </table>
+    </div><br />
+        <div class="top">[ <a href="#top">Top</a> ]</div>
+  </div>
+</div><br />
+
+
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Tue, 21 Aug 2007 14:49:55 -0500 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.0a2</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

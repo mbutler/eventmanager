@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /pem-admin/
+Disallow: /pem-includes/
+Disallow: /pem-language/

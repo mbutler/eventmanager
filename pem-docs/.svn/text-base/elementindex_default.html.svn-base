@@ -1,0 +1,1831 @@
+<html>
+<head>
+<title>Package default Element Index</title>
+<link rel="stylesheet" type="text/css" href="media/style.css">
+</head>
+<body>
+
+<table border="0" cellspacing="0" cellpadding="0" height="48" width="100%">
+  <tr>
+    <td class="header_top">default</td>
+  </tr>
+  <tr><td class="header_line"><img src="media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+  <tr>
+    <td class="header_menu">
+        
+                                    
+                                                  		  [ <a href="classtrees_default.html" class="menu">class tree: default</a> ]
+		  [ <a href="elementindex_default.html" class="menu">index: default</a> ]
+		  	    [ <a href="elementindex.html" class="menu">all elements</a> ]
+    </td>
+  </tr>
+  <tr><td class="header_line"><img src="media/empty.png" width="1" height="1" border="0" alt=""  /></td></tr>
+</table>
+
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="200" class="menu">
+      <b>Packages:</b><br />
+              <a href="li_default.html">default</a><br />
+              <a href="li_xajax.html">xajax</a><br />
+            <br /><br />
+                        <b>Files:</b><br />
+      	  <div class="package">
+			<a href="default/_pem-admin---access-profiles.php.html">		access-profiles.php
+		</a><br>
+			<a href="default/_pem-admin---account-settings.php.html">		account-settings.php
+		</a><br>
+			<a href="default/_add-date.php.html">		add-date.php
+		</a><br>
+			<a href="default/_add-event.php.html">		add-event.php
+		</a><br>
+			<a href="default/_pem-admin---approve-event.php.html">		approve-event.php
+		</a><br>
+			<a href="default/_pem-admin---areas-spaces.php.html">		areas-spaces.php
+		</a><br>
+			<a href="default/_pem-includes---auth-db.php.html">		auth-db.php
+		</a><br>
+			<a href="default/_pem-includes---cache-php.php.html">		cache-php.php
+		</a><br>
+			<a href="default/_pem-admin---categories.php.html">		categories.php
+		</a><br>
+			<a href="default/_pem-includes---class-gettext.php.html">		class-gettext.php
+		</a><br>
+			<a href="default/_pem-includes---class-IXR.php.html">		class-IXR.php
+		</a><br>
+			<a href="default/_pem-includes---class-locale.php.html">		class-locale.php
+		</a><br>
+			<a href="default/_pem-includes---class-minicals.php.html">		class-minicals.php
+		</a><br>
+			<a href="default/_pem-includes---class-pop3.php.html">		class-pop3.php
+		</a><br>
+			<a href="default/_pem-includes---class-snoopy.php.html">		class-snoopy.php
+		</a><br>
+			<a href="default/_pem-includes---class-streams.php.html">		class-streams.php
+		</a><br>
+			<a href="default/_pem-includes---class-user.php.html">		class-user.php
+		</a><br>
+			<a href="default/_pem-themes---sapphire---css.php.html">		css.php
+		</a><br>
+			<a href="default/_pem-themes---ruby---css.php.html">		css.php
+		</a><br>
+			<a href="default/_dates.php.html">		dates.php
+		</a><br>
+			<a href="default/_pem-admin---datetime-formats.php.html">		datetime-formats.php
+		</a><br>
+			<a href="default/_day.php.html">		day.php
+		</a><br>
+			<a href="default/_edit-event.php.html">		edit-event.php
+		</a><br>
+			<a href="default/_event.php.html">		event.php
+		</a><br>
+			<a href="default/_pem-admin---field-behavior.php.html">		field-behavior.php
+		</a><br>
+			<a href="default/_pem-admin---field-defaults.php.html">		field-defaults.php
+		</a><br>
+			<a href="default/_pem-admin---field-order.php.html">		field-order.php
+		</a><br>
+			<a href="default/_pem-admin---filter-view.php.html">		filter-view.php
+		</a><br>
+			<a href="default/_pem-includes---footer.php.html">		footer.php
+		</a><br>
+			<a href="default/_pem-includes---functions-admin.php.html">		functions-admin.php
+		</a><br>
+			<a href="default/_pem-includes---functions-auth.php.html">		functions-auth.php
+		</a><br>
+			<a href="default/_pem-includes---functions-automation.php.html">		functions-automation.php
+		</a><br>
+			<a href="default/_pem-includes---functions-compat.php.html">		functions-compat.php
+		</a><br>
+			<a href="default/_pem-includes---functions-datetime.php.html">		functions-datetime.php
+		</a><br>
+			<a href="default/_pem-includes---functions-db.php.html">		functions-db.php
+		</a><br>
+			<a href="default/_pem-includes---functions-file.php.html">		functions-file.php
+		</a><br>
+			<a href="default/_pem-includes---functions-formatting.php.html">		functions-formatting.php
+		</a><br>
+			<a href="default/_pem-includes---functions-install.php.html">		functions-install.php
+		</a><br>
+			<a href="default/_pem-includes---functions-kses.php.html">		functions-kses.php
+		</a><br>
+			<a href="default/_pem-includes---functions-L10n.php.html">		functions-L10n.php
+		</a><br>
+			<a href="default/_pem-includes---functions-query.php.html">		functions-query.php
+		</a><br>
+			<a href="default/_pem-admin---general-settings.php.html">		general-settings.php
+		</a><br>
+			<a href="default/_pem-admin---global-test.php.html">		global-test.php
+		</a><br>
+			<a href="default/_pem-includes---header.php.html">		header.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---helloworld.php.html">		helloworld.php
+		</a><br>
+			<a href="default/_pem-admin---import.php.html">		import.php
+		</a><br>
+			<a href="default/_pem-content---index.php.html">		index.php
+		</a><br>
+			<a href="default/_pem-admin---index.php.html">		index.php
+		</a><br>
+			<a href="default/_index.php.html">		index.php
+		</a><br>
+			<a href="default/_pem-admin---install.php.html">		install.php
+		</a><br>
+			<a href="default/_pem-admin---interface-defaults.php.html">		interface-defaults.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---xajax_core---legacy.inc.php.html">		legacy.inc.php
+		</a><br>
+			<a href="default/_pem-admin---manage-reg.php.html">		manage-reg.php
+		</a><br>
+			<a href="default/_pem-admin---meta-boolean.php.html">		meta-boolean.php
+		</a><br>
+			<a href="default/_pem-admin---meta-checkbox.php.html">		meta-checkbox.php
+		</a><br>
+			<a href="default/_pem-admin---meta-contact.php.html">		meta-contact.php
+		</a><br>
+			<a href="default/_pem-admin---meta-select.php.html">		meta-select.php
+		</a><br>
+			<a href="default/_pem-admin---meta-textinput.php.html">		meta-textinput.php
+		</a><br>
+			<a href="default/_pem-admin---missing-dates.php.html">		missing-dates.php
+		</a><br>
+			<a href="default/_month.php.html">		month.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---multiply---multiply.common.php.html">		multiply.common.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---multiply---multiply.php.html">		multiply.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---multiply---multiply.server.php.html">		multiply.server.php
+		</a><br>
+			<a href="default/_pem-includes---nav-admin.php.html">		nav-admin.php
+		</a><br>
+			<a href="default/_pem-includes---nav-event.php.html">		nav-event.php
+		</a><br>
+			<a href="default/_pem-includes---nav-views.php.html">		nav-views.php
+		</a><br>
+			<a href="default/_pem-config.php.html">		pem-config.php
+		</a><br>
+			<a href="default/_pem-includes---pem-functions.php.html">		pem-functions.php
+		</a><br>
+			<a href="default/_pem-includes---pem-globals.php.html">		pem-globals.php
+		</a><br>
+			<a href="default/_pem-settings.php.html">		pem-settings.php
+		</a><br>
+			<a href="default/_pem-includes---pem-style.php.html">		pem-style.php
+		</a><br>
+			<a href="default/_pem-admin---presenter-types.php.html">		presenter-types.php
+		</a><br>
+			<a href="default/_pem-admin---recycle.php.html">		recycle.php
+		</a><br>
+			<a href="default/_pem-admin---reg-settings.php.html">		reg-settings.php
+		</a><br>
+			<a href="default/_registration.php.html">		registration.php
+		</a><br>
+			<a href="default/_pem-admin---reports.php.html">		reports.php
+		</a><br>
+			<a href="default/_pem-content---room-a.php.html">		room-a.php
+		</a><br>
+			<a href="default/_pem-content---room-b.php.html">		room-b.php
+		</a><br>
+			<a href="default/_pem-content---room-c.php.html">		room-c.php
+		</a><br>
+			<a href="default/_pem-admin---scheduling-structure.php.html">		scheduling-structure.php
+		</a><br>
+			<a href="default/_pem-includes---session-php.php.html">		session-php.php
+		</a><br>
+			<a href="default/_pem-admin---settings.php.html">		settings.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---signup---signup.common.php.html">		signup.common.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---signup---signup.php.html">		signup.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---signup---signup.server.php.html">		signup.server.php
+		</a><br>
+			<a href="default/_pem-admin---supplies.php.html">		supplies.php
+		</a><br>
+			<a href="default/_pem-admin---supply-profiles.php.html">		supply-profiles.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---thewall---thewall.common.php.html">		thewall.common.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---thewall---thewall.php.html">		thewall.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---thewall---thewall.server.php.html">		thewall.server.php
+		</a><br>
+			<a href="default/_pem-admin---users.php.html">		users.php
+		</a><br>
+			<a href="default/_pem-admin---view-settings.php.html">		view-settings.php
+		</a><br>
+			<a href="default/_view.php.html">		view.php
+		</a><br>
+			<a href="default/_week.php.html">		week.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---xajax_core---xajaxCompress.inc.php.html">		xajaxCompress.inc.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---xul---xulApplication.php.html">		xulApplication.php
+		</a><br>
+			<a href="default/_pem-includes---xajax---examples---xul---xulServer.php.html">		xulServer.php
+		</a><br>
+	  </div><br />
+      
+      
+            <b>Classes:</b><br />
+        <div class="package">
+		    		<a href="default/CachedFileReader.html">CachedFileReader</a><br />
+	    		<a href="default/FileReader.html">FileReader</a><br />
+	    		<a href="default/gettext_reader.html">gettext_reader</a><br />
+	    		<a href="default/graffiti.html">graffiti</a><br />
+	    		<a href="default/IXR_Base64.html">IXR_Base64</a><br />
+	    		<a href="default/IXR_Client.html">IXR_Client</a><br />
+	    		<a href="default/IXR_ClientMulticall.html">IXR_ClientMulticall</a><br />
+	    		<a href="default/IXR_Date.html">IXR_Date</a><br />
+	    		<a href="default/IXR_Error.html">IXR_Error</a><br />
+	    		<a href="default/IXR_IntrospectionServer.html">IXR_IntrospectionServer</a><br />
+	    		<a href="default/IXR_Message.html">IXR_Message</a><br />
+	    		<a href="default/IXR_Request.html">IXR_Request</a><br />
+	    		<a href="default/IXR_Server.html">IXR_Server</a><br />
+	    		<a href="default/IXR_Value.html">IXR_Value</a><br />
+	    		<a href="default/PEM_MiniCal.html">PEM_MiniCal</a><br />
+	    		<a href="default/PEM_User.html">PEM_User</a><br />
+	    		<a href="default/POP3.html">POP3</a><br />
+	    		<a href="default/Snoopy.html">Snoopy</a><br />
+	    		<a href="default/StreamReader.html">StreamReader</a><br />
+	    		<a href="default/StringReader.html">StringReader</a><br />
+	  </div>
+                </td>
+    <td>
+      <table cellpadding="10" cellspacing="0" width="100%" border="0"><tr><td valign="top">
+
+<a name="top"></a>
+<h1>Element index for package default</h1>
+	[ <a href="elementindex_default.html#a">a</a> ]
+	[ <a href="elementindex_default.html#b">b</a> ]
+	[ <a href="elementindex_default.html#c">c</a> ]
+	[ <a href="elementindex_default.html#d">d</a> ]
+	[ <a href="elementindex_default.html#e">e</a> ]
+	[ <a href="elementindex_default.html#f">f</a> ]
+	[ <a href="elementindex_default.html#g">g</a> ]
+	[ <a href="elementindex_default.html#h">h</a> ]
+	[ <a href="elementindex_default.html#i">i</a> ]
+	[ <a href="elementindex_default.html#k">k</a> ]
+	[ <a href="elementindex_default.html#l">l</a> ]
+	[ <a href="elementindex_default.html#m">m</a> ]
+	[ <a href="elementindex_default.html#n">n</a> ]
+	[ <a href="elementindex_default.html#o">o</a> ]
+	[ <a href="elementindex_default.html#p">p</a> ]
+	[ <a href="elementindex_default.html#q">q</a> ]
+	[ <a href="elementindex_default.html#r">r</a> ]
+	[ <a href="elementindex_default.html#s">s</a> ]
+	[ <a href="elementindex_default.html#t">t</a> ]
+	[ <a href="elementindex_default.html#u">u</a> ]
+	[ <a href="elementindex_default.html#v">v</a> ]
+	[ <a href="elementindex_default.html#w">w</a> ]
+	[ <a href="elementindex_default.html#x">x</a> ]
+	[ <a href="elementindex_default.html#y">y</a> ]
+	[ <a href="elementindex_default.html#z">z</a> ]
+	[ <a href="elementindex_default.html#_">_</a> ]
+
+  <hr />
+	<a name="_"></a>
+	<div>
+		<h2>_</h2>
+		<dl>
+							<dt><b>$_arraystructs</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$_arraystructs">IXR_Message::$_arraystructs</a></dd>
+							<dt><b>$_arraystructstypes</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$_arraystructstypes">IXR_Message::$_arraystructstypes</a></dd>
+							<dt><b>$_currentStructName</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$_currentStructName">IXR_Message::$_currentStructName</a></dd>
+							<dt><b>$_currentTag</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$_currentTag">IXR_Message::$_currentTag</a></dd>
+							<dt><b>$_currentTagContents</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$_currentTagContents">IXR_Message::$_currentTagContents</a></dd>
+							<dt><b>$_fd</b></dt>
+				<dd>in file class-streams.php, variable <a href="default/FileReader.html#var$_fd">FileReader::$_fd</a></dd>
+							<dt><b>$_fp_timeout</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_fp_timeout">Snoopy::$_fp_timeout</a></dd>
+							<dt><b>$_framedepth</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_framedepth">Snoopy::$_framedepth</a></dd>
+							<dt><b>$_frameurls</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_frameurls">Snoopy::$_frameurls</a></dd>
+							<dt><b>$_httpmethod</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_httpmethod">Snoopy::$_httpmethod</a></dd>
+							<dt><b>$_httpversion</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_httpversion">Snoopy::$_httpversion</a></dd>
+							<dt><b>$_isproxy</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_isproxy">Snoopy::$_isproxy</a></dd>
+							<dt><b>$_length</b></dt>
+				<dd>in file class-streams.php, variable <a href="default/FileReader.html#var$_length">FileReader::$_length</a></dd>
+							<dt><b>$_maxlinelen</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_maxlinelen">Snoopy::$_maxlinelen</a><br>&nbsp;&nbsp;&nbsp;&nbsp;** Private variables ***</dd>
+							<dt><b>$_mime_boundary</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_mime_boundary">Snoopy::$_mime_boundary</a></dd>
+							<dt><b>$_param</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$_param">IXR_Message::$_param</a></dd>
+							<dt><b>$_parser</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$_parser">IXR_Message::$_parser</a></dd>
+							<dt><b>$_pos</b></dt>
+				<dd>in file class-streams.php, variable <a href="default/FileReader.html#var$_pos">FileReader::$_pos</a></dd>
+							<dt><b>$_pos</b></dt>
+				<dd>in file class-streams.php, variable <a href="default/StringReader.html#var$_pos">StringReader::$_pos</a></dd>
+							<dt><b>$_redirectaddr</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_redirectaddr">Snoopy::$_redirectaddr</a></dd>
+							<dt><b>$_redirectdepth</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_redirectdepth">Snoopy::$_redirectdepth</a></dd>
+							<dt><b>$_str</b></dt>
+				<dd>in file class-streams.php, variable <a href="default/StringReader.html#var$_str">StringReader::$_str</a></dd>
+							<dt><b>$_submit_method</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_submit_method">Snoopy::$_submit_method</a></dd>
+							<dt><b>$_submit_type</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$_submit_type">Snoopy::$_submit_type</a></dd>
+							<dt><b>$_value</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$_value">IXR_Message::$_value</a></dd>
+							<dt><b>_check_timeout</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#method_check_timeout">Snoopy::_check_timeout()</a></dd>
+							<dt><b>_connect</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#method_connect">Snoopy::_connect()</a></dd>
+							<dt><b>_disconnect</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#method_disconnect">Snoopy::_disconnect()</a></dd>
+							<dt><b>_e</b></dt>
+				<dd>in file functions-L10n.php, function <a href="default/_pem-includes---functions-L10n.php.html#function_e">_e()</a></dd>
+							<dt><b>_expandlinks</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#method_expandlinks">Snoopy::_expandlinks()</a></dd>
+							<dt><b>_httprequest</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#method_httprequest">Snoopy::_httprequest()</a></dd>
+							<dt><b>_httpsrequest</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#method_httpsrequest">Snoopy::_httpsrequest()</a></dd>
+							<dt><b>_prepare_post_body</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#method_prepare_post_body">Snoopy::_prepare_post_body()</a></dd>
+							<dt><b>_stripform</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#method_stripform">Snoopy::_stripform()</a></dd>
+							<dt><b>_striplinks</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#method_striplinks">Snoopy::_striplinks()</a></dd>
+							<dt><b>_striptext</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#method_striptext">Snoopy::_striptext()</a></dd>
+							<dt><b>__</b></dt>
+				<dd>in file functions-L10n.php, function <a href="default/_pem-includes---functions-L10n.php.html#function__">__()</a></dd>
+							<dt><b>__ngettext</b></dt>
+				<dd>in file functions-L10n.php, function <a href="default/_pem-includes---functions-L10n.php.html#function__ngettext">__ngettext()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="a"></a>
+	<div>
+		<h2>a</h2>
+		<dl>
+							<dt><b>$accept</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$accept">Snoopy::$accept</a></dd>
+							<dt><b>$agent</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$agent">Snoopy::$agent</a></dd>
+							<dt><b>$allcaps</b></dt>
+				<dd>in file class-user.php, variable <a href="default/PEM_User.html#var$allcaps">PEM_User::$allcaps</a></dd>
+							<dt><b>$ALLOWAPOP</b></dt>
+				<dd>in file class-pop3.php, variable <a href="default/POP3.html#var$ALLOWAPOP">POP3::$ALLOWAPOP</a></dd>
+							<dt><b>$args</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Request.html#var$args">IXR_Request::$args</a></dd>
+							<dt><b>ABSPATH</b></dt>
+				<dd>in file pem-config.php, constant <a href="default/_pem-config.php.html#defineABSPATH">ABSPATH</a></dd>
+							<dt><b>add-date.php</b></dt>
+				<dd>procedural page <a href="default/_add-date.php.html">add-date.php</a></dd>
+							<dt><b>add-event.php</b></dt>
+				<dd>procedural page <a href="default/_add-event.php.html">add-event.php</a></dd>
+							<dt><b>addCall</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_ClientMulticall.html#methodaddCall">IXR_ClientMulticall::addCall()</a></dd>
+							<dt><b>addCallback</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_IntrospectionServer.html#methodaddCallback">IXR_IntrospectionServer::addCallback()</a></dd>
+							<dt><b>add_cap</b></dt>
+				<dd>in file class-user.php, method <a href="default/PEM_User.html#methodadd_cap">PEM_User::add_cap()</a></dd>
+							<dt><b>add_magic_quotes</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionadd_magic_quotes">add_magic_quotes()</a></dd>
+							<dt><b>add_role</b></dt>
+				<dd>in file class-user.php, method <a href="default/PEM_User.html#methodadd_role">PEM_User::add_role()</a></dd>
+							<dt><b>apop</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodapop">POP3::apop()</a></dd>
+							<dt><b>array_change_key_case</b></dt>
+				<dd>in file functions-compat.php, function <a href="default/_pem-includes---functions-compat.php.html#functionarray_change_key_case">array_change_key_case()</a><br>&nbsp;&nbsp;&nbsp;&nbsp;Replace array_change_key_case()</dd>
+							<dt><b>array_trim</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionarray_trim">array_trim()</a></dd>
+							<dt><b>array_unshift_assoc</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionarray_unshift_assoc">array_unshift_assoc()</a></dd>
+							<dt><b>authCheckUserGroup</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauthCheckUserGroup">authCheckUserGroup()</a><br>&nbsp;&nbsp;&nbsp;&nbsp;authCheckUserGroup()</dd>
+							<dt><b>authDeleteUser</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauthDeleteUser">authDeleteUser()</a><br>&nbsp;&nbsp;&nbsp;&nbsp;authDeleteUser()</dd>
+							<dt><b>authEditUser</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauthEditUser">authEditUser()</a><br>&nbsp;&nbsp;&nbsp;&nbsp;authEditUser()</dd>
+							<dt><b>authGetGroupList</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauthGetGroupList">authGetGroupList()</a><br>&nbsp;&nbsp;&nbsp;&nbsp;authGetGroupList()</dd>
+							<dt><b>authGetUserGroups</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauthGetUserGroups">authGetUserGroups()</a></dd>
+							<dt><b>authGetUserList</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauthGetUserList">authGetUserList()</a><br>&nbsp;&nbsp;&nbsp;&nbsp;authGetUserList()</dd>
+							<dt><b>auth_add_user</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauth_add_user">auth_add_user()</a></dd>
+							<dt><b>auth_check_access</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauth_check_access">auth_check_access()</a></dd>
+							<dt><b>auth_delete_user</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauth_delete_user">auth_delete_user()</a></dd>
+							<dt><b>auth_get_user</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauth_get_user">auth_get_user()</a></dd>
+							<dt><b>auth_get_users</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauth_get_users">auth_get_users()</a></dd>
+							<dt><b>auth_redirect</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionauth_redirect">auth_redirect()</a></dd>
+							<dt><b>auth_update_user</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauth_update_user">auth_update_user()</a></dd>
+							<dt><b>auth_update_user_activity</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauth_update_user_activity">auth_update_user_activity()</a></dd>
+							<dt><b>auth_update_user_status</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauth_update_user_status">auth_update_user_status()</a></dd>
+							<dt><b>auth_user_exists</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauth_user_exists">auth_user_exists()</a></dd>
+							<dt><b>auth_validate_user</b></dt>
+				<dd>in file auth-db.php, function <a href="default/_pem-includes---auth-db.php.html#functionauth_validate_user">auth_validate_user()</a></dd>
+							<dt><b>access-profiles.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---access-profiles.php.html">access-profiles.php</a></dd>
+							<dt><b>account-settings.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---account-settings.php.html">account-settings.php</a></dd>
+							<dt><b>approve-event.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---approve-event.php.html">approve-event.php</a></dd>
+							<dt><b>areas-spaces.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---areas-spaces.php.html">areas-spaces.php</a></dd>
+							<dt><b>auth-db.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---auth-db.php.html">auth-db.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="b"></a>
+	<div>
+		<h2>b</h2>
+		<dl>
+							<dt><b>$BANNER</b></dt>
+				<dd>in file class-pop3.php, variable <a href="default/POP3.html#var$BANNER">POP3::$BANNER</a></dd>
+							<dt><b>$BUFFER</b></dt>
+				<dd>in file class-pop3.php, variable <a href="default/POP3.html#var$BUFFER">POP3::$BUFFER</a></dd>
+							<dt><b>$BYTEORDER</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$BYTEORDER">gettext_reader::$BYTEORDER</a></dd>
+							<dt><b>backslashit</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionbackslashit">backslashit()</a></dd>
+							<dt><b>buildcal</b></dt>
+				<dd>in file class-minicals.php, method <a href="default/PEM_MiniCal.html#methodbuildcal">PEM_MiniCal::buildcal()</a></dd>
+							<dt><b>buildheader</b></dt>
+				<dd>in file class-minicals.php, method <a href="default/PEM_MiniCal.html#methodbuildheader">PEM_MiniCal::buildheader()</a></dd>
+							<dt><b>buildlink</b></dt>
+				<dd>in file class-minicals.php, method <a href="default/PEM_MiniCal.html#methodbuildlink">PEM_MiniCal::buildlink()</a></dd>
+							<dt><b>build_access</b></dt>
+				<dd>in file access-profiles.php, function <a href="default/_pem-admin---access-profiles.php.html#functionbuild_access">build_access()</a></dd>
+							<dt><b>build_thisentry</b></dt>
+				<dd>in file add-date.php, function <a href="default/_add-date.php.html#functionbuild_thisentry">build_thisentry()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="c"></a>
+	<div>
+		<h2>c</h2>
+		<dl>
+							<dt><b>$cache_translations</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$cache_translations">gettext_reader::$cache_translations</a></dd>
+							<dt><b>$callbacks</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Server.html#var$callbacks">IXR_Server::$callbacks</a></dd>
+							<dt><b>$calls</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_ClientMulticall.html#var$calls">IXR_ClientMulticall::$calls</a></dd>
+							<dt><b>$capabilities</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Server.html#var$capabilities">IXR_Server::$capabilities</a></dd>
+							<dt><b>$caps</b></dt>
+				<dd>in file class-user.php, variable <a href="default/PEM_User.html#var$caps">PEM_User::$caps</a></dd>
+							<dt><b>$cap_key</b></dt>
+				<dd>in file class-user.php, variable <a href="default/PEM_User.html#var$cap_key">PEM_User::$cap_key</a></dd>
+							<dt><b>$code</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Error.html#var$code">IXR_Error::$code</a></dd>
+							<dt><b>$cookies</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$cookies">Snoopy::$cookies</a></dd>
+							<dt><b>$COUNT</b></dt>
+				<dd>in file class-pop3.php, variable <a href="default/POP3.html#var$COUNT">POP3::$COUNT</a></dd>
+							<dt><b>$curl_path</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$curl_path">Snoopy::$curl_path</a></dd>
+							<dt><b>CachedFileReader</b></dt>
+				<dd>in file class-streams.php, class <a href="default/CachedFileReader.html">CachedFileReader</a></dd>
+							<dt><b>CachedFileReader</b></dt>
+				<dd>in file class-streams.php, method <a href="default/CachedFileReader.html#methodCachedFileReader">CachedFileReader::CachedFileReader()</a></dd>
+							<dt><b>calculateType</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Value.html#methodcalculateType">IXR_Value::calculateType()</a></dd>
+							<dt><b>call</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_IntrospectionServer.html#methodcall">IXR_IntrospectionServer::call()</a></dd>
+							<dt><b>call</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Server.html#methodcall">IXR_Server::call()</a></dd>
+							<dt><b>CASE_LOWER</b></dt>
+				<dd>in file functions-compat.php, constant <a href="default/_pem-includes---functions-compat.php.html#defineCASE_LOWER">CASE_LOWER</a></dd>
+							<dt><b>CASE_UPPER</b></dt>
+				<dd>in file functions-compat.php, constant <a href="default/_pem-includes---functions-compat.php.html#defineCASE_UPPER">CASE_UPPER</a></dd>
+							<dt><b>cdata</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Message.html#methodcdata">IXR_Message::cdata()</a></dd>
+							<dt><b>check_conflicts</b></dt>
+				<dd>in file add-date.php, function <a href="default/_add-date.php.html#functioncheck_conflicts">check_conflicts()</a></dd>
+							<dt><b>close</b></dt>
+				<dd>in file class-streams.php, method <a href="default/FileReader.html#methodclose">FileReader::close()</a></dd>
+							<dt><b>connect</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodconnect">POP3::connect()</a></dd>
+							<dt><b>convert_chars</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionconvert_chars">convert_chars()</a></dd>
+							<dt><b>COOKIEHASH</b></dt>
+				<dd>in file index.php, constant <a href="default/_index.php.html#defineCOOKIEHASH">COOKIEHASH</a></dd>
+							<dt><b>COOKIE_DOMAIN</b></dt>
+				<dd>in file index.php, constant <a href="default/_index.php.html#defineCOOKIE_DOMAIN">COOKIE_DOMAIN</a></dd>
+							<dt><b>cross_dst</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functioncross_dst">cross_dst()</a></dd>
+							<dt><b>currentpos</b></dt>
+				<dd>in file class-streams.php, method <a href="default/StringReader.html#methodcurrentpos">StringReader::currentpos()</a></dd>
+							<dt><b>currentpos</b></dt>
+				<dd>in file class-streams.php, method <a href="default/StreamReader.html#methodcurrentpos">StreamReader::currentpos()</a></dd>
+							<dt><b>currentpos</b></dt>
+				<dd>in file class-streams.php, method <a href="default/FileReader.html#methodcurrentpos">FileReader::currentpos()</a></dd>
+							<dt><b>CUSTOM_TAGS</b></dt>
+				<dd>in file functions-kses.php, constant <a href="default/_pem-includes---functions-kses.php.html#defineCUSTOM_TAGS">CUSTOM_TAGS</a></dd>
+							<dt><b>categories.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---categories.php.html">categories.php</a></dd>
+							<dt><b>cache-php.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---cache-php.php.html">cache-php.php</a></dd>
+							<dt><b>class-gettext.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---class-gettext.php.html">class-gettext.php</a></dd>
+							<dt><b>class-IXR.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---class-IXR.php.html">class-IXR.php</a></dd>
+							<dt><b>class-locale.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---class-locale.php.html">class-locale.php</a></dd>
+							<dt><b>class-minicals.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---class-minicals.php.html">class-minicals.php</a></dd>
+							<dt><b>class-pop3.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---class-pop3.php.html">class-pop3.php</a></dd>
+							<dt><b>class-snoopy.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---class-snoopy.php.html">class-snoopy.php</a></dd>
+							<dt><b>class-streams.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---class-streams.php.html">class-streams.php</a></dd>
+							<dt><b>class-user.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---class-user.php.html">class-user.php</a></dd>
+							<dt><b>css.php</b></dt>
+				<dd>procedural page <a href="default/_pem-themes---ruby---css.php.html">css.php</a></dd>
+							<dt><b>css.php</b></dt>
+				<dd>procedural page <a href="default/_pem-themes---sapphire---css.php.html">css.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="d"></a>
+	<div>
+		<h2>d</h2>
+		<dl>
+							<dt><b>$data</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Value.html#var$data">IXR_Value::$data</a></dd>
+							<dt><b>$data</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Server.html#var$data">IXR_Server::$data</a></dd>
+							<dt><b>$data</b></dt>
+				<dd>in file class-user.php, variable <a href="default/PEM_User.html#var$data">PEM_User::$data</a></dd>
+							<dt><b>$data</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Base64.html#var$data">IXR_Base64::$data</a></dd>
+							<dt><b>$day</b></dt>
+				<dd>in file class-minicals.php, variable <a href="default/PEM_MiniCal.html#var$day">PEM_MiniCal::$day</a></dd>
+							<dt><b>$day</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Date.html#var$day">IXR_Date::$day</a></dd>
+							<dt><b>$DEBUG</b></dt>
+				<dd>in file class-pop3.php, variable <a href="default/POP3.html#var$DEBUG">POP3::$DEBUG</a></dd>
+							<dt><b>$debug</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Client.html#var$debug">IXR_Client::$debug</a></dd>
+							<dt><b>$dmy</b></dt>
+				<dd>in file class-minicals.php, variable <a href="default/PEM_MiniCal.html#var$dmy">PEM_MiniCal::$dmy</a></dd>
+							<dt><b>DATA_FILE</b></dt>
+				<dd>in file thewall.server.php, constant <a href="default/_pem-includes---xajax---examples---thewall---thewall.server.php.html#defineDATA_FILE">DATA_FILE</a></dd>
+							<dt><b>dates.php</b></dt>
+				<dd>procedural page <a href="default/_dates.php.html">dates.php</a></dd>
+							<dt><b>date_i18n</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functiondate_i18n">date_i18n()</a></dd>
+							<dt><b>day.php</b></dt>
+				<dd>procedural page <a href="default/_day.php.html">day.php</a></dd>
+							<dt><b>day_name</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionday_name">day_name()</a></dd>
+							<dt><b>debug_fclose</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functiondebug_fclose">debug_fclose()</a></dd>
+							<dt><b>debug_fopen</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functiondebug_fopen">debug_fopen()</a></dd>
+							<dt><b>debug_fwrite</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functiondebug_fwrite">debug_fwrite()</a></dd>
+							<dt><b>delete</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methoddelete">POP3::delete()</a></dd>
+							<dt><b>do_save_template</b></dt>
+				<dd>in file add-date.php, function <a href="default/_add-date.php.html#functiondo_save_template">do_save_template()</a></dd>
+							<dt><b>datetime-formats.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---datetime-formats.php.html">datetime-formats.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="e"></a>
+	<div>
+		<h2>e</h2>
+		<dl>
+							<dt><b>$enable_cache</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$enable_cache">gettext_reader::$enable_cache</a></dd>
+							<dt><b>$error</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$error">gettext_reader::$error</a></dd>
+							<dt><b>$error</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$error">Snoopy::$error</a></dd>
+							<dt><b>$ERROR</b></dt>
+				<dd>in file class-pop3.php, variable <a href="default/POP3.html#var$ERROR">POP3::$ERROR</a></dd>
+							<dt><b>$error</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Client.html#var$error">IXR_Client::$error</a></dd>
+							<dt><b>$expandlinks</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$expandlinks">Snoopy::$expandlinks</a></dd>
+							<dt><b>echo_data</b></dt>
+				<dd>in file access-profiles.php, function <a href="default/_pem-admin---access-profiles.php.html#functionecho_data">echo_data()</a></dd>
+							<dt><b>echo_entry</b></dt>
+				<dd>in file add-date.php, function <a href="default/_add-date.php.html#functionecho_entry">echo_entry()</a></dd>
+							<dt><b>echo_form</b></dt>
+				<dd>in file add-date.php, function <a href="default/_add-date.php.html#functionecho_form">echo_form()</a></dd>
+							<dt><b>echo_move_form</b></dt>
+				<dd>in file areas-spaces.php, function <a href="default/_pem-admin---areas-spaces.php.html#functionecho_move_form">echo_move_form()</a></dd>
+							<dt><b>echo_settings_form</b></dt>
+				<dd>in file settings.php, function <a href="default/_pem-admin---settings.php.html#functionecho_settings_form">echo_settings_form()</a></dd>
+							<dt><b>echo_space_form</b></dt>
+				<dd>in file areas-spaces.php, function <a href="default/_pem-admin---areas-spaces.php.html#functionecho_space_form">echo_space_form()</a></dd>
+							<dt><b>edit-event.php</b></dt>
+				<dd>procedural page <a href="default/_edit-event.php.html">edit-event.php</a></dd>
+							<dt><b>ent2ncr</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionent2ncr">ent2ncr()</a></dd>
+							<dt><b>error</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Server.html#methoderror">IXR_Server::error()</a></dd>
+							<dt><b>event.php</b></dt>
+				<dd>procedural page <a href="default/_event.php.html">event.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="f"></a>
+	<div>
+		<h2>f</h2>
+		<dl>
+							<dt><b>$faultCode</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$faultCode">IXR_Message::$faultCode</a></dd>
+							<dt><b>$faultString</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$faultString">IXR_Message::$faultString</a></dd>
+							<dt><b>$format</b></dt>
+				<dd>in file class-minicals.php, variable <a href="default/PEM_MiniCal.html#var$format">PEM_MiniCal::$format</a></dd>
+							<dt><b>$FP</b></dt>
+				<dd>in file class-pop3.php, variable <a href="default/POP3.html#var$FP">POP3::$FP</a></dd>
+							<dt><b>fetch</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#methodfetch">Snoopy::fetch()</a></dd>
+							<dt><b>fetchform</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#methodfetchform">Snoopy::fetchform()</a></dd>
+							<dt><b>fetchlinks</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#methodfetchlinks">Snoopy::fetchlinks()</a></dd>
+							<dt><b>fetchtext</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#methodfetchtext">Snoopy::fetchtext()</a></dd>
+							<dt><b>field_defaults_form</b></dt>
+				<dd>in file field-defaults.php, function <a href="default/_pem-admin---field-defaults.php.html#functionfield_defaults_form">field_defaults_form()</a></dd>
+							<dt><b>FileReader</b></dt>
+				<dd>in file class-streams.php, class <a href="default/FileReader.html">FileReader</a></dd>
+							<dt><b>FileReader</b></dt>
+				<dd>in file class-streams.php, method <a href="default/FileReader.html#methodFileReader">FileReader::FileReader()</a></dd>
+							<dt><b>file_get_contents</b></dt>
+				<dd>in file functions-compat.php, function <a href="default/_pem-includes---functions-compat.php.html#functionfile_get_contents">file_get_contents()</a></dd>
+							<dt><b>floatval</b></dt>
+				<dd>in file functions-compat.php, function <a href="default/_pem-includes---functions-compat.php.html#functionfloatval">floatval()</a></dd>
+							<dt><b>form_option</b></dt>
+				<dd>in file functions-admin.php, function <a href="default/_pem-includes---functions-admin.php.html#functionform_option">form_option()</a></dd>
+							<dt><b>field-behavior.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---field-behavior.php.html">field-behavior.php</a></dd>
+							<dt><b>field-defaults.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---field-defaults.php.html">field-defaults.php</a></dd>
+							<dt><b>field-order.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---field-order.php.html">field-order.php</a></dd>
+							<dt><b>filter-view.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---filter-view.php.html">filter-view.php</a></dd>
+							<dt><b>footer.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---footer.php.html">footer.php</a></dd>
+							<dt><b>functions-admin.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-admin.php.html">functions-admin.php</a></dd>
+							<dt><b>functions-auth.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-auth.php.html">functions-auth.php</a></dd>
+							<dt><b>functions-automation.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-automation.php.html">functions-automation.php</a></dd>
+							<dt><b>functions-compat.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-compat.php.html">functions-compat.php</a></dd>
+							<dt><b>functions-datetime.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-datetime.php.html">functions-datetime.php</a></dd>
+							<dt><b>functions-db.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-db.php.html">functions-db.php</a></dd>
+							<dt><b>functions-file.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-file.php.html">functions-file.php</a></dd>
+							<dt><b>functions-formatting.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-formatting.php.html">functions-formatting.php</a></dd>
+							<dt><b>functions-install.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-install.php.html">functions-install.php</a></dd>
+							<dt><b>functions-kses.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-kses.php.html">functions-kses.php</a></dd>
+							<dt><b>functions-L10n.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-L10n.php.html">functions-L10n.php</a></dd>
+							<dt><b>functions-query.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---functions-query.php.html">functions-query.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="g"></a>
+	<div>
+		<h2>g</h2>
+		<dl>
+							<dt><b>get</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodget">POP3::get()</a></dd>
+							<dt><b>getCapabilities</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Server.html#methodgetCapabilities">IXR_Server::getCapabilities()</a></dd>
+							<dt><b>getErrorCode</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Client.html#methodgetErrorCode">IXR_Client::getErrorCode()</a></dd>
+							<dt><b>getErrorMessage</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Client.html#methodgetErrorMessage">IXR_Client::getErrorMessage()</a></dd>
+							<dt><b>getIso</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Date.html#methodgetIso">IXR_Date::getIso()</a></dd>
+							<dt><b>getLength</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Request.html#methodgetLength">IXR_Request::getLength()</a></dd>
+							<dt><b>getRandomAlignment</b></dt>
+				<dd>in file thewall.server.php, method <a href="default/graffiti.html#methodgetRandomAlignment">graffiti::getRandomAlignment()</a></dd>
+							<dt><b>getRandomColor</b></dt>
+				<dd>in file thewall.server.php, method <a href="default/graffiti.html#methodgetRandomColor">graffiti::getRandomColor()</a></dd>
+							<dt><b>getRandomFontSize</b></dt>
+				<dd>in file thewall.server.php, method <a href="default/graffiti.html#methodgetRandomFontSize">graffiti::getRandomFontSize()</a></dd>
+							<dt><b>getResponse</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Client.html#methodgetResponse">IXR_Client::getResponse()</a></dd>
+							<dt><b>gettext_reader</b></dt>
+				<dd>in file class-gettext.php, method <a href="default/gettext_reader.html#methodgettext_reader">gettext_reader::gettext_reader()</a><br>&nbsp;&nbsp;&nbsp;&nbsp;Constructor</dd>
+							<dt><b>gettext_reader</b></dt>
+				<dd>in file class-gettext.php, class <a href="default/gettext_reader.html">gettext_reader</a><br>&nbsp;&nbsp;&nbsp;&nbsp;Provides a simple gettext replacement that works independently from  the system's gettext abilities.</dd>
+							<dt><b>getTimestamp</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Date.html#methodgetTimestamp">IXR_Date::getTimestamp()</a></dd>
+							<dt><b>getWritable</b></dt>
+				<dd>in file functions-auth.php, function <a href="default/_pem-includes---functions-auth.php.html#functiongetWritable">getWritable()</a></dd>
+							<dt><b>getXml</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Value.html#methodgetXml">IXR_Value::getXml()</a></dd>
+							<dt><b>getXml</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Date.html#methodgetXml">IXR_Date::getXml()</a></dd>
+							<dt><b>getXml</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Base64.html#methodgetXml">IXR_Base64::getXml()</a></dd>
+							<dt><b>getXml</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Request.html#methodgetXml">IXR_Request::getXml()</a></dd>
+							<dt><b>getXml</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Error.html#methodgetXml">IXR_Error::getXml()</a></dd>
+							<dt><b>get_alloptions</b></dt>
+				<dd>in file functions-admin.php, function <a href="default/_pem-includes---functions-admin.php.html#functionget_alloptions">get_alloptions()</a></dd>
+							<dt><b>get_date_from_gmt</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionget_date_from_gmt">get_date_from_gmt()</a></dd>
+							<dt><b>get_gmt_from_date</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionget_gmt_from_date">get_gmt_from_date()</a></dd>
+							<dt><b>get_locale</b></dt>
+				<dd>in file functions-L10n.php, function <a href="default/_pem-includes---functions-L10n.php.html#functionget_locale">get_locale()</a></dd>
+							<dt><b>get_meridiem</b></dt>
+				<dd>in file class-locale.php, function <a href="default/_pem-includes---class-locale.php.html#functionget_meridiem">get_meridiem()</a></dd>
+							<dt><b>get_month</b></dt>
+				<dd>in file class-locale.php, function <a href="default/_pem-includes---class-locale.php.html#functionget_month">get_month()</a></dd>
+							<dt><b>get_month_abbrev</b></dt>
+				<dd>in file class-locale.php, function <a href="default/_pem-includes---class-locale.php.html#functionget_month_abbrev">get_month_abbrev()</a></dd>
+							<dt><b>get_month_initial</b></dt>
+				<dd>in file class-locale.php, function <a href="default/_pem-includes---class-locale.php.html#functionget_month_initial">get_month_initial()</a></dd>
+							<dt><b>get_role_caps</b></dt>
+				<dd>in file class-user.php, method <a href="default/PEM_User.html#methodget_role_caps">PEM_User::get_role_caps()</a></dd>
+							<dt><b>get_weekday</b></dt>
+				<dd>in file class-locale.php, function <a href="default/_pem-includes---class-locale.php.html#functionget_weekday">get_weekday()</a></dd>
+							<dt><b>get_weekday_abbrev</b></dt>
+				<dd>in file class-locale.php, function <a href="default/_pem-includes---class-locale.php.html#functionget_weekday_abbrev">get_weekday_abbrev()</a></dd>
+							<dt><b>get_weekday_initial</b></dt>
+				<dd>in file class-locale.php, function <a href="default/_pem-includes---class-locale.php.html#functionget_weekday_initial">get_weekday_initial()</a></dd>
+							<dt><b>get_weekstartend</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionget_weekstartend">get_weekstartend()</a></dd>
+							<dt><b>graffiti</b></dt>
+				<dd>in file thewall.server.php, method <a href="default/graffiti.html#methodgraffiti">graffiti::graffiti()</a></dd>
+							<dt><b>graffiti</b></dt>
+				<dd>in file thewall.server.php, class <a href="default/graffiti.html">graffiti</a></dd>
+							<dt><b>gzip_compression</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functiongzip_compression">gzip_compression()</a></dd>
+							<dt><b>general-settings.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---general-settings.php.html">general-settings.php</a></dd>
+							<dt><b>global-test.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---global-test.php.html">global-test.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="h"></a>
+	<div>
+		<h2>h</h2>
+		<dl>
+							<dt><b>$headers</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$headers">Snoopy::$headers</a></dd>
+							<dt><b>$help</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_IntrospectionServer.html#var$help">IXR_IntrospectionServer::$help</a></dd>
+							<dt><b>$highlight</b></dt>
+				<dd>in file class-minicals.php, variable <a href="default/PEM_MiniCal.html#var$highlight">PEM_MiniCal::$highlight</a></dd>
+							<dt><b>$host</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$host">Snoopy::$host</a><br>&nbsp;&nbsp;&nbsp;&nbsp;** Public variables ***</dd>
+							<dt><b>$hour</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Date.html#var$hour">IXR_Date::$hour</a></dd>
+							<dt><b>$html</b></dt>
+				<dd>in file thewall.server.php, variable <a href="default/graffiti.html#var$html">graffiti::$html</a></dd>
+							<dt><b>hasMethod</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Server.html#methodhasMethod">IXR_Server::hasMethod()</a></dd>
+							<dt><b>has_cap</b></dt>
+				<dd>in file class-user.php, method <a href="default/PEM_User.html#methodhas_cap">PEM_User::has_cap()</a></dd>
+							<dt><b>helloWorld</b></dt>
+				<dd>in file helloworld.php, function <a href="default/_pem-includes---xajax---examples---helloworld.php.html#functionhelloWorld">helloWorld()</a></dd>
+							<dt><b>hour_min_format</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionhour_min_format">hour_min_format()</a><br>&nbsp;&nbsp;&nbsp;&nbsp;hour_min_format()</dd>
+							<dt><b>http_build_query</b></dt>
+				<dd>in file functions-compat.php, function <a href="default/_pem-includes---functions-compat.php.html#functionhttp_build_query">http_build_query()</a></dd>
+							<dt><b>header.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---header.php.html">header.php</a></dd>
+							<dt><b>helloworld.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---helloworld.php.html">helloworld.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="i"></a>
+	<div>
+		<h2>i</h2>
+		<dl>
+							<dt><b>$id</b></dt>
+				<dd>in file class-user.php, variable <a href="default/PEM_User.html#var$id">PEM_User::$id</a></dd>
+							<dt><b>$isValid</b></dt>
+				<dd>in file thewall.server.php, variable <a href="default/graffiti.html#var$isValid">graffiti::$isValid</a></dd>
+							<dt><b>index.php</b></dt>
+				<dd>procedural page <a href="default/_index.php.html">index.php</a></dd>
+							<dt><b>isError</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Client.html#methodisError">IXR_Client::isError()</a></dd>
+							<dt><b>iso8601_timezone_to_offset</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functioniso8601_timezone_to_offset">iso8601_timezone_to_offset()</a></dd>
+							<dt><b>iso8601_to_datetime</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functioniso8601_to_datetime">iso8601_to_datetime()</a></dd>
+							<dt><b>isStruct</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Value.html#methodisStruct">IXR_Value::isStruct()</a></dd>
+							<dt><b>is_a</b></dt>
+				<dd>in file functions-compat.php, function <a href="default/_pem-includes---functions-compat.php.html#functionis_a">is_a()</a></dd>
+							<dt><b>is_dst</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionis_dst">is_dst()</a></dd>
+							<dt><b>is_email</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionis_email">is_email()</a></dd>
+							<dt><b>is_ok</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodis_ok">POP3::is_ok()</a></dd>
+							<dt><b>is_serialized</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionis_serialized">is_serialized()</a></dd>
+							<dt><b>is_serialized_string</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionis_serialized_string">is_serialized_string()</a></dd>
+							<dt><b>IXR_Base64</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Base64.html#methodIXR_Base64">IXR_Base64::IXR_Base64()</a></dd>
+							<dt><b>IXR_Base64</b></dt>
+				<dd>in file class-IXR.php, class <a href="default/IXR_Base64.html">IXR_Base64</a></dd>
+							<dt><b>IXR_Client</b></dt>
+				<dd>in file class-IXR.php, class <a href="default/IXR_Client.html">IXR_Client</a></dd>
+							<dt><b>IXR_Client</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Client.html#methodIXR_Client">IXR_Client::IXR_Client()</a></dd>
+							<dt><b>IXR_ClientMulticall</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_ClientMulticall.html#methodIXR_ClientMulticall">IXR_ClientMulticall::IXR_ClientMulticall()</a></dd>
+							<dt><b>IXR_ClientMulticall</b></dt>
+				<dd>in file class-IXR.php, class <a href="default/IXR_ClientMulticall.html">IXR_ClientMulticall</a></dd>
+							<dt><b>IXR_Date</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Date.html#methodIXR_Date">IXR_Date::IXR_Date()</a></dd>
+							<dt><b>IXR_Date</b></dt>
+				<dd>in file class-IXR.php, class <a href="default/IXR_Date.html">IXR_Date</a></dd>
+							<dt><b>IXR_Error</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Error.html#methodIXR_Error">IXR_Error::IXR_Error()</a></dd>
+							<dt><b>IXR_Error</b></dt>
+				<dd>in file class-IXR.php, class <a href="default/IXR_Error.html">IXR_Error</a></dd>
+							<dt><b>IXR_IntrospectionServer</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_IntrospectionServer.html#methodIXR_IntrospectionServer">IXR_IntrospectionServer::IXR_IntrospectionServer()</a></dd>
+							<dt><b>IXR_IntrospectionServer</b></dt>
+				<dd>in file class-IXR.php, class <a href="default/IXR_IntrospectionServer.html">IXR_IntrospectionServer</a></dd>
+							<dt><b>IXR_Message</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Message.html#methodIXR_Message">IXR_Message::IXR_Message()</a></dd>
+							<dt><b>IXR_Message</b></dt>
+				<dd>in file class-IXR.php, class <a href="default/IXR_Message.html">IXR_Message</a></dd>
+							<dt><b>IXR_Request</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Request.html#methodIXR_Request">IXR_Request::IXR_Request()</a></dd>
+							<dt><b>IXR_Request</b></dt>
+				<dd>in file class-IXR.php, class <a href="default/IXR_Request.html">IXR_Request</a></dd>
+							<dt><b>IXR_Server</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Server.html#methodIXR_Server">IXR_Server::IXR_Server()</a></dd>
+							<dt><b>IXR_Server</b></dt>
+				<dd>in file class-IXR.php, class <a href="default/IXR_Server.html">IXR_Server</a></dd>
+							<dt><b>IXR_Value</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Value.html#methodIXR_Value">IXR_Value::IXR_Value()</a></dd>
+							<dt><b>IXR_Value</b></dt>
+				<dd>in file class-IXR.php, class <a href="default/IXR_Value.html">IXR_Value</a></dd>
+							<dt><b>import.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---import.php.html">import.php</a></dd>
+							<dt><b>index.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---index.php.html">index.php</a></dd>
+							<dt><b>install.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---install.php.html">install.php</a></dd>
+							<dt><b>interface-defaults.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---interface-defaults.php.html">interface-defaults.php</a></dd>
+							<dt><b>index.php</b></dt>
+				<dd>procedural page <a href="default/_pem-content---index.php.html">index.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="k"></a>
+	<div>
+		<h2>k</h2>
+		<dl>
+							<dt><b>kses_init</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionkses_init">kses_init()</a></dd>
+							<dt><b>kses_init_filters</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionkses_init_filters">kses_init_filters()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="l"></a>
+	<div>
+		<h2>l</h2>
+		<dl>
+							<dt><b>$lastredirectaddr</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$lastredirectaddr">Snoopy::$lastredirectaddr</a></dd>
+							<dt><b>last</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodlast">POP3::last()</a></dd>
+							<dt><b>length</b></dt>
+				<dd>in file class-streams.php, method <a href="default/FileReader.html#methodlength">FileReader::length()</a></dd>
+							<dt><b>length</b></dt>
+				<dd>in file class-streams.php, method <a href="default/StreamReader.html#methodlength">StreamReader::length()</a></dd>
+							<dt><b>length</b></dt>
+				<dd>in file class-streams.php, method <a href="default/StringReader.html#methodlength">StringReader::length()</a></dd>
+							<dt><b>level_reduction</b></dt>
+				<dd>in file class-user.php, method <a href="default/PEM_User.html#methodlevel_reduction">PEM_User::level_reduction()</a></dd>
+							<dt><b>listMethods</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Server.html#methodlistMethods">IXR_Server::listMethods()</a></dd>
+							<dt><b>load_default_textdomain</b></dt>
+				<dd>in file functions-L10n.php, function <a href="default/_pem-includes---functions-L10n.php.html#functionload_default_textdomain">load_default_textdomain()</a></dd>
+							<dt><b>load_textdomain</b></dt>
+				<dd>in file functions-L10n.php, function <a href="default/_pem-includes---functions-L10n.php.html#functionload_textdomain">load_textdomain()</a></dd>
+							<dt><b>login</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodlogin">POP3::login()</a></dd>
+							<dt><b>LOGIN_COOKIE</b></dt>
+				<dd>in file index.php, constant <a href="default/_index.php.html#defineLOGIN_COOKIE">LOGIN_COOKIE</a></dd>
+							<dt><b>login_redirect</b></dt>
+				<dd>in file functions-auth.php, function <a href="default/_pem-includes---functions-auth.php.html#functionlogin_redirect">login_redirect()</a></dd>
+							<dt><b>legacy.inc.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---xajax_core---legacy.inc.php.html">legacy.inc.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="m"></a>
+	<div>
+		<h2>m</h2>
+		<dl>
+							<dt><b>$MAILSERVER</b></dt>
+				<dd>in file class-pop3.php, variable <a href="default/POP3.html#var$MAILSERVER">POP3::$MAILSERVER</a></dd>
+							<dt><b>$maxframes</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$maxframes">Snoopy::$maxframes</a></dd>
+							<dt><b>$maxlength</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$maxlength">Snoopy::$maxlength</a></dd>
+							<dt><b>$maxredirs</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$maxredirs">Snoopy::$maxredirs</a></dd>
+							<dt><b>$message</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Error.html#var$message">IXR_Error::$message</a></dd>
+							<dt><b>$message</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Client.html#var$message">IXR_Client::$message</a></dd>
+							<dt><b>$message</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Server.html#var$message">IXR_Server::$message</a></dd>
+							<dt><b>$message</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$message">IXR_Message::$message</a></dd>
+							<dt><b>$messageType</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$messageType">IXR_Message::$messageType</a></dd>
+							<dt><b>$method</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Request.html#var$method">IXR_Request::$method</a></dd>
+							<dt><b>$methodName</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$methodName">IXR_Message::$methodName</a></dd>
+							<dt><b>$minute</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Date.html#var$minute">IXR_Date::$minute</a></dd>
+							<dt><b>$month</b></dt>
+				<dd>in file class-minicals.php, variable <a href="default/PEM_MiniCal.html#var$month">PEM_MiniCal::$month</a></dd>
+							<dt><b>$month</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Date.html#var$month">IXR_Date::$month</a></dd>
+							<dt><b>MAX_SCRIBBLES</b></dt>
+				<dd>in file thewall.server.php, constant <a href="default/_pem-includes---xajax---examples---thewall---thewall.server.php.html#defineMAX_SCRIBBLES">MAX_SCRIBBLES</a></dd>
+							<dt><b>maybe_serialize</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionmaybe_serialize">maybe_serialize()</a></dd>
+							<dt><b>maybe_unserialize</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionmaybe_unserialize">maybe_unserialize()</a></dd>
+							<dt><b>mdb2_connect</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionmdb2_connect">mdb2_connect()</a></dd>
+							<dt><b>mdb2_disconnect</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionmdb2_disconnect">mdb2_disconnect()</a></dd>
+							<dt><b>methodHelp</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_IntrospectionServer.html#methodmethodHelp">IXR_IntrospectionServer::methodHelp()</a></dd>
+							<dt><b>methodSignature</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_IntrospectionServer.html#methodmethodSignature">IXR_IntrospectionServer::methodSignature()</a></dd>
+							<dt><b>minicals</b></dt>
+				<dd>in file class-minicals.php, function <a href="default/_pem-includes---class-minicals.php.html#functionminicals">minicals()</a></dd>
+							<dt><b>month.php</b></dt>
+				<dd>procedural page <a href="default/_month.php.html">month.php</a></dd>
+							<dt><b>monthdays</b></dt>
+				<dd>in file class-minicals.php, method <a href="default/PEM_MiniCal.html#methodmonthdays">PEM_MiniCal::monthdays()</a></dd>
+							<dt><b>multiCall</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Server.html#methodmultiCall">IXR_Server::multiCall()</a></dd>
+							<dt><b>multiply</b></dt>
+				<dd>in file multiply.server.php, function <a href="default/_pem-includes---xajax---examples---multiply---multiply.server.php.html#functionmultiply">multiply()</a></dd>
+							<dt><b>mysql2date</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionmysql2date">mysql2date()</a></dd>
+							<dt><b>manage-reg.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---manage-reg.php.html">manage-reg.php</a></dd>
+							<dt><b>meta-boolean.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---meta-boolean.php.html">meta-boolean.php</a></dd>
+							<dt><b>meta-checkbox.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---meta-checkbox.php.html">meta-checkbox.php</a></dd>
+							<dt><b>meta-contact.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---meta-contact.php.html">meta-contact.php</a></dd>
+							<dt><b>meta-select.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---meta-select.php.html">meta-select.php</a></dd>
+							<dt><b>meta-textinput.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---meta-textinput.php.html">meta-textinput.php</a></dd>
+							<dt><b>missing-dates.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---missing-dates.php.html">missing-dates.php</a></dd>
+							<dt><b>multiply.common.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---multiply---multiply.common.php.html">multiply.common.php</a></dd>
+							<dt><b>multiply.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---multiply---multiply.php.html">multiply.php</a></dd>
+							<dt><b>multiply.server.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---multiply---multiply.server.php.html">multiply.server.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="n"></a>
+	<div>
+		<h2>n</h2>
+		<dl>
+							<dt><b>ngettext</b></dt>
+				<dd>in file class-gettext.php, method <a href="default/gettext_reader.html#methodngettext">gettext_reader::ngettext()</a><br>&nbsp;&nbsp;&nbsp;&nbsp;Plural version of gettext</dd>
+							<dt><b>nocache_headers</b></dt>
+				<dd>in file pem-functions.php, function <a href="default/_pem-includes---pem-functions.php.html#functionnocache_headers">nocache_headers()</a></dd>
+							<dt><b>noop</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodnoop">POP3::noop()</a></dd>
+							<dt><b>nav-admin.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---nav-admin.php.html">nav-admin.php</a></dd>
+							<dt><b>nav-event.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---nav-event.php.html">nav-event.php</a></dd>
+							<dt><b>nav-views.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---nav-views.php.html">nav-views.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="o"></a>
+	<div>
+		<h2>o</h2>
+		<dl>
+							<dt><b>$offsiteok</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$offsiteok">Snoopy::$offsiteok</a></dd>
+							<dt><b>$originals</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$originals">gettext_reader::$originals</a></dd>
+							<dt><b>ob_clean</b></dt>
+				<dd>in file functions-compat.php, function <a href="default/_pem-includes---functions-compat.php.html#functionob_clean">ob_clean()</a></dd>
+							<dt><b>output</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Server.html#methodoutput">IXR_Server::output()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="p"></a>
+	<div>
+		<h2>p</h2>
+		<dl>
+							<dt><b>$params</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Message.html#var$params">IXR_Message::$params</a></dd>
+							<dt><b>$pass</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$pass">Snoopy::$pass</a></dd>
+							<dt><b>$passcookies</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$passcookies">Snoopy::$passcookies</a></dd>
+							<dt><b>$path</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Client.html#var$path">IXR_Client::$path</a></dd>
+							<dt><b>$pluralheader</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$pluralheader">gettext_reader::$pluralheader</a></dd>
+							<dt><b>$port</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Client.html#var$port">IXR_Client::$port</a></dd>
+							<dt><b>$port</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$port">Snoopy::$port</a></dd>
+							<dt><b>$proxy_host</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$proxy_host">Snoopy::$proxy_host</a></dd>
+							<dt><b>$proxy_pass</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$proxy_pass">Snoopy::$proxy_pass</a></dd>
+							<dt><b>$proxy_port</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$proxy_port">Snoopy::$proxy_port</a></dd>
+							<dt><b>$proxy_user</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$proxy_user">Snoopy::$proxy_user</a></dd>
+							<dt><b>parse</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Message.html#methodparse">IXR_Message::parse()</a></dd>
+							<dt><b>parseIso</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Date.html#methodparseIso">IXR_Date::parseIso()</a></dd>
+							<dt><b>parseTimestamp</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Date.html#methodparseTimestamp">IXR_Date::parseTimestamp()</a></dd>
+							<dt><b>parse_banner</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodparse_banner">POP3::parse_banner()</a></dd>
+							<dt><b>pass</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodpass">POP3::pass()</a></dd>
+							<dt><b>PASS_COOKIE</b></dt>
+				<dd>in file index.php, constant <a href="default/_index.php.html#definePASS_COOKIE">PASS_COOKIE</a></dd>
+							<dt><b>PEAR_error</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionPEAR_error">PEAR_error()</a></dd>
+							<dt><b>presenter-types.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---presenter-types.php.html">presenter-types.php</a></dd>
+							<dt><b>pem-config.php</b></dt>
+				<dd>procedural page <a href="default/_pem-config.php.html">pem-config.php</a></dd>
+							<dt><b>pem-functions.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---pem-functions.php.html">pem-functions.php</a></dd>
+							<dt><b>pem-globals.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---pem-globals.php.html">pem-globals.php</a></dd>
+							<dt><b>pem-style.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---pem-style.php.html">pem-style.php</a></dd>
+							<dt><b>pem-settings.php</b></dt>
+				<dd>procedural page <a href="default/_pem-settings.php.html">pem-settings.php</a></dd>
+							<dt><b>PEMINC</b></dt>
+				<dd>in file pem-config.php, constant <a href="default/_pem-config.php.html#definePEMINC">PEMINC</a></dd>
+							<dt><b>PEMLANG</b></dt>
+				<dd>in file pem-config.php, constant <a href="default/_pem-config.php.html#definePEMLANG">PEMLANG</a></dd>
+							<dt><b>pem_access_profiles_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_access_profiles_select">pem_access_profiles_select()</a></dd>
+							<dt><b>pem_active_fields</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionpem_active_fields">pem_active_fields()</a></dd>
+							<dt><b>pem_addslashes</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionpem_addslashes">pem_addslashes()</a></dd>
+							<dt><b>pem_add_row</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionpem_add_row">pem_add_row()</a></dd>
+							<dt><b>pem_add_rows</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionpem_add_rows">pem_add_rows()</a></dd>
+							<dt><b>pem_anchor</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_anchor">pem_anchor()</a></dd>
+							<dt><b>pem_auth_keys_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_auth_keys_select">pem_auth_keys_select()</a></dd>
+							<dt><b>pem_auth_resources_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_auth_resources_select">pem_auth_resources_select()</a></dd>
+							<dt><b>pem_book_range_type_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_book_range_type_select">pem_book_range_type_select()</a></dd>
+							<dt><b>pem_boolean_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_boolean_select">pem_boolean_select()</a></dd>
+							<dt><b>pem_box_format_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_box_format_select">pem_box_format_select()</a></dd>
+							<dt><b>pem_button_link</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_button_link">pem_button_link()</a></dd>
+							<dt><b>pem_cache_delete</b></dt>
+				<dd>in file cache-php.php, function <a href="default/_pem-includes---cache-php.php.html#functionpem_cache_delete">pem_cache_delete()</a></dd>
+							<dt><b>pem_cache_echo</b></dt>
+				<dd>in file cache-php.php, function <a href="default/_pem-includes---cache-php.php.html#functionpem_cache_echo">pem_cache_echo()</a></dd>
+							<dt><b>pem_cache_flush</b></dt>
+				<dd>in file cache-php.php, function <a href="default/_pem-includes---cache-php.php.html#functionpem_cache_flush">pem_cache_flush()</a></dd>
+							<dt><b>pem_cache_get</b></dt>
+				<dd>in file cache-php.php, function <a href="default/_pem-includes---cache-php.php.html#functionpem_cache_get">pem_cache_get()</a></dd>
+							<dt><b>pem_cache_isset</b></dt>
+				<dd>in file cache-php.php, function <a href="default/_pem-includes---cache-php.php.html#functionpem_cache_isset">pem_cache_isset()</a></dd>
+							<dt><b>pem_cache_set</b></dt>
+				<dd>in file cache-php.php, function <a href="default/_pem-includes---cache-php.php.html#functionpem_cache_set">pem_cache_set()</a></dd>
+							<dt><b>pem_category_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_category_select">pem_category_select()</a></dd>
+							<dt><b>pem_checkbox</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_checkbox">pem_checkbox()</a></dd>
+							<dt><b>pem_check_event_conflicts</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_check_event_conflicts">pem_check_event_conflicts()</a></dd>
+							<dt><b>pem_check_schedule_conflicts</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_check_schedule_conflicts">pem_check_schedule_conflicts()</a></dd>
+							<dt><b>pem_contact_meta_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_contact_meta_select">pem_contact_meta_select()</a></dd>
+							<dt><b>pem_controls</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_controls">pem_controls()</a></dd>
+							<dt><b>pem_date</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionpem_date">pem_date()</a></dd>
+							<dt><b>pem_date_format_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_date_format_select">pem_date_format_select()</a></dd>
+							<dt><b>pem_date_selector</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_date_selector">pem_date_selector()</a></dd>
+							<dt><b>pem_delete_perm</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionpem_delete_perm">pem_delete_perm()</a></dd>
+							<dt><b>pem_delete_recycle</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionpem_delete_recycle">pem_delete_recycle()</a></dd>
+							<dt><b>pem_die</b></dt>
+				<dd>in file pem-functions.php, function <a href="default/_pem-includes---pem-functions.php.html#functionpem_die">pem_die()</a></dd>
+							<dt><b>pem_echo_login</b></dt>
+				<dd>in file session-php.php, function <a href="default/_pem-includes---session-php.php.html#functionpem_echo_login">pem_echo_login()</a></dd>
+							<dt><b>pem_echo_login_form</b></dt>
+				<dd>in file session-php.php, function <a href="default/_pem-includes---session-php.php.html#functionpem_echo_login_form">pem_echo_login_form()</a></dd>
+							<dt><b>pem_echo_state_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_echo_state_select">pem_echo_state_select()</a></dd>
+							<dt><b>pem_entry_source_type_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_entry_source_type_select">pem_entry_source_type_select()</a></dd>
+							<dt><b>pem_entry_type_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_entry_type_select">pem_entry_type_select()</a></dd>
+							<dt><b>pem_error_list</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_error_list">pem_error_list()</a></dd>
+							<dt><b>pem_event_data</b></dt>
+				<dd>in file dates.php, function <a href="default/_dates.php.html#functionpem_event_data">pem_event_data()</a></dd>
+							<dt><b>pem_event_line</b></dt>
+				<dd>in file dates.php, function <a href="default/_dates.php.html#functionpem_event_line">pem_event_line()</a></dd>
+							<dt><b>pem_exec_sql</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionpem_exec_sql">pem_exec_sql()</a></dd>
+							<dt><b>pem_fieldset_begin</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_fieldset_begin">pem_fieldset_begin()</a></dd>
+							<dt><b>pem_fieldset_end</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_fieldset_end">pem_fieldset_end()</a></dd>
+							<dt><b>pem_field_behavior_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_field_behavior_select">pem_field_behavior_select()</a></dd>
+							<dt><b>pem_field_extras</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_field_extras">pem_field_extras()</a></dd>
+							<dt><b>pem_field_focus</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionpem_field_focus">pem_field_focus()</a></dd>
+							<dt><b>pem_field_label</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_field_label">pem_field_label()</a></dd>
+							<dt><b>pem_field_note</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_field_note">pem_field_note()</a></dd>
+							<dt><b>pem_file_upload</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_file_upload">pem_file_upload()</a></dd>
+							<dt><b>pem_filter_kses</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_filter_kses">pem_filter_kses()</a></dd>
+							<dt><b>pem_filter_post_kses</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_filter_post_kses">pem_filter_post_kses()</a></dd>
+							<dt><b>pem_form_begin</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_form_begin">pem_form_begin()</a></dd>
+							<dt><b>pem_form_end</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_form_end">pem_form_end()</a></dd>
+							<dt><b>pem_form_submit</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_form_submit">pem_form_submit()</a></dd>
+							<dt><b>pem_form_update</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_form_update">pem_form_update()</a></dd>
+							<dt><b>pem_get_auth</b></dt>
+				<dd>in file session-php.php, function <a href="default/_pem-includes---session-php.php.html#functionpem_get_auth">pem_get_auth()</a></dd>
+							<dt><b>pem_get_count</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionpem_get_count">pem_get_count()</a></dd>
+							<dt><b>pem_get_directory_list</b></dt>
+				<dd>in file functions-file.php, function <a href="default/_pem-includes---functions-file.php.html#functionpem_get_directory_list">pem_get_directory_list()</a></dd>
+							<dt><b>pem_get_file_list</b></dt>
+				<dd>in file functions-file.php, function <a href="default/_pem-includes---functions-file.php.html#functionpem_get_file_list">pem_get_file_list()</a></dd>
+							<dt><b>pem_get_login</b></dt>
+				<dd>in file session-php.php, function <a href="default/_pem-includes---session-php.php.html#functionpem_get_login">pem_get_login()</a></dd>
+							<dt><b>pem_get_pass</b></dt>
+				<dd>in file session-php.php, function <a href="default/_pem-includes---session-php.php.html#functionpem_get_pass">pem_get_pass()</a></dd>
+							<dt><b>pem_get_popups</b></dt>
+				<dd>in file functions-admin.php, function <a href="default/_pem-includes---functions-admin.php.html#functionpem_get_popups">pem_get_popups()</a></dd>
+							<dt><b>pem_get_row</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionpem_get_row">pem_get_row()</a></dd>
+							<dt><b>pem_get_rows</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionpem_get_rows">pem_get_rows()</a></dd>
+							<dt><b>pem_get_rows_join</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionpem_get_rows_join">pem_get_rows_join()</a></dd>
+							<dt><b>pem_get_setting</b></dt>
+				<dd>in file functions-admin.php, function <a href="default/_pem-includes---functions-admin.php.html#functionpem_get_setting">pem_get_setting()</a></dd>
+							<dt><b>pem_get_settings</b></dt>
+				<dd>in file functions-admin.php, function <a href="default/_pem-includes---functions-admin.php.html#functionpem_get_settings">pem_get_settings()</a></dd>
+							<dt><b>pem_get_themes</b></dt>
+				<dd>in file functions-admin.php, function <a href="default/_pem-includes---functions-admin.php.html#functionpem_get_themes">pem_get_themes()</a></dd>
+							<dt><b>pem_go_back</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_go_back">pem_go_back()</a></dd>
+							<dt><b>pem_header_submit</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_header_submit">pem_header_submit()</a></dd>
+							<dt><b>pem_hidden_input</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_hidden_input">pem_hidden_input()</a></dd>
+							<dt><b>pem_install_submit</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_install_submit">pem_install_submit()</a></dd>
+							<dt><b>pem_kses</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses">pem_kses()</a></dd>
+							<dt><b>pem_kses_array_lc</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_array_lc">pem_kses_array_lc()</a></dd>
+							<dt><b>pem_kses_attr</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_attr">pem_kses_attr()</a></dd>
+							<dt><b>pem_kses_bad_protocol</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_bad_protocol">pem_kses_bad_protocol()</a></dd>
+							<dt><b>pem_kses_bad_protocol_once</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_bad_protocol_once">pem_kses_bad_protocol_once()</a></dd>
+							<dt><b>pem_kses_bad_protocol_once2</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_bad_protocol_once2">pem_kses_bad_protocol_once2()</a></dd>
+							<dt><b>pem_kses_check_attr_val</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_check_attr_val">pem_kses_check_attr_val()</a></dd>
+							<dt><b>pem_kses_decode_entities</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_decode_entities">pem_kses_decode_entities()</a></dd>
+							<dt><b>pem_kses_hair</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_hair">pem_kses_hair()</a></dd>
+							<dt><b>pem_kses_hook</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_hook">pem_kses_hook()</a></dd>
+							<dt><b>pem_kses_html_error</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_html_error">pem_kses_html_error()</a></dd>
+							<dt><b>pem_kses_js_entities</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_js_entities">pem_kses_js_entities()</a></dd>
+							<dt><b>pem_kses_normalize_entities</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_normalize_entities">pem_kses_normalize_entities()</a></dd>
+							<dt><b>pem_kses_normalize_entities2</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_normalize_entities2">pem_kses_normalize_entities2()</a></dd>
+							<dt><b>pem_kses_no_null</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_no_null">pem_kses_no_null()</a></dd>
+							<dt><b>pem_kses_split</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_split">pem_kses_split()</a></dd>
+							<dt><b>pem_kses_split2</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_split2">pem_kses_split2()</a></dd>
+							<dt><b>pem_kses_stripslashes</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_stripslashes">pem_kses_stripslashes()</a></dd>
+							<dt><b>pem_kses_version</b></dt>
+				<dd>in file functions-kses.php, function <a href="default/_pem-includes---functions-kses.php.html#functionpem_kses_version">pem_kses_version()</a></dd>
+							<dt><b>pem_logout</b></dt>
+				<dd>in file session-php.php, function <a href="default/_pem-includes---session-php.php.html#functionpem_logout">pem_logout()</a></dd>
+							<dt><b>pem_mail</b></dt>
+				<dd>in file pem-functions.php, function <a href="default/_pem-includes---pem-functions.php.html#functionpem_mail">pem_mail()</a></dd>
+							<dt><b>pem_make_tables</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_make_tables">pem_make_tables()</a></dd>
+							<dt><b>pem_meta_parent_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_meta_parent_select">pem_meta_parent_select()</a></dd>
+							<dt><b>pem_meta_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_meta_select">pem_meta_select()</a></dd>
+							<dt><b>PEM_MiniCal</b></dt>
+				<dd>in file class-minicals.php, method <a href="default/PEM_MiniCal.html#methodPEM_MiniCal">PEM_MiniCal::PEM_MiniCal()</a></dd>
+							<dt><b>PEM_MiniCal</b></dt>
+				<dd>in file class-minicals.php, class <a href="default/PEM_MiniCal.html">PEM_MiniCal</a></dd>
+							<dt><b>pem_minute_increment_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_minute_increment_select">pem_minute_increment_select()</a></dd>
+							<dt><b>pem_order_fields</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionpem_order_fields">pem_order_fields()</a></dd>
+							<dt><b>pem_password_input</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_password_input">pem_password_input()</a></dd>
+							<dt><b>pem_period_length_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_period_length_select">pem_period_length_select()</a></dd>
+							<dt><b>pem_populate_access_profiles</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_access_profiles">pem_populate_access_profiles()</a></dd>
+							<dt><b>pem_populate_areas</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_areas">pem_populate_areas()</a></dd>
+							<dt><b>pem_populate_categories</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_categories">pem_populate_categories()</a></dd>
+							<dt><b>pem_populate_field_behavior</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_field_behavior">pem_populate_field_behavior()</a></dd>
+							<dt><b>pem_populate_field_order</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_field_order">pem_populate_field_order()</a></dd>
+							<dt><b>pem_populate_meta</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_meta">pem_populate_meta()</a></dd>
+							<dt><b>pem_populate_presenters</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_presenters">pem_populate_presenters()</a></dd>
+							<dt><b>pem_populate_scheduling_profiles</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_scheduling_profiles">pem_populate_scheduling_profiles()</a></dd>
+							<dt><b>pem_populate_settings</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_settings">pem_populate_settings()</a></dd>
+							<dt><b>pem_populate_spaces</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_spaces">pem_populate_spaces()</a></dd>
+							<dt><b>pem_populate_supplies</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_supplies">pem_populate_supplies()</a></dd>
+							<dt><b>pem_populate_supply_profiles</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_supply_profiles">pem_populate_supply_profiles()</a></dd>
+							<dt><b>pem_populate_users</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_users">pem_populate_users()</a></dd>
+							<dt><b>pem_populate_views</b></dt>
+				<dd>in file functions-install.php, function <a href="default/_pem-includes---functions-install.php.html#functionpem_populate_views">pem_populate_views()</a></dd>
+							<dt><b>pem_popup_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_popup_select">pem_popup_select()</a></dd>
+							<dt><b>pem_prestenter_type_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_prestenter_type_select">pem_prestenter_type_select()</a></dd>
+							<dt><b>pem_quantity_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_quantity_select">pem_quantity_select()</a></dd>
+							<dt><b>pem_radio</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_radio">pem_radio()</a></dd>
+							<dt><b>pem_radio_options</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_radio_options">pem_radio_options()</a></dd>
+							<dt><b>pem_real_to_time_quantity</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionpem_real_to_time_quantity">pem_real_to_time_quantity()</a></dd>
+							<dt><b>pem_recurring_duration_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_recurring_duration_select">pem_recurring_duration_select()</a></dd>
+							<dt><b>pem_recurring_type_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_recurring_type_select">pem_recurring_type_select()</a></dd>
+							<dt><b>pem_recur_increment</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_recur_increment">pem_recur_increment()</a></dd>
+							<dt><b>pem_recur_times_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_recur_times_select">pem_recur_times_select()</a></dd>
+							<dt><b>pem_redirect</b></dt>
+				<dd>in file functions-auth.php, function <a href="default/_pem-includes---functions-auth.php.html#functionpem_redirect">pem_redirect()</a></dd>
+							<dt><b>pem_registration</b></dt>
+				<dd>in file registration.php, function <a href="default/_registration.php.html#functionpem_registration">pem_registration()</a></dd>
+							<dt><b>pem_reg_line</b></dt>
+				<dd>in file registration.php, function <a href="default/_registration.php.html#functionpem_reg_line">pem_reg_line()</a></dd>
+							<dt><b>pem_scheduling_boundaries</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionpem_scheduling_boundaries">pem_scheduling_boundaries()</a></dd>
+							<dt><b>pem_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_select">pem_select()</a></dd>
+							<dt><b>pem_set_login</b></dt>
+				<dd>in file session-php.php, function <a href="default/_pem-includes---session-php.php.html#functionpem_set_login">pem_set_login()</a></dd>
+							<dt><b>pem_set_pass</b></dt>
+				<dd>in file session-php.php, function <a href="default/_pem-includes---session-php.php.html#functionpem_set_pass">pem_set_pass()</a></dd>
+							<dt><b>pem_side_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_side_select">pem_side_select()</a></dd>
+							<dt><b>pem_simple_header</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_simple_header">pem_simple_header()</a></dd>
+							<dt><b>pem_simplify_dates</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionpem_simplify_dates">pem_simplify_dates()</a></dd>
+							<dt><b>pem_simplify_times</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionpem_simplify_times">pem_simplify_times()</a></dd>
+							<dt><b>pem_span</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_span">pem_span()</a></dd>
+							<dt><b>pem_specialchars</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionpem_specialchars">pem_specialchars()</a></dd>
+							<dt><b>pem_stripslashes</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionpem_stripslashes">pem_stripslashes()</a></dd>
+							<dt><b>pem_submit_filters</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_submit_filters">pem_submit_filters()</a></dd>
+							<dt><b>pem_submit_template</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_submit_template">pem_submit_template()</a></dd>
+							<dt><b>pem_textarea_input</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_textarea_input">pem_textarea_input()</a></dd>
+							<dt><b>pem_text_input</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_text_input">pem_text_input()</a></dd>
+							<dt><b>pem_theme_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_theme_select">pem_theme_select()</a></dd>
+							<dt><b>pem_time</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionpem_time">pem_time()</a></dd>
+							<dt><b>pem_time_add</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionpem_time_add">pem_time_add()</a></dd>
+							<dt><b>pem_time_format_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_time_format_select">pem_time_format_select()</a></dd>
+							<dt><b>pem_time_quantity_selector</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_time_quantity_selector">pem_time_quantity_selector()</a></dd>
+							<dt><b>pem_time_quantity_to_real</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionpem_time_quantity_to_real">pem_time_quantity_to_real()</a></dd>
+							<dt><b>pem_time_selector</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_time_selector">pem_time_selector()</a></dd>
+							<dt><b>pem_time_subtract</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functionpem_time_subtract">pem_time_subtract()</a></dd>
+							<dt><b>pem_unscheduled</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_unscheduled">pem_unscheduled()</a></dd>
+							<dt><b>pem_update_row</b></dt>
+				<dd>in file functions-db.php, function <a href="default/_pem-includes---functions-db.php.html#functionpem_update_row">pem_update_row()</a></dd>
+							<dt><b>pem_update_settings</b></dt>
+				<dd>in file functions-admin.php, function <a href="default/_pem-includes---functions-admin.php.html#functionpem_update_settings">pem_update_settings()</a></dd>
+							<dt><b>PEM_User</b></dt>
+				<dd>in file class-user.php, method <a href="default/PEM_User.html#methodPEM_User">PEM_User::PEM_User()</a></dd>
+							<dt><b>PEM_User</b></dt>
+				<dd>in file class-user.php, class <a href="default/PEM_User.html">PEM_User</a></dd>
+							<dt><b>pem_user_anonymous</b></dt>
+				<dd>in file functions-auth.php, function <a href="default/_pem-includes---functions-auth.php.html#functionpem_user_anonymous">pem_user_anonymous()</a></dd>
+							<dt><b>pem_user_authorized</b></dt>
+				<dd>in file functions-auth.php, function <a href="default/_pem-includes---functions-auth.php.html#functionpem_user_authorized">pem_user_authorized()</a></dd>
+							<dt><b>pem_user_required</b></dt>
+				<dd>in file functions-auth.php, function <a href="default/_pem-includes---functions-auth.php.html#functionpem_user_required">pem_user_required()</a></dd>
+							<dt><b>pem_view_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_view_select">pem_view_select()</a></dd>
+							<dt><b>pem_visible_toggle</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_visible_toggle">pem_visible_toggle()</a></dd>
+							<dt><b>pem_weekday_select</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_weekday_select">pem_weekday_select()</a></dd>
+							<dt><b>pem_xajax_onchange</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_xajax_onchange">pem_xajax_onchange()</a></dd>
+							<dt><b>pem_xajax_submit</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_xajax_submit">pem_xajax_submit()</a></dd>
+							<dt><b>pem_year_selector</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functionpem_year_selector">pem_year_selector()</a></dd>
+							<dt><b>phx_ordinal_entities</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionphx_ordinal_entities">phx_ordinal_entities()</a></dd>
+							<dt><b>POP3</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodPOP3">POP3::POP3()</a></dd>
+							<dt><b>POP3</b></dt>
+				<dd>in file class-pop3.php, class <a href="default/POP3.html">POP3</a><br>&nbsp;&nbsp;&nbsp;&nbsp;mail_fetch/setup.php</dd>
+							<dt><b>popstat</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodpopstat">POP3::popstat()</a></dd>
+							<dt><b>pop_list</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodpop_list">POP3::pop_list()</a></dd>
+							<dt><b>printr</b></dt>
+				<dd>in file functions-compat.php, function <a href="default/_pem-includes---functions-compat.php.html#functionprintr">printr()</a></dd>
+							<dt><b>processAccountData</b></dt>
+				<dd>in file signup.server.php, function <a href="default/_pem-includes---xajax---examples---signup---signup.server.php.html#functionprocessAccountData">processAccountData()</a></dd>
+							<dt><b>processForm</b></dt>
+				<dd>in file signup.server.php, function <a href="default/_pem-includes---xajax---examples---signup---signup.server.php.html#functionprocessForm">processForm()</a></dd>
+							<dt><b>processPersonalData</b></dt>
+				<dd>in file signup.server.php, function <a href="default/_pem-includes---xajax---examples---signup---signup.server.php.html#functionprocessPersonalData">processPersonalData()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="q"></a>
+	<div>
+		<h2>q</h2>
+		<dl>
+							<dt><b>query</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Client.html#methodquery">IXR_Client::query()</a></dd>
+							<dt><b>query</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_ClientMulticall.html#methodquery">IXR_ClientMulticall::query()</a></dd>
+							<dt><b>quit</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodquit">POP3::quit()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="r"></a>
+	<div>
+		<h2>r</h2>
+		<dl>
+							<dt><b>$rawheaders</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$rawheaders">Snoopy::$rawheaders</a></dd>
+							<dt><b>$read_timeout</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$read_timeout">Snoopy::$read_timeout</a></dd>
+							<dt><b>$referer</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$referer">Snoopy::$referer</a></dd>
+							<dt><b>$response</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Client.html#var$response">IXR_Client::$response</a></dd>
+							<dt><b>$response_code</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$response_code">Snoopy::$response_code</a></dd>
+							<dt><b>$results</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$results">Snoopy::$results</a></dd>
+							<dt><b>$RFC1939</b></dt>
+				<dd>in file class-pop3.php, variable <a href="default/POP3.html#var$RFC1939">POP3::$RFC1939</a></dd>
+							<dt><b>$roles</b></dt>
+				<dd>in file class-user.php, variable <a href="default/PEM_User.html#var$roles">PEM_User::$roles</a></dd>
+							<dt><b>recycle.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---recycle.php.html">recycle.php</a></dd>
+							<dt><b>reg-settings.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---reg-settings.php.html">reg-settings.php</a></dd>
+							<dt><b>reports.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---reports.php.html">reports.php</a></dd>
+							<dt><b>room-a.php</b></dt>
+				<dd>procedural page <a href="default/_pem-content---room-a.php.html">room-a.php</a></dd>
+							<dt><b>room-b.php</b></dt>
+				<dd>procedural page <a href="default/_pem-content---room-b.php.html">room-b.php</a></dd>
+							<dt><b>room-c.php</b></dt>
+				<dd>procedural page <a href="default/_pem-content---room-c.php.html">room-c.php</a></dd>
+							<dt><b>read</b></dt>
+				<dd>in file class-streams.php, method <a href="default/StringReader.html#methodread">StringReader::read()</a></dd>
+							<dt><b>read</b></dt>
+				<dd>in file class-streams.php, method <a href="default/FileReader.html#methodread">FileReader::read()</a></dd>
+							<dt><b>read</b></dt>
+				<dd>in file class-streams.php, method <a href="default/StreamReader.html#methodread">StreamReader::read()</a></dd>
+							<dt><b>readintarray</b></dt>
+				<dd>in file class-gettext.php, method <a href="default/gettext_reader.html#methodreadintarray">gettext_reader::readintarray()</a><br>&nbsp;&nbsp;&nbsp;&nbsp;Reads an array of Integers from the Stream</dd>
+							<dt><b>registration.php</b></dt>
+				<dd>procedural page <a href="default/_registration.php.html">registration.php</a></dd>
+							<dt><b>remove_accents</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionremove_accents">remove_accents()</a></dd>
+							<dt><b>remove_cap</b></dt>
+				<dd>in file class-user.php, method <a href="default/PEM_User.html#methodremove_cap">PEM_User::remove_cap()</a></dd>
+							<dt><b>remove_role</b></dt>
+				<dd>in file class-user.php, method <a href="default/PEM_User.html#methodremove_role">PEM_User::remove_role()</a></dd>
+							<dt><b>reset</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodreset">POP3::reset()</a></dd>
+							<dt><b>round_t_down</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionround_t_down">round_t_down()</a></dd>
+							<dt><b>round_t_up</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionround_t_up">round_t_up()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="s"></a>
+	<div>
+		<h2>s</h2>
+		<dl>
+							<dt><b>$second</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Date.html#var$second">IXR_Date::$second</a></dd>
+							<dt><b>$server</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Client.html#var$server">IXR_Client::$server</a></dd>
+							<dt><b>$short_circuit</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$short_circuit">gettext_reader::$short_circuit</a></dd>
+							<dt><b>$signatures</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_IntrospectionServer.html#var$signatures">IXR_IntrospectionServer::$signatures</a></dd>
+							<dt><b>$size</b></dt>
+				<dd>in file class-minicals.php, variable <a href="default/PEM_MiniCal.html#var$size">PEM_MiniCal::$size</a></dd>
+							<dt><b>$status</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$status">Snoopy::$status</a></dd>
+							<dt><b>$STREAM</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$STREAM">gettext_reader::$STREAM</a></dd>
+							<dt><b>scheduling-structure.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---scheduling-structure.php.html">scheduling-structure.php</a></dd>
+							<dt><b>settings.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---settings.php.html">settings.php</a></dd>
+							<dt><b>supplies.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---supplies.php.html">supplies.php</a></dd>
+							<dt><b>supply-profiles.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---supply-profiles.php.html">supply-profiles.php</a></dd>
+							<dt><b>session-php.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---session-php.php.html">session-php.php</a></dd>
+							<dt><b>signup.common.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---signup---signup.common.php.html">signup.common.php</a></dd>
+							<dt><b>signup.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---signup---signup.php.html">signup.php</a></dd>
+							<dt><b>signup.server.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---signup---signup.server.php.html">signup.server.php</a></dd>
+							<dt><b>save</b></dt>
+				<dd>in file thewall.server.php, method <a href="default/graffiti.html#methodsave">graffiti::save()</a></dd>
+							<dt><b>save_template</b></dt>
+				<dd>in file add-date.php, function <a href="default/_add-date.php.html#functionsave_template">save_template()</a></dd>
+							<dt><b>scribble</b></dt>
+				<dd>in file thewall.server.php, function <a href="default/_pem-includes---xajax---examples---thewall---thewall.server.php.html#functionscribble">scribble()</a></dd>
+							<dt><b>seekto</b></dt>
+				<dd>in file class-streams.php, method <a href="default/StreamReader.html#methodseekto">StreamReader::seekto()</a></dd>
+							<dt><b>seekto</b></dt>
+				<dd>in file class-streams.php, method <a href="default/StringReader.html#methodseekto">StringReader::seekto()</a></dd>
+							<dt><b>seekto</b></dt>
+				<dd>in file class-streams.php, method <a href="default/FileReader.html#methodseekto">FileReader::seekto()</a></dd>
+							<dt><b>seems_utf8</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionseems_utf8">seems_utf8()</a></dd>
+							<dt><b>send_cmd</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodsend_cmd">POP3::send_cmd()</a></dd>
+							<dt><b>serve</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Server.html#methodserve">IXR_Server::serve()</a></dd>
+							<dt><b>setCallbacks</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Server.html#methodsetCallbacks">IXR_Server::setCallbacks()</a></dd>
+							<dt><b>setCapabilities</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Server.html#methodsetCapabilities">IXR_Server::setCapabilities()</a></dd>
+							<dt><b>setColor</b></dt>
+				<dd>in file helloworld.php, function <a href="default/_pem-includes---xajax---examples---helloworld.php.html#functionsetColor">setColor()</a></dd>
+							<dt><b>setcookies</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#methodsetcookies">Snoopy::setcookies()</a></dd>
+							<dt><b>set_filters</b></dt>
+				<dd>in file index.php, function <a href="default/_index.php.html#functionset_filters">set_filters()</a></dd>
+							<dt><b>set_role</b></dt>
+				<dd>in file class-user.php, method <a href="default/PEM_User.html#methodset_role">PEM_User::set_role()</a></dd>
+							<dt><b>set_submit_multipart</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#methodset_submit_multipart">Snoopy::set_submit_multipart()</a></dd>
+							<dt><b>set_submit_normal</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#methodset_submit_normal">Snoopy::set_submit_normal()</a></dd>
+							<dt><b>SITECOOKIEPATH</b></dt>
+				<dd>in file index.php, constant <a href="default/_index.php.html#defineSITECOOKIEPATH">SITECOOKIEPATH</a></dd>
+							<dt><b>Snoopy</b></dt>
+				<dd>in file class-snoopy.php, class <a href="default/Snoopy.html">Snoopy</a><br>&nbsp;&nbsp;&nbsp;&nbsp;***********************************************</dd>
+							<dt><b>status_header</b></dt>
+				<dd>in file pem-functions.php, function <a href="default/_pem-includes---pem-functions.php.html#functionstatus_header">status_header()</a></dd>
+							<dt><b>StreamReader</b></dt>
+				<dd>in file class-streams.php, class <a href="default/StreamReader.html">StreamReader</a></dd>
+							<dt><b>StringReader</b></dt>
+				<dd>in file class-streams.php, class <a href="default/StringReader.html">StringReader</a></dd>
+							<dt><b>StringReader</b></dt>
+				<dd>in file class-streams.php, method <a href="default/StringReader.html#methodStringReader">StringReader::StringReader()</a></dd>
+							<dt><b>strip_clf</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodstrip_clf">POP3::strip_clf()</a></dd>
+							<dt><b>submit</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#methodsubmit">Snoopy::submit()</a></dd>
+							<dt><b>submitlinks</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#methodsubmitlinks">Snoopy::submitlinks()</a></dd>
+							<dt><b>submittext</b></dt>
+				<dd>in file class-snoopy.php, method <a href="default/Snoopy.html#methodsubmittext">Snoopy::submittext()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="t"></a>
+	<div>
+		<h2>t</h2>
+		<dl>
+							<dt><b>$table_originals</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$table_originals">gettext_reader::$table_originals</a></dd>
+							<dt><b>$table_translations</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$table_translations">gettext_reader::$table_translations</a></dd>
+							<dt><b>$temp_dir</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$temp_dir">Snoopy::$temp_dir</a></dd>
+							<dt><b>$timed_out</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$timed_out">Snoopy::$timed_out</a></dd>
+							<dt><b>$timeout</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Client.html#var$timeout">IXR_Client::$timeout</a></dd>
+							<dt><b>$TIMEOUT</b></dt>
+				<dd>in file class-pop3.php, variable <a href="default/POP3.html#var$TIMEOUT">POP3::$TIMEOUT</a></dd>
+							<dt><b>$total</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$total">gettext_reader::$total</a></dd>
+							<dt><b>$translations</b></dt>
+				<dd>in file class-gettext.php, variable <a href="default/gettext_reader.html#var$translations">gettext_reader::$translations</a></dd>
+							<dt><b>$type</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Value.html#var$type">IXR_Value::$type</a></dd>
+							<dt><b>thewall.common.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---thewall---thewall.common.php.html">thewall.common.php</a></dd>
+							<dt><b>thewall.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---thewall---thewall.php.html">thewall.php</a></dd>
+							<dt><b>thewall.server.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---thewall---thewall.server.php.html">thewall.server.php</a></dd>
+							<dt><b>tag_close</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Message.html#methodtag_close">IXR_Message::tag_close()</a></dd>
+							<dt><b>tag_open</b></dt>
+				<dd>in file class-IXR.php, method <a href="default/IXR_Message.html#methodtag_open">IXR_Message::tag_open()</a></dd>
+							<dt><b>test</b></dt>
+				<dd>in file xulApplication.php, function <a href="default/_pem-includes---xajax---examples---xul---xulApplication.php.html#functiontest">test()</a></dd>
+							<dt><b>test1</b></dt>
+				<dd>in file global-test.php, function <a href="default/_pem-admin---global-test.php.html#functiontest1">test1()</a></dd>
+							<dt><b>test2</b></dt>
+				<dd>in file global-test.php, function <a href="default/_pem-admin---global-test.php.html#functiontest2">test2()</a></dd>
+							<dt><b>test3</b></dt>
+				<dd>in file global-test.php, function <a href="default/_pem-admin---global-test.php.html#functiontest3">test3()</a></dd>
+							<dt><b>test4</b></dt>
+				<dd>in file global-test.php, function <a href="default/_pem-admin---global-test.php.html#functiontest4">test4()</a></dd>
+							<dt><b>timer_start</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functiontimer_start">timer_start()</a></dd>
+							<dt><b>timer_stop</b></dt>
+				<dd>in file functions-datetime.php, function <a href="default/_pem-includes---functions-datetime.php.html#functiontimer_stop">timer_stop()</a></dd>
+							<dt><b>timestamp_line</b></dt>
+				<dd>in file functions-automation.php, function <a href="default/_pem-includes---functions-automation.php.html#functiontimestamp_line">timestamp_line()</a></dd>
+							<dt><b>top</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodtop">POP3::top()</a></dd>
+							<dt><b>trailingslashit</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functiontrailingslashit">trailingslashit()</a></dd>
+							<dt><b>translate</b></dt>
+				<dd>in file class-gettext.php, method <a href="default/gettext_reader.html#methodtranslate">gettext_reader::translate()</a><br>&nbsp;&nbsp;&nbsp;&nbsp;Translates a string</dd>
+							<dt><b>translate_level_to_cap</b></dt>
+				<dd>in file class-user.php, method <a href="default/PEM_User.html#methodtranslate_level_to_cap">PEM_User::translate_level_to_cap()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="u"></a>
+	<div>
+		<h2>u</h2>
+		<dl>
+							<dt><b>$user</b></dt>
+				<dd>in file class-snoopy.php, variable <a href="default/Snoopy.html#var$user">Snoopy::$user</a></dd>
+							<dt><b>$useragent</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Client.html#var$useragent">IXR_Client::$useragent</a></dd>
+							<dt><b>users.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---users.php.html">users.php</a></dd>
+							<dt><b>uidl</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methoduidl">POP3::uidl()</a></dd>
+							<dt><b>unregister_GLOBALS</b></dt>
+				<dd>in file pem-globals.php, function <a href="default/_pem-includes---pem-globals.php.html#functionunregister_GLOBALS">unregister_GLOBALS()</a></dd>
+							<dt><b>updateWall</b></dt>
+				<dd>in file thewall.server.php, function <a href="default/_pem-includes---xajax---examples---thewall---thewall.server.php.html#functionupdateWall">updateWall()</a></dd>
+							<dt><b>update_option</b></dt>
+				<dd>in file functions-admin.php, function <a href="default/_pem-includes---functions-admin.php.html#functionupdate_option">update_option()</a></dd>
+							<dt><b>update_timer</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methodupdate_timer">POP3::update_timer()</a></dd>
+							<dt><b>update_user_level_from_caps</b></dt>
+				<dd>in file class-user.php, method <a href="default/PEM_User.html#methodupdate_user_level_from_caps">PEM_User::update_user_level_from_caps()</a></dd>
+							<dt><b>user</b></dt>
+				<dd>in file class-pop3.php, method <a href="default/POP3.html#methoduser">POP3::user()</a></dd>
+							<dt><b>utf8_uri_encode</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionutf8_uri_encode">utf8_uri_encode()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="v"></a>
+	<div>
+		<h2>v</h2>
+		<dl>
+							<dt><b>view-settings.php</b></dt>
+				<dd>procedural page <a href="default/_pem-admin---view-settings.php.html">view-settings.php</a></dd>
+							<dt><b>view.php</b></dt>
+				<dd>procedural page <a href="default/_view.php.html">view.php</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="w"></a>
+	<div>
+		<h2>w</h2>
+		<dl>
+							<dt><b>week.php</b></dt>
+				<dd>procedural page <a href="default/_week.php.html">week.php</a></dd>
+							<dt><b>wp_get_http_headers</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionwp_get_http_headers">wp_get_http_headers()</a></dd>
+							<dt><b>wp_redirect</b></dt>
+				<dd>in file functions-query.php, function <a href="default/_pem-includes---functions-query.php.html#functionwp_redirect">wp_redirect()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="x"></a>
+	<div>
+		<h2>x</h2>
+		<dl>
+							<dt><b>$xml</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Request.html#var$xml">IXR_Request::$xml</a></dd>
+							<dt><b>xulApplication.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---xul---xulApplication.php.html">xulApplication.php</a></dd>
+							<dt><b>xulServer.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---examples---xul---xulServer.php.html">xulServer.php</a></dd>
+							<dt><b>xajaxCompress.inc.php</b></dt>
+				<dd>procedural page <a href="default/_pem-includes---xajax---xajax_core---xajaxCompress.inc.php.html">xajaxCompress.inc.php</a></dd>
+							<dt><b>xajaxCompressJavascript</b></dt>
+				<dd>in file xajaxCompress.inc.php, function <a href="default/_pem-includes---xajax---xajax_core---xajaxCompress.inc.php.html#functionxajaxCompressJavascript">xajaxCompressJavascript()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="y"></a>
+	<div>
+		<h2>y</h2>
+		<dl>
+							<dt><b>$year</b></dt>
+				<dd>in file class-minicals.php, variable <a href="default/PEM_MiniCal.html#var$year">PEM_MiniCal::$year</a></dd>
+							<dt><b>$year</b></dt>
+				<dd>in file class-IXR.php, variable <a href="default/IXR_Date.html#var$year">IXR_Date::$year</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+  <hr />
+	<a name="z"></a>
+	<div>
+		<h2>z</h2>
+		<dl>
+							<dt><b>zeropad</b></dt>
+				<dd>in file functions-formatting.php, function <a href="default/_pem-includes---functions-formatting.php.html#functionzeropad">zeropad()</a></dd>
+					</dl>
+	</div>
+	<a href="elementindex_default.html#top">top</a><br>
+        <div class="credit">
+		    <hr />
+		    Documentation generated on Tue, 21 Aug 2007 14:49:20 -0500 by <a href="http://www.phpdoc.org">phpDocumentor 1.4.0a2</a>
+	      </div>
+      </td></tr></table>
+    </td>
+  </tr>
+</table>
+
+</body>
+</html>

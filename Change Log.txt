@@ -1,0 +1,68 @@
+----------------------------------------
+phxEventManager Change Log  
+----------------------------------------
+
+
+Version 2.5 beta 1 - December 31, 2008
+
+Barebones release made of core application files.  
+
+No documentaiton was included.
+
+
+____________________________________________
+Version 2.5 beta 2 - February 11, 2009
+
+Install documentation added to release.
+
+RSS feed for future seven days added to release.
+
+Admin password generated during install reset to random.
+
+Area and room seed data for install simplified.
+
+Fixed issue with add event form not properly displaying dynamic fields.
+
+
+____________________________________________
+Version 2.5 beta 3 - January 28, 2010
+
+Install documentation expanded.
+
+Changes made to add MDB2 2.4.1 support.
+
+Single theme option expanded to 12 themes.
+
+CSS cleanup and simplification, including update of the Reset styles.
+
+Logo added to install screen.
+
+Various small code and file cleanups, removing files or coments which are no longer needed.
+
+
+____________________________________________
+Version 2.5 beta 4 - March 10, 2010
+
+Fixed issue with display duration causing events to show longer than configured.
+
+Resized logo image smaller to match the stylied size.
+
+Updated theme reference in install to work with new theme options.
+
+Text update to fix a link on Date and Time Format screen.
+
+
+____________________________________________
+Version 2.5 beta 5 - April 15, 2010
+
+Fixed caching overwrite of default view and format settings.
+
+Resolved required fields conflict preventing new events.
+
+Added ajax check for blackout days in the schedule profile.
+
+Added ajax check for time boundaries in the schedule profile.
+
+New messages included for event entry to reflect additional schedule profile checks.
+
+Large amount of general code cleanup in the form of both formatting and obsolete code removal.

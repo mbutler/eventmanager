@@ -1,0 +1,89 @@
+/*
+Default style for the nogray calendar
+the default class prefix is ng-
+
+made by Wesam Saif
+http://www.nogray.com
+support@nogray.com
+
+*/
+
+/* the main header table */
+.ng-cal-header-table {margin:5px;
+	border-collapse:collapse;
+	background:#efefef;
+	border:solid #cccccc 1px;}
+
+/* the previous and next table cells */
+.ng-cal-previous-td, .ng-cal-next-td {width:20px;
+	height:20px;
+	color:#336699;
+	border:solid #cccccc 1px;
+	text-align:center;}
+
+/* the calendar header table cell (the area where the month and year is displayed) */
+.ng-cal-header-td {text-align:center;
+	font-weight:bold;
+	padding:3px;}
+
+/* the main month table */
+.ng-cal {border:solid #5fd7d6 1px;
+	border-collapse:collapse;
+	margin:5px;
+	margin-top:0px;
+	background-color:#FFFFFF;}
+
+.ng-cal * {font-size:8pt;}
+.ng-cal td {padding:3px;
+	border:solid #9eefee 1px;}
+
+/* the days name table cells */
+.ng-cal .ng-days-name-td {background:#9eefee;
+	border:solid #5fd7d6 1px;}
+
+/* the month name table cell */
+.ng-month-name-th {background:#2f99b4;
+	font-weight:bold;
+	padding:3px;
+	color:#ffffff;
+	text-align:center;}
+
+/* weekends, days off, dates off (holidayes) */
+.ng-weekend, .ng-dayOff, .ng-dateOff {color:#999999;}
+
+/* out of range days (previous or next month) */
+.ng-outOfRange {color:#999999;
+	background:#efefef;
+	text-decoration:line-through;}
+
+/* the style for the table cell when the mouse is over it */
+.ng-mouse-over {font-weight:bold;
+	background:#faedd6;}
+
+/* selected day */
+.ng-selected-day {background:#ffbb45;
+		font-weight:bold;}
+
+/* the close and clear buttons in the bottom of the calendar */
+.ng-close-link, .ng-clear-link  {padding:3px;
+	text-align:center;
+	color:#666666;
+	text-decoration:none;
+	font-size:8pt;
+	background:#efefef;
+	border:solid #cccccc 1px;
+	float:right;
+	margin-right:5px;}
+
+/* PEM STYLES */
+   #calendarbegin, #calendarend .ng-cal-header-table { width:360px; }
+   #calendarbegin, #calendarend .ng-cal { width:178px; float:left; margin-right:0px; }
+   #calendarbegin, #calendarend { border:1px solid #666; background:#FFF; padding-bottom:5px; padding-top:5px; width:554px; font-family:Arial, Helvetica, sans-serif; font-size:9pt; }
+   .ng-cal-header-table { width:543px; }
+   .ng-cal { width:178px; float:left; margin-right:0px; border:1px solid #AAA; }
+   .ng-cal td { border:1px solid #AAA; }
+   .ng-cal .ng-month-name-th { border:1px solid #AAA; background-color:#AE0D12; color:#FFF; }
+   .ng-cal .ng-days-name-td { border:1px solid #AAA; background-color:#888; color:#FFF; }
+   .ng-cal .ng-outOfRange { background-color:#DDD; text-decoration:none; }
+   .ng-cal .ng-weekend { background-color:#F6E8E8; color:#000; }
+   .ng-cal .ng-weekend:hover { background-color:#EAD3D3; }
